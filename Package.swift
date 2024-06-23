@@ -20,12 +20,12 @@ let package = Package(
         .target(
             name: "SatorSDKSPM",
             dependencies: [
-                .target(name: "SatorSDK"),
+                .target(name: "Test"),
                 .product(name: "SDWebImage", package: "SDWebImage"),
                 .product(name: "MJRefresh", package: "MJRefresh"),
                 .product(name: "MBProgressHUD", package: "MBProgressHUD"),
             
             ]),
-        .binaryTarget(name:"SatorSDK", path: "./Sources/SatorSDK.xcframework")
+        .binaryTarget(name:"Test", path: "./Sources/Test.xcframework")
     ]
 )
