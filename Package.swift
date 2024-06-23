@@ -26,6 +26,6 @@ let package = Package(
                 .product(name: "MBProgressHUD", package: "MBProgressHUD"),
             
             ]),
-        .binaryTarget(name:"SatorSDK", path: "./Sources/Test.xcframework")
+        .binaryTarget(name:"SatorSDK", path: "./Sources/SatorSDK.xcframework")
     ]
 )
