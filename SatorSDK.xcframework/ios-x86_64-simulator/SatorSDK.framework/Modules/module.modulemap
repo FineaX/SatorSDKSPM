@@ -1,0 +1,6 @@
+framework module SatorSDK {
+  umbrella header "SatorSDK.h"
+  export *
+
+  module * { export * }
+}
