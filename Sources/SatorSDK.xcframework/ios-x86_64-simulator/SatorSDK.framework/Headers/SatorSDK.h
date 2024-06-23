@@ -2,7 +2,7 @@
 //  SatorSDK.h
 //  SatorSDK
 //
-//  Created by designer1的mac on 2024/6/17.
+//  Created by mac on 2024/6/23.
 //
 
 #import <Foundation/Foundation.h>

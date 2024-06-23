@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/SatorSDK.h</key>
 		<data>
-		6RN8uKHiq1ZfwBxauRSC54rMy2Q=
+		0QB53fx8GgSChSYMnplunVrqfFo=
 		</data>
 		<key>Images.bundle/Root.plist</key>
 		<data>
@@ -259,19 +259,19 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		5B2DsfrlSJRhETPNedMM+OuZTl8=
+		R1OEd1WSKMO76E1lVZwN1j1f0Eo=
 		</data>
 		<key>Modules/SatorSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		a6PBbiTcxU1NgT2VmsWvWLMuNx4=
+		sHpZ9esm/Q8ExL9Qg6mJ//iOBWk=
 		</data>
 		<key>Modules/SatorSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		V6s1nx0udhX11KINBmWBW4Gurs4=
+		I8hAlFKIsTeyhB5Z+DwNe0gMyU4=
 		</data>
 		<key>Modules/SatorSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		1Aw7LWJDtOjhJkXh+F4WWdgCRvE=
+		PbQ3HktgOLC6KkjqCcD0yd+fEv8=
 		</data>
 		<key>Modules/SatorSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -279,11 +279,11 @@
 		</data>
 		<key>Modules/SatorSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		1Aw7LWJDtOjhJkXh+F4WWdgCRvE=
+		PbQ3HktgOLC6KkjqCcD0yd+fEv8=
 		</data>
 		<key>Modules/SatorSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		gc/o6S9JNpcdtUq1EgEP2g8FIcM=
+		BjgLNrCcvofy5ogKBDL+fwYet9U=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -293,30 +293,18 @@
 		<data>
 		pZ9mc6s0RsG7ZN3zRct9bdKyb9k=
 		</data>
-		<key>default.metallib</key>
-		<data>
-		/5142c92KfvFTFvQ+ChrLnCU6q8=
-		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
 		<key>Headers/SatorSDK.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			6RN8uKHiq1ZfwBxauRSC54rMy2Q=
-			</data>
 			<key>hash2</key>
 			<data>
-			cH0zW9E88hbS8CgfyAVllXw7yTAjXTkznI9OUGODsfQ=
+			KqRChTAFrDwqLEjB8L/2BH7LJeOa9LVJdvxw7G5MjUk=
 			</data>
 		</dict>
 		<key>Images.bundle/Root.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			jOhqEUF1/xyY+fuswiWT+ELC3dI=
-			</data>
 			<key>hash2</key>
 			<data>
 			m26DmegPkB5jwUJkVEtLlObYALX8He100Ny0+NNJg/g=
@@ -324,10 +312,6 @@
 		</dict>
 		<key>Images.bundle/en.lproj/Root.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			t4KY9Gh4uIiOv7VnHtRrKEuPRY8=
-			</data>
 			<key>hash2</key>
 			<data>
 			xUzNd7J7w99oAnMIWGe1dAGArHMuEXwQqxSziDU5vLk=
@@ -337,10 +321,6 @@
 		</dict>
 		<key>Images.bundle/icon_back@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			/AcPCFzCPhFBB0TFh45Znx6cLTg=
-			</data>
 			<key>hash2</key>
 			<data>
 			752Z3EdE/hUBul8oA7WsYOCOtdcFERyvWSRMVecrghE=
@@ -348,10 +328,6 @@
 		</dict>
 		<key>Images.bundle/icon_back@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Vi72zLoeIWQkwFsTWQ3e2hFFcdc=
-			</data>
 			<key>hash2</key>
 			<data>
 			/Z6rjdju1+aCm+ZmYraVcprlpRKA0Lb+kIpSyGZxQf8=
@@ -359,10 +335,6 @@
 		</dict>
 		<key>Images.bundle/icon_bianzu@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			no4q+fdKEMSdYk+rrF8U5pMJ1T0=
-			</data>
 			<key>hash2</key>
 			<data>
 			fG4WUo0Ll2HLzV15giQuwpXZA8sz0XyOODuc0WyK7eg=
@@ -370,10 +342,6 @@
 		</dict>
 		<key>Images.bundle/icon_bianzu@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			KOP3bHpt8/LCb4iS1P6gTCIKAw4=
-			</data>
 			<key>hash2</key>
 			<data>
 			udr9v2l4emwg46jTJ9A4pB8Yh1up/u9bXaDhW1pRE0c=
@@ -381,10 +349,6 @@
 		</dict>
 		<key>Images.bundle/icon_close@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Xr2tWKMBp0MVL3Xjh4ZMTHalbrw=
-			</data>
 			<key>hash2</key>
 			<data>
 			418CwcuCBO1kQ3iMzkLydR/eo4uoRj0KQaCSBPnI+S8=
@@ -392,10 +356,6 @@
 		</dict>
 		<key>Images.bundle/icon_close@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			KYg/bUHH97QMmXOr+dSfjlV33tw=
-			</data>
 			<key>hash2</key>
 			<data>
 			rjANQBPbwttBLQhCapPIhQ+4zfpx8C6DtDo8DRFMf34=
@@ -403,10 +363,6 @@
 		</dict>
 		<key>Images.bundle/icon_gaoqing@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			713uODZLtLbC4Ifev+++hIGv32s=
-			</data>
 			<key>hash2</key>
 			<data>
 			KuAn8qOlahhVIsAxhuVWii6R6XbAmADgiAQCDfBGokA=
@@ -414,10 +370,6 @@
 		</dict>
 		<key>Images.bundle/icon_gaoqing@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			YGkSvJJX2HVRjObBKPRrUrOhHwQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			AEAWAzhinh+ZxSDN4D00ZBrFzToZ+E2xNo/bExS02is=
@@ -425,10 +377,6 @@
 		</dict>
 		<key>Images.bundle/icon_history@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			HxYWgDs/XbyqWf04EXUfi2HYACo=
-			</data>
 			<key>hash2</key>
 			<data>
 			EKpxH7XdxsFtqLE2/bPvNhOZ5XI+lPJ0YygjOBSecwY=
@@ -436,10 +384,6 @@
 		</dict>
 		<key>Images.bundle/icon_history@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			KaLgI56zyLQaGUV5VYoe1LrY1z4=
-			</data>
 			<key>hash2</key>
 			<data>
 			io7Vhci5IFfuDhta6HnBLcIkYCxKi3ZrcmNQzPw2+ok=
@@ -447,10 +391,6 @@
 		</dict>
 		<key>Images.bundle/icon_huaban@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			qwgFzcxraPkyN6zZlC0JgHhB2DA=
-			</data>
 			<key>hash2</key>
 			<data>
 			+61PwjK/Ox5KgsofioZZx4P53vrjEckNpvUSdX+4zYY=
@@ -458,10 +398,6 @@
 		</dict>
 		<key>Images.bundle/icon_huaban@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			gV/IP9ayHtV7X4va4hl1FObmFnE=
-			</data>
 			<key>hash2</key>
 			<data>
 			nKs2ns7IUKSQqQYBBGaS7GzRRZPqDYDntCzrviCdUNA=
@@ -469,10 +405,6 @@
 		</dict>
 		<key>Images.bundle/icon_huabi@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			K5htXELqeXrv0qUymoX0dGYVbLA=
-			</data>
 			<key>hash2</key>
 			<data>
 			MxshqkEPIg6XYmPrtzMtDkOATUJV24MoeZc0yHn2+os=
@@ -480,10 +412,6 @@
 		</dict>
 		<key>Images.bundle/icon_huabi@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ReCUDgNnouxjdX/l8t3+hwcEXUM=
-			</data>
 			<key>hash2</key>
 			<data>
 			DR2RXapi9RxI7dzxtU/l0yng1jU3nVMp/Td26SfhjWc=
@@ -491,10 +419,6 @@
 		</dict>
 		<key>Images.bundle/icon_huabi_select@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			vIhYamHXzqZVWlumqr+oIlRmZPI=
-			</data>
 			<key>hash2</key>
 			<data>
 			+gcBHC8GM8C2EWq6DRzXwmy+PC3bVUK/MQsqHrXZHAk=
@@ -502,10 +426,6 @@
 		</dict>
 		<key>Images.bundle/icon_huabi_select@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			oE3Jbp6lOTEQhl0WWDZlZzRbZw4=
-			</data>
 			<key>hash2</key>
 			<data>
 			JfU3k3y/73o6YPTZ6hboO3DZHVoCqFB+oa7sgH1D9Rs=
@@ -513,10 +433,6 @@
 		</dict>
 		<key>Images.bundle/icon_koutu@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			bhDfTYmKxMOTLyMFqkYxvGJSybs=
-			</data>
 			<key>hash2</key>
 			<data>
 			G3cyd7uLBnSk1XvX+FRza3TVjJi+L4WnPJSNs9o3QXA=
@@ -524,10 +440,6 @@
 		</dict>
 		<key>Images.bundle/icon_koutu@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Q7ghdk70BhTMjB+XFj/bWEf8654=
-			</data>
 			<key>hash2</key>
 			<data>
 			mA7aYikcJAARBZ8drQ2jPq3kN1bnuLgen+DhaHmLxqs=
@@ -535,10 +447,6 @@
 		</dict>
 		<key>Images.bundle/icon_ok@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			teQxNkCcewSRmi5u38nMTihPH+I=
-			</data>
 			<key>hash2</key>
 			<data>
 			J+hrBNpkIUoUaNd6XZjz6CY/E78VNLUKP6piP6uMa48=
@@ -546,10 +454,6 @@
 		</dict>
 		<key>Images.bundle/icon_ok@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Rx/++sw53slTfoHNMxVOg14VlE4=
-			</data>
 			<key>hash2</key>
 			<data>
 			xAlUpdlz3gU/1g6+6ZwL3sBu5/b4hr0TW1JrSCAE7dc=
@@ -557,10 +461,6 @@
 		</dict>
 		<key>Images.bundle/icon_place.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			vVZpT3AZZnC0pF3Piyo5NsBbaRQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			spQY1FCF/kqFoR9pZSWL7LweakkcIvedPR4iTWn7iGs=
@@ -568,10 +468,6 @@
 		</dict>
 		<key>Images.bundle/icon_sec_back@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			SuKc8sdWJGOsPP/Wo39ifiv4iI4=
-			</data>
 			<key>hash2</key>
 			<data>
 			e8Annm8e4OdEXcx3QQ3/EYjy4o1Ewb3QEpwCgezKU7U=
@@ -579,10 +475,6 @@
 		</dict>
 		<key>Images.bundle/icon_sec_back@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			d/xDPNpdnRxec0B087xSEdLwfSk=
-			</data>
 			<key>hash2</key>
 			<data>
 			OY75Vd5idb91JfOzRzXfmBkAJCA23pup4iSMPpsjKx0=
@@ -590,10 +482,6 @@
 		</dict>
 		<key>Images.bundle/icon_sec_beijing@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			+5V5YnaNSZ9xJaM+tEBx1SwiTm0=
-			</data>
 			<key>hash2</key>
 			<data>
 			YlGRZLH3WoziqTMut1KHVz2EhIuT8iGulFA/5tYTeX0=
@@ -601,10 +489,6 @@
 		</dict>
 		<key>Images.bundle/icon_sec_beijing@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			NMvIsT1L8j0PXjYQwyBCbhuiLy8=
-			</data>
 			<key>hash2</key>
 			<data>
 			+m/shct/DArAgYRIqf36kqh/2gwWUmNwgi8MinLAjG0=
@@ -612,10 +496,6 @@
 		</dict>
 		<key>Images.bundle/icon_sec_bgdesc@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			WYAiMLzSO2Kihx2lfyEpfxGo+y0=
-			</data>
 			<key>hash2</key>
 			<data>
 			h8x7IGXceI3ffNtXa+RJf192m2uwsM8RogFRa0BtMzI=
@@ -623,10 +503,6 @@
 		</dict>
 		<key>Images.bundle/icon_sec_bgdesc@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			xNAofUp0ycnxNXhO7GA33KiRpns=
-			</data>
 			<key>hash2</key>
 			<data>
 			j7ch04bmLqlQhFlIaz/TfeaYEPORP0gkQMFUX4PZqWM=
@@ -634,10 +510,6 @@
 		</dict>
 		<key>Images.bundle/icon_sec_clear@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			RurPN9o1C34yovuNO7Svon1KNq4=
-			</data>
 			<key>hash2</key>
 			<data>
 			jCG4G/3S2Vojl0X5pGF/la64zCLJSCE2sIRfDkUJaRE=
@@ -645,10 +517,6 @@
 		</dict>
 		<key>Images.bundle/icon_sec_clear@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			T78FOGO9tdvn1ySnkmMH/tcwDYM=
-			</data>
 			<key>hash2</key>
 			<data>
 			HSvVZzMAYmh69XMCMtvcJGfnf3T8C+JAZ72odUfWjtc=
@@ -656,10 +524,6 @@
 		</dict>
 		<key>Images.bundle/icon_sec_fanxuan@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			LQVRYkZBH1ixOFEh+zJwbsOUNmU=
-			</data>
 			<key>hash2</key>
 			<data>
 			+XDOtTKvepzmkoiYSmIeZHKuSTe0q2ciWTWHPBsTwPU=
@@ -667,10 +531,6 @@
 		</dict>
 		<key>Images.bundle/icon_sec_fanxuan@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			VPvhi0Z6iEcUqC2uC1rf0OKQKz0=
-			</data>
 			<key>hash2</key>
 			<data>
 			S06VBWM3ihKDKWhke0UK7PRcfT2mGhrMNa39AxDxzkk=
@@ -678,10 +538,6 @@
 		</dict>
 		<key>Images.bundle/icon_sec_hyd@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			8eK/Mws04trfhbxijHgPsF0/SzI=
-			</data>
 			<key>hash2</key>
 			<data>
 			vhDoj+fM6x2h1WHz2EY+2p+95BGyB5a1JBQnHnZRUAc=
@@ -689,10 +545,6 @@
 		</dict>
 		<key>Images.bundle/icon_sec_hyd@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Rxd4dJ+zvaRM5NQ06lsbDifMwZU=
-			</data>
 			<key>hash2</key>
 			<data>
 			fYy0vhjOKqT/nVPcNus2xk4OVH9EUQuzNkuZAzKbLjk=
@@ -700,10 +552,6 @@
 		</dict>
 		<key>Images.bundle/icon_sec_moban@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zZAJRKf29c0duSv9Z5QyLa4W1Pk=
-			</data>
 			<key>hash2</key>
 			<data>
 			qj1pUFCFv0OTukKnEZd85BW10rH8/umGEOVK3Qu7uIY=
@@ -711,10 +559,6 @@
 		</dict>
 		<key>Images.bundle/icon_sec_moban@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			rX6iJNdkoQ96Vz1aERtcKUbepog=
-			</data>
 			<key>hash2</key>
 			<data>
 			0wWCgikmVoUjQRJjQJh5xa0KZ0vARDJ8ltShU0jyh+E=
@@ -722,10 +566,6 @@
 		</dict>
 		<key>Images.bundle/icon_sec_next@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			jJcKKZWULmu7uwutfaF4Pem89L4=
-			</data>
 			<key>hash2</key>
 			<data>
 			VlOGfue8f2Yu026z9dze1yKCXM13BY3xE78MjF0RTlU=
@@ -733,10 +573,6 @@
 		</dict>
 		<key>Images.bundle/icon_sec_next@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			4RauunPqYtxoXCOqvaLpCrchL4I=
-			</data>
 			<key>hash2</key>
 			<data>
 			6+2Dpa05rakwYOmRSest0rYrYkLVjdwfiEjI18zF4mE=
@@ -744,10 +580,6 @@
 		</dict>
 		<key>Images.bundle/icon_sec_renwu@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			YI33eihrJY47FD3A43Wp1zQFFxo=
-			</data>
 			<key>hash2</key>
 			<data>
 			jMdyhwmAkJWwxa13PR2GLUjEWOAJyacN2ppY7jw6KlY=
@@ -755,10 +587,6 @@
 		</dict>
 		<key>Images.bundle/icon_sec_renwu@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			twaIkUKdKCeUeiP8YXfRplI8jlY=
-			</data>
 			<key>hash2</key>
 			<data>
 			bMBfq/tJLJf1D1myE+P7H24WVvL6kdq8Kf9ez0JIAAM=
@@ -766,10 +594,6 @@
 		</dict>
 		<key>Images.bundle/icon_sec_select@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			EDFk7mDLP45wyEoZgeMXIGrqW6Q=
-			</data>
 			<key>hash2</key>
 			<data>
 			UgLb+7qeskP3Ly8svwP64/KOXBrtPSF8Sz5zJ0Bxo3M=
@@ -777,10 +601,6 @@
 		</dict>
 		<key>Images.bundle/icon_sec_select@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			HtDXbTld6Z0+VbduqANQ3bfztn8=
-			</data>
 			<key>hash2</key>
 			<data>
 			76g6affhCFydNT9/yQzosRLs9SSn68Q0bKdM6qmqcoE=
@@ -788,10 +608,6 @@
 		</dict>
 		<key>Images.bundle/icon_tumo@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Mgh0LZpgeCiXKqNSpkwDrfpSMns=
-			</data>
 			<key>hash2</key>
 			<data>
 			y9OO1+czSEpGD1tjkAAuBBlXW4ocCLB6z0lfF68PzHo=
@@ -799,10 +615,6 @@
 		</dict>
 		<key>Images.bundle/icon_tumo@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			qHhn+23U/BY5FDemdXlgD18WvAc=
-			</data>
 			<key>hash2</key>
 			<data>
 			eQhr+lfklXVvghl6eOq/ALMYgr+UEe4hMzX9rQjysY4=
@@ -810,10 +622,6 @@
 		</dict>
 		<key>Images.bundle/icon_xiaarrow@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			wyWVfW5NhnKh6QXf1cB52KWunak=
-			</data>
 			<key>hash2</key>
 			<data>
 			6Gi7TDpPFi66CP4noBuNakFf6ZbX68B924vM8i5JZk0=
@@ -821,10 +629,6 @@
 		</dict>
 		<key>Images.bundle/icon_xiajiantou@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Y/V4RKjjR+GtlipZysNCAWwOQHs=
-			</data>
 			<key>hash2</key>
 			<data>
 			8htpDyCfyZHgtLUJDNSvyLkU7a0JoZakBmraH+kV43I=
@@ -832,10 +636,6 @@
 		</dict>
 		<key>Images.bundle/icon_xiajiantou@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			PVmyLsoeAEyRUJrXF5ZuQ0tV4HY=
-			</data>
 			<key>hash2</key>
 			<data>
 			r28SJGlsd5s137Hag2IDc2rLJ3xhRwqznsF5QNq4IZQ=
@@ -843,10 +643,6 @@
 		</dict>
 		<key>Images.bundle/icon_xiangpi@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			NlqmdCtVAGgvZwM2VvM7Xb2Lh3I=
-			</data>
 			<key>hash2</key>
 			<data>
 			DCJi5KFrNjut9mXs5fyoRfr4+oG8kjLDPyZBHocUO8I=
@@ -854,10 +650,6 @@
 		</dict>
 		<key>Images.bundle/icon_xiangpi@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			H20vSxbef5RJMiuu9LjRUKqr0ko=
-			</data>
 			<key>hash2</key>
 			<data>
 			7AC9Ngr86rm1YIMNdX7l3bGCeygXkjtmNWR3BV1TNiI=
@@ -865,10 +657,6 @@
 		</dict>
 		<key>Images.bundle/icon_xiangpi_select@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			mc1aKUGBPy7KbH169/0fQpbCFj4=
-			</data>
 			<key>hash2</key>
 			<data>
 			NbbdoDLPwwVjgLJhMTYhxTTrhejJBRd760ngdR8CniY=
@@ -876,10 +664,6 @@
 		</dict>
 		<key>Images.bundle/icon_xiangpi_select@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			0Pu7v3/VvxnElSXgzgQeUp8Jy58=
-			</data>
 			<key>hash2</key>
 			<data>
 			RM2rGjxYH1MmL3CDzjbwlX1HdXhTxTyB+Aabz8liics=
@@ -887,10 +671,6 @@
 		</dict>
 		<key>Images.bundle/icon_xuanqu@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			nScjPc+e40I7d9cecCJTTfO0K5I=
-			</data>
 			<key>hash2</key>
 			<data>
 			inHk4TmsVVQwRx3XARTHQMjXkptAyYL2WRqUnluKOz0=
@@ -898,10 +678,6 @@
 		</dict>
 		<key>Images.bundle/icon_xuanqu@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			IQRVRlejgRWis6fQR3LrwsfkTvI=
-			</data>
 			<key>hash2</key>
 			<data>
 			N7OFQtcLpntK831yWwV5qtXNuH3g6YAo1GoGj6Zn3Gs=
@@ -909,10 +685,6 @@
 		</dict>
 		<key>Images.bundle/icon_xuanqu_select@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			7asCiku4ymRri1HsM0JZonwSpgY=
-			</data>
 			<key>hash2</key>
 			<data>
 			KRWXh1huexQMrTfnD3Z9igjxcRGbVoKmaN6+RPNgyk4=
@@ -920,10 +692,6 @@
 		</dict>
 		<key>Images.bundle/icon_xuanzhuan@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			e8wEFSu2h2igWCyTYgIrXlaLhTY=
-			</data>
 			<key>hash2</key>
 			<data>
 			g48pF1HOAMPYB0MC/K8ghOVUlcL0iOpznZOcZi8azlk=
@@ -931,10 +699,6 @@
 		</dict>
 		<key>Images.bundle/icon_xuanzhuan@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			NifezOO6RT9gBRXMgNYJzNJo4H0=
-			</data>
 			<key>hash2</key>
 			<data>
 			E4yGCLZr7gV5GWA/1nJ/osBFv7NK7vKPwrtji6xDi/w=
@@ -942,10 +706,6 @@
 		</dict>
 		<key>Images.bundle/iicon_xuanqu_select@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			CFfhaCzf6LWo/j6H59bSvlq/caA=
-			</data>
 			<key>hash2</key>
 			<data>
 			CbGy56y/Kp5YsBJAxL9DhL4FqWHB146AG8y1cA08ilM=
@@ -953,10 +713,6 @@
 		</dict>
 		<key>Images.bundle/san@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			cLID19AUk2M28sqqv19NpZC+Lwo=
-			</data>
 			<key>hash2</key>
 			<data>
 			0Nvme/jI+tB3Bc6SErEDVGL+GYv9Y8MGs1i7711RHSI=
@@ -964,10 +720,6 @@
 		</dict>
 		<key>Images.bundle/test.jpg</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			2nHA1+9eUexyjyDzQLB/avKEvuk=
-			</data>
 			<key>hash2</key>
 			<data>
 			G34kOGhx99OaDLAr1cRyfsJmqKdbgdiAT+JHDVQRwGg=
@@ -975,10 +727,6 @@
 		</dict>
 		<key>Images.bundle/test2.jpg</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			06XjaKPGBqgkoU4AOx0M3MgB2QU=
-			</data>
 			<key>hash2</key>
 			<data>
 			YEmY75asGhOWYJ7r8JsPb/4u/RNPNrPSFCD5SxEQ2t0=
@@ -986,43 +734,27 @@
 		</dict>
 		<key>Modules/SatorSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			a6PBbiTcxU1NgT2VmsWvWLMuNx4=
-			</data>
 			<key>hash2</key>
 			<data>
-			GygmsCBCAGm86M31qrRSIo6dxsIdPSUfZZ4b5j9fr7A=
+			vTmr48ResYtmWyYPRMM+19XYnAOJFbivfvyf1raGX6Y=
 			</data>
 		</dict>
 		<key>Modules/SatorSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			V6s1nx0udhX11KINBmWBW4Gurs4=
-			</data>
 			<key>hash2</key>
 			<data>
-			pbr/HZ6ihXbr2N4J1NshO+MjcbPYJBiIOrdP1DVacjk=
+			LJPEcCqX/0GWehNRMel2Ipw3LmJ3FM/a7lBL5iY6LGg=
 			</data>
 		</dict>
 		<key>Modules/SatorSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			1Aw7LWJDtOjhJkXh+F4WWdgCRvE=
-			</data>
 			<key>hash2</key>
 			<data>
-			CCDaKu4H33mVKscB9Sw4cgUg2UkKFDQvFK5tkPgJ9Ck=
+			dX1fqC83RS7eYYWnZy4hon6CNlw6uOKzuLjSCTX77qQ=
 			</data>
 		</dict>
 		<key>Modules/SatorSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			YX6r8rIanTyCH9tDauBWVNQweyo=
-			</data>
 			<key>hash2</key>
 			<data>
 			sCww3Jh1pw2Lf2aLw+vQgMCgh4u3P4+9Fhp3ilPGbng=
@@ -1030,32 +762,20 @@
 		</dict>
 		<key>Modules/SatorSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			1Aw7LWJDtOjhJkXh+F4WWdgCRvE=
-			</data>
 			<key>hash2</key>
 			<data>
-			CCDaKu4H33mVKscB9Sw4cgUg2UkKFDQvFK5tkPgJ9Ck=
+			dX1fqC83RS7eYYWnZy4hon6CNlw6uOKzuLjSCTX77qQ=
 			</data>
 		</dict>
 		<key>Modules/SatorSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			gc/o6S9JNpcdtUq1EgEP2g8FIcM=
-			</data>
 			<key>hash2</key>
 			<data>
-			WufxxOmnp6hFeuZGQo0oLWHUb/eIIzlsvDrMUGrud7A=
+			yiSJZjaqurfxymwf54UW9xxXaPkKhUVu4P8yGSgWta0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			i43PdBh5GXputIYTtxV49OCofJ4=
-			</data>
 			<key>hash2</key>
 			<data>
 			dJ8gaxSxxtIVR+MUrj76WF6Q/Yy+6GMithKWbe9cTBM=
@@ -1063,24 +783,9 @@
 		</dict>
 		<key>SAIMaterialController.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			pZ9mc6s0RsG7ZN3zRct9bdKyb9k=
-			</data>
 			<key>hash2</key>
 			<data>
 			XfsK6WCU04qtTGAL3q2ehZe9mqjF0K8iB8YXfCwzj6E=
-			</data>
-		</dict>
-		<key>default.metallib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			/5142c92KfvFTFvQ+ChrLnCU6q8=
-			</data>
-			<key>hash2</key>
-			<data>
-			uH7T/uOtEqfq0Dr4bcS1efm70IFyb5u5x4YOFKFVKOE=
 			</data>
 		</dict>
 	</dict>

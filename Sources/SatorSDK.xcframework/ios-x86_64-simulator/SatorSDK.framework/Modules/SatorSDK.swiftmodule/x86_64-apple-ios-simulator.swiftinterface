@@ -14,6 +14,20 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class SAIMaterialController : SatorSDK.SAIBaseViewController, UIKit.UIScrollViewDelegate {
+  @_Concurrency.MainActor(unsafe) public var sourceImage: UIKit.UIImage!
+  @_Concurrency.MainActor(unsafe) public var copySourceImage: UIKit.UIImage!
+  @objc @_Concurrency.MainActor(unsafe) public var mainScrollView: UIKit.UIScrollView {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLayoutSubviews()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
 @objc @_Concurrency.MainActor(unsafe) public class SAIBaseNavigationController : UIKit.UINavigationController {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(rootViewController: UIKit.UIViewController)
@@ -65,20 +79,6 @@ import _SwiftConcurrencyShims
   public var imageCallback: ((_ image: UIKit.UIImage) -> Swift.Void)?
   public func performOperation(completion: (Swift.Result<Swift.String, any Swift.Error>) -> Swift.Void)
   public func start()
-  @objc deinit
-}
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class SAIMaterialController : SatorSDK.SAIBaseViewController, UIKit.UIScrollViewDelegate {
-  @_Concurrency.MainActor(unsafe) public var sourceImage: UIKit.UIImage!
-  @_Concurrency.MainActor(unsafe) public var copySourceImage: UIKit.UIImage!
-  @objc @_Concurrency.MainActor(unsafe) public var mainScrollView: UIKit.UIScrollView {
-    @objc get
-    @objc set
-  }
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLayoutSubviews()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class SAIBaseViewController : UIKit.UIViewController {
