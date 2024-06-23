@@ -15,6 +15,13 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "Test"
+      },
+      {
         "kind": "TypeDecl",
         "name": "test",
         "printedName": "test",
