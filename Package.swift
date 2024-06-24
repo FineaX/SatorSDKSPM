@@ -26,6 +26,8 @@ let package = Package(
                 .product(name: "MBProgressHUD", package: "MBProgressHUD"),
             
             ]),
-        .binaryTarget(name:"Test", path: "./Sources/Test.xcframework")
+        .binaryTarget(
+            name:"Test",
+            path: "./Sources/Test.xcframework")
     ]
 )
