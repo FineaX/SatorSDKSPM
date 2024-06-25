@@ -16,6 +16,7 @@
 		D115FF1B2C2A992200C73984 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D115FF1A2C2A992200C73984 /* Base */; };
 		D115FF5C2C2AA7F000C73984 /* MBProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = D115FF5B2C2AA7F000C73984 /* MBProgressHUD */; };
 		D115FF5F2C2AA7FC00C73984 /* MJRefresh in Frameworks */ = {isa = PBXBuildFile; productRef = D115FF5E2C2AA7FC00C73984 /* MJRefresh */; };
+		D115FF622C2AA93500C73984 /* SatorSDKSPM in Frameworks */ = {isa = PBXBuildFile; productRef = D115FF612C2AA93500C73984 /* SatorSDKSPM */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 			files = (
 				D115FF5C2C2AA7F000C73984 /* MBProgressHUD in Frameworks */,
 				7C8D8D554DDAF6764529CE42 /* Pods_SAIDEMO.framework in Frameworks */,
+				D115FF622C2AA93500C73984 /* SatorSDKSPM in Frameworks */,
 				D115FF5F2C2AA7FC00C73984 /* MJRefresh in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -116,6 +118,7 @@
 			packageProductDependencies = (
 				D115FF5B2C2AA7F000C73984 /* MBProgressHUD */,
 				D115FF5E2C2AA7FC00C73984 /* MJRefresh */,
+				D115FF612C2AA93500C73984 /* SatorSDKSPM */,
 			);
 			productName = SAIDEMO;
 			productReference = D115FF0B2C2A991F00C73984 /* SAIDEMO.app */;
@@ -148,6 +151,7 @@
 			packageReferences = (
 				D115FF5A2C2AA7F000C73984 /* XCRemoteSwiftPackageReference "MBProgressHUD" */,
 				D115FF5D2C2AA7FC00C73984 /* XCRemoteSwiftPackageReference "MJRefresh" */,
+				D115FF602C2AA93500C73984 /* XCRemoteSwiftPackageReference "SatorSDKSPM" */,
 			);
 			productRefGroup = D115FF0C2C2A991F00C73984 /* Products */;
 			projectDirPath = "";
@@ -467,6 +471,14 @@
 				minimumVersion = 3.7.9;
 			};
 		};
+		D115FF602C2AA93500C73984 /* XCRemoteSwiftPackageReference "SatorSDKSPM" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/FineaX/SatorSDKSPM";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.7;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -479,6 +491,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = D115FF5D2C2AA7FC00C73984 /* XCRemoteSwiftPackageReference "MJRefresh" */;
 			productName = MJRefresh;
+		};
+		D115FF612C2AA93500C73984 /* SatorSDKSPM */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D115FF602C2AA93500C73984 /* XCRemoteSwiftPackageReference "SatorSDKSPM" */;
+			productName = SatorSDKSPM;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
