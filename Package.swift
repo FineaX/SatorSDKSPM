@@ -17,6 +17,9 @@ let package = Package(
             name: "SatorSDKSPM",
             dependencies: [
                 .target(name: "SatorSDK"),
+                .product(name: "SDWebImage", package: "SDWebImage"),
+                .product(name: "MJRefresh", package: "MJRefresh"),
+                .product(name: "MBProgressHUD", package: "MBProgressHUD"),
             
             ]),
         .binaryTarget(

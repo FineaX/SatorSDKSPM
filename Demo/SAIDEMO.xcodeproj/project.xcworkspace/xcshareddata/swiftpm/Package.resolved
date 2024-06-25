@@ -1,5 +1,5 @@
 {
-  "originHash" : "11916e2f60de4098f4eec980de3a1dde6c722198fce6882244d60765261cd460",
+  "originHash" : "229ea92c811c0c65478c98cf74eb4933be2d6ad705b5846aeae4a680d511f6e1",
   "pins" : [
     {
       "identity" : "mbprogresshud",
@@ -24,8 +24,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/FineaX/SatorSDKSPM",
       "state" : {
-        "revision" : "d7a44ff313df1508ece6d6c73316ce9a64b921a5",
-        "version" : "1.0.3"
+        "revision" : "b35e6fe26112ee1c8544af24aba7b76fa09866d6",
+        "version" : "1.0.4"
       }
     },
     {
