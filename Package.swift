@@ -11,19 +11,12 @@ let package = Package(
             name: "SatorSDKSPM",
             targets: ["SatorSDKSPM"]),
     ],
-    dependencies: [
-        .package(url: "https://github.com/SDWebImage/SDWebImage.git", from: "5.1.0"),
-        .package(url: "https://github.com/CoderMJLee/MJRefresh.git", from: "3.7.1"),
-        .package(url: "https://github.com/jdg/MBProgressHUD.git", .upToNextMajor(from: "1.2.0"))
-    ],
+    dependencies: [],
     targets: [
         .target(
             name: "SatorSDKSPM",
             dependencies: [
                 .target(name: "SatorSDK"),
-                .product(name: "SDWebImage", package: "SDWebImage"),
-                .product(name: "MJRefresh", package: "MJRefresh"),
-                .product(name: "MBProgressHUD", package: "MBProgressHUD"),
             
             ]),
         .binaryTarget(
