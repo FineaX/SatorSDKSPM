@@ -2130,8 +2130,7 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "hasStorage": true,
             "accessors": [
@@ -7645,42 +7644,42 @@
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Managers\/SAIAPIManager.swift",
       "kind": "StringLiteral",
-      "offset": 751,
+      "offset": 204,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Managers\/SAIAPIManager.swift",
       "kind": "StringLiteral",
-      "offset": 777,
+      "offset": 230,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Managers\/SAIAPIManager.swift",
       "kind": "StringLiteral",
-      "offset": 812,
+      "offset": 265,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Managers\/SAIAPIManager.swift",
       "kind": "StringLiteral",
-      "offset": 848,
+      "offset": 301,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Managers\/SAIAPIManager.swift",
       "kind": "StringLiteral",
-      "offset": 890,
+      "offset": 343,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Managers\/SAIAPIManager.swift",
       "kind": "StringLiteral",
-      "offset": 909,
+      "offset": 362,
       "length": 2,
       "value": "\"\""
     },
@@ -8607,6 +8606,13 @@
       "offset": 369,
       "length": 2,
       "value": "30"
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Common\/SAIBaseViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 397,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/SAIAlbumListView.swift",
