@@ -63,6 +63,7 @@ import _SwiftConcurrencyShims
   public func getToken() -> Swift.String?
   public var resultImage: UIKit.UIImage?
   public var imageCallback: ((_ image: UIKit.UIImage) -> Swift.Void)?
+  public var smartCreationCallBack: (() -> Swift.Void)?
   public func performOperation(completion: (Swift.Result<Swift.String, any Swift.Error>) -> Swift.Void)
   public func start()
   @objc deinit
@@ -126,6 +127,8 @@ extension UIKit.UIFont : SatorSDK.SAIObjectCompatible {
 extension UIKit.UIView : SatorSDK.SAIObjectCompatible {
 }
 extension UIKit.UIGraphicsImageRenderer : SatorSDK.SAIObjectCompatible {
+}
+extension UIKit.UIApplication : SatorSDK.SAIObjectCompatible {
 }
 extension Swift.Array : SatorSDK.SAIObjectCompatibleValue {
 }

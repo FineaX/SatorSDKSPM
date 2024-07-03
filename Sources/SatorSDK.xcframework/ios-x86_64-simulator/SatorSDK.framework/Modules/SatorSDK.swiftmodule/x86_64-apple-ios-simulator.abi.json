@@ -15,16 +15,6 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "SatorSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
         "kind": "TypeDecl",
         "name": "SAIBaseNavigationController",
         "printedName": "SAIBaseNavigationController",
@@ -281,13 +271,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "SAIObjectCompatible",
             "printedName": "SAIObjectCompatible",
             "usr": "s:8SatorSDK19SAIObjectCompatibleP",
@@ -334,8 +317,52 @@
       },
       {
         "kind": "Import",
+        "name": "SDWebImage",
+        "printedName": "SDWebImage",
+        "declKind": "Import",
+        "moduleName": "SatorSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SatorSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "MBProgressHUD",
         "printedName": "MBProgressHUD",
+        "declKind": "Import",
+        "moduleName": "SatorSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SatorSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SatorSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SDWebImage",
+        "printedName": "SDWebImage",
         "declKind": "Import",
         "moduleName": "SatorSDK"
       },
@@ -1526,6 +1553,13 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SatorSDK"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -1553,6 +1587,23 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SatorSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SDWebImage",
+        "printedName": "SDWebImage",
+        "declKind": "Import",
+        "moduleName": "SatorSDK"
       },
       {
         "kind": "Import",
@@ -1647,6 +1698,16 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SatorSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "SDWebImage",
         "printedName": "SDWebImage",
         "declKind": "Import",
@@ -1666,6 +1727,306 @@
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SatorSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SatorSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SatorSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SatorSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SDWebImage",
+        "printedName": "SDWebImage",
+        "declKind": "Import",
+        "moduleName": "SatorSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SatorSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SatorSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SatorSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SatorSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SatorSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SatorSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SatorSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SatorSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SatorSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SatorSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SatorSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SatorSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SatorSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SDWebImage",
+        "printedName": "SDWebImage",
+        "declKind": "Import",
+        "moduleName": "SatorSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SatorSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SatorSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SDWebImage",
+        "printedName": "SDWebImage",
+        "declKind": "Import",
+        "moduleName": "SatorSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SatorSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SatorSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SatorSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SatorSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SDWebImage",
+        "printedName": "SDWebImage",
+        "declKind": "Import",
+        "moduleName": "SatorSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SatorSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SatorSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SDWebImage",
+        "printedName": "SDWebImage",
+        "declKind": "Import",
+        "moduleName": "SatorSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SatorSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SDWebImage",
+        "printedName": "SDWebImage",
+        "declKind": "Import",
+        "moduleName": "SatorSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SatorSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "SatorSDK",
         "declAttributes": [
@@ -1724,268 +2085,12 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "SatorSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
         "moduleName": "SatorSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "SatorSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "SatorSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "SatorSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "SatorSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "SatorSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "SatorSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "SatorSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "SatorSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "SatorSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
       },
       {
         "kind": "Import",
         "name": "SDWebImage",
         "printedName": "SDWebImage",
-        "declKind": "Import",
-        "moduleName": "SatorSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "SatorSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "SatorSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "SatorSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "SatorSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SDWebImage",
-        "printedName": "SDWebImage",
-        "declKind": "Import",
-        "moduleName": "SatorSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "SatorSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "SatorSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SDWebImage",
-        "printedName": "SDWebImage",
-        "declKind": "Import",
-        "moduleName": "SatorSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "SatorSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SDWebImage",
-        "printedName": "SDWebImage",
-        "declKind": "Import",
-        "moduleName": "SatorSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "SatorSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "SatorSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "SatorSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "SatorSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SDWebImage",
-        "printedName": "SDWebImage",
-        "declKind": "Import",
-        "moduleName": "SatorSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "SatorSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "SatorSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "SatorSDK"
       },
@@ -2360,6 +2465,149 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "smartCreationCallBack",
+            "printedName": "smartCreationCallBack",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8SatorSDK6SAISDKC21smartCreationCallBackyycSgvp",
+            "mangledName": "$s8SatorSDK6SAISDKC21smartCreationCallBackyycSgvp",
+            "moduleName": "SatorSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SatorSDK6SAISDKC21smartCreationCallBackyycSgvg",
+                "mangledName": "$s8SatorSDK6SAISDKC21smartCreationCallBackyycSgvg",
+                "moduleName": "SatorSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SatorSDK6SAISDKC21smartCreationCallBackyycSgvs",
+                "mangledName": "$s8SatorSDK6SAISDKC21smartCreationCallBackyycSgvs",
+                "moduleName": "SatorSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SatorSDK6SAISDKC21smartCreationCallBackyycSgvM",
+                "mangledName": "$s8SatorSDK6SAISDKC21smartCreationCallBackyycSgvM",
+                "moduleName": "SatorSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "performOperation",
             "printedName": "performOperation(completion:)",
@@ -2458,10 +2706,37 @@
       },
       {
         "kind": "Import",
+        "name": "SDWebImage",
+        "printedName": "SDWebImage",
+        "declKind": "Import",
+        "moduleName": "SatorSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SatorSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Photos",
         "printedName": "Photos",
         "declKind": "Import",
         "moduleName": "SatorSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SatorSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -3120,13 +3395,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "SAIObjectCompatible",
             "printedName": "SAIObjectCompatible",
             "usr": "s:8SatorSDK19SAIObjectCompatibleP",
@@ -3138,6 +3406,13 @@
             "printedName": "UITraitChangeObservable",
             "usr": "s:5UIKit23UITraitChangeObservableP",
             "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -3209,6 +3484,23 @@
         "kind": "Import",
         "name": "MJRefresh",
         "printedName": "MJRefresh",
+        "declKind": "Import",
+        "moduleName": "SatorSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SatorSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SDWebImage",
+        "printedName": "SDWebImage",
         "declKind": "Import",
         "moduleName": "SatorSDK"
       },
@@ -3494,13 +3786,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "SAIObjectCompatible",
             "printedName": "SAIObjectCompatible",
             "usr": "s:8SatorSDK19SAIObjectCompatibleP",
@@ -3512,6 +3797,13 @@
             "printedName": "UITraitChangeObservable",
             "usr": "s:5UIKit23UITraitChangeObservableP",
             "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -3524,6 +3816,30 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Photos",
+        "printedName": "Photos",
+        "declKind": "Import",
+        "moduleName": "SatorSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SatorSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SDWebImage",
+        "printedName": "SDWebImage",
+        "declKind": "Import",
+        "moduleName": "SatorSDK"
       },
       {
         "kind": "Import",
@@ -4190,6 +4506,123 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "SDWebImage",
+        "printedName": "SDWebImage",
+        "declKind": "Import",
+        "moduleName": "SatorSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SatorSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SatorSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIViewController",
+        "printedName": "UIViewController",
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIViewController",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIViewController",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIResponder",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SAIObjectCompatible",
+            "printedName": "SAIObjectCompatible",
+            "usr": "s:8SatorSDK19SAIObjectCompatibleP",
+            "mangledName": "$s8SatorSDK19SAIObjectCompatibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "UIColor",
         "printedName": "UIColor",
@@ -4283,103 +4716,6 @@
             "printedName": "_ExpressibleByColorLiteral",
             "usr": "s:s26_ExpressibleByColorLiteralP",
             "mangledName": "$ss26_ExpressibleByColorLiteralP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "UIViewController",
-        "printedName": "UIViewController",
-        "declKind": "Class",
-        "usr": "c:objc(cs)UIViewController",
-        "moduleName": "UIKit",
-        "isOpen": true,
-        "intro_iOS": "2.0",
-        "objc_name": "UIViewController",
-        "declAttributes": [
-          "Available",
-          "ObjC",
-          "NonSendable",
-          "Custom",
-          "Dynamic"
-        ],
-        "superclassUsr": "c:objc(cs)UIResponder",
-        "isExternal": true,
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "UIKit.UIResponder",
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "SAIObjectCompatible",
-            "printedName": "SAIObjectCompatible",
-            "usr": "s:8SatorSDK19SAIObjectCompatibleP",
-            "mangledName": "$s8SatorSDK19SAIObjectCompatibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "UITraitChangeObservable",
-            "printedName": "UITraitChangeObservable",
-            "usr": "s:5UIKit23UITraitChangeObservableP",
-            "mangledName": "$s5UIKit23UITraitChangeObservableP"
           }
         ]
       },
@@ -4726,6 +5062,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "SAIObjectCompatible",
             "printedName": "SAIObjectCompatible",
             "usr": "s:8SatorSDK19SAIObjectCompatibleP",
@@ -4819,6 +5162,96 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SAIObjectCompatible",
+            "printedName": "SAIObjectCompatible",
+            "usr": "s:8SatorSDK19SAIObjectCompatibleP",
+            "mangledName": "$s8SatorSDK19SAIObjectCompatibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIApplication",
+        "printedName": "UIApplication",
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIApplication",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIApplication",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIResponder",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           },
           {
             "kind": "Conformance",
@@ -6376,13 +6809,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
             "name": "_ExpressibleByBuiltinBooleanLiteral",
             "printedName": "_ExpressibleByBuiltinBooleanLiteral",
             "usr": "s:s35_ExpressibleByBuiltinBooleanLiteralP",
@@ -6416,6 +6842,13 @@
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
             "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
@@ -6816,13 +7249,6 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/SAIDistrictView.swift",
-      "kind": "Array",
-      "offset": 347,
-      "length": 2,
-      "value": "[]"
-    },
-    {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Common\/SAIBaseNavigationController.swift",
       "kind": "StringLiteral",
       "offset": 129,
@@ -6842,6 +7268,20 @@
       "offset": 327,
       "length": 2,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Third\/SAIThirdVc+SAISmartBackgroundView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 296,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Third\/SAIThirdVc+SAISmartBackgroundView.swift",
+      "kind": "StringLiteral",
+      "offset": 149,
+      "length": 41,
+      "value": "\"SatorSDK.SAIThirdVc_SAISmartBackgroundViewDelegate\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Common\/SAIHUD.swift",
@@ -6996,6 +7436,62 @@
       "offset": 448,
       "length": 3,
       "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Third\/SAIReshapeBackgroundView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2257,
+      "length": 4,
+      "value": "65.0"
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Third\/SAIReshapeBackgroundView.swift",
+      "kind": "StringLiteral",
+      "offset": 2413,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Third\/SAIReshapeBackgroundView.swift",
+      "kind": "Array",
+      "offset": 2896,
+      "length": 16,
+      "value": "[\"背景描述\"]"
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Third\/SAIReshapeBackgroundView.swift",
+      "kind": "Array",
+      "offset": 2933,
+      "length": 19,
+      "value": "[\"icon_sec_bgdesc\"]"
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Third\/SAIThirdVc+SAIlocalRedrawView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 279,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Third\/SAIThirdVc+SAIlocalRedrawView.swift",
+      "kind": "StringLiteral",
+      "offset": 315,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Third\/SAIThirdVc+SAIlocalRedrawView.swift",
+      "kind": "StringLiteral",
+      "offset": 388,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Third\/SAIThirdVc+SAIlocalRedrawView.swift",
+      "kind": "StringLiteral",
+      "offset": 143,
+      "length": 35,
+      "value": "\"SatorSDK.SAIThird_SAIlocalRedrawViewDelegate\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Common\/SAIStyle.swift",
@@ -7390,6 +7886,146 @@
       "value": "\"task_id\""
     },
     {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
+      "kind": "StringLiteral",
+      "offset": 3050,
+      "length": 8,
+      "value": "\"imgUrl\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
+      "kind": "StringLiteral",
+      "offset": 3105,
+      "length": 13,
+      "value": "\"status_code\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
+      "kind": "StringLiteral",
+      "offset": 3144,
+      "length": 12,
+      "value": "\"error_code\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
+      "kind": "StringLiteral",
+      "offset": 3181,
+      "length": 11,
+      "value": "\"error_msg\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
+      "kind": "StringLiteral",
+      "offset": 3222,
+      "length": 16,
+      "value": "\"time_consuming\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
+      "kind": "StringLiteral",
+      "offset": 3050,
+      "length": 8,
+      "value": "\"imgUrl\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
+      "kind": "StringLiteral",
+      "offset": 3105,
+      "length": 13,
+      "value": "\"status_code\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
+      "kind": "StringLiteral",
+      "offset": 3144,
+      "length": 12,
+      "value": "\"error_code\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
+      "kind": "StringLiteral",
+      "offset": 3181,
+      "length": 11,
+      "value": "\"error_msg\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
+      "kind": "StringLiteral",
+      "offset": 3222,
+      "length": 16,
+      "value": "\"time_consuming\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
+      "kind": "StringLiteral",
+      "offset": 4048,
+      "length": 9,
+      "value": "\"task_id\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
+      "kind": "StringLiteral",
+      "offset": 4048,
+      "length": 9,
+      "value": "\"task_id\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
+      "kind": "StringLiteral",
+      "offset": 4320,
+      "length": 9,
+      "value": "\"task_id\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
+      "kind": "StringLiteral",
+      "offset": 4355,
+      "length": 12,
+      "value": "\"error_code\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
+      "kind": "StringLiteral",
+      "offset": 4392,
+      "length": 11,
+      "value": "\"error_msg\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
+      "kind": "StringLiteral",
+      "offset": 4320,
+      "length": 9,
+      "value": "\"task_id\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
+      "kind": "StringLiteral",
+      "offset": 4355,
+      "length": 12,
+      "value": "\"error_code\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
+      "kind": "StringLiteral",
+      "offset": 4392,
+      "length": 11,
+      "value": "\"error_msg\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
+      "kind": "StringLiteral",
+      "offset": 5180,
+      "length": 12,
+      "value": "\"templateId\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
+      "kind": "StringLiteral",
+      "offset": 5180,
+      "length": 12,
+      "value": "\"templateId\""
+    },
+    {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Extensions\/UIViewController+SAIObjectWrapper.swift",
       "kind": "StringLiteral",
       "offset": 290,
@@ -7444,6 +8080,13 @@
       "offset": 902,
       "length": 10,
       "value": "\"ClassUrl\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Third\/SAIMyPhotosListController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 399,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/SAIContainerViewController.swift",
@@ -7518,21 +8161,21 @@
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Second\/SAISecSmudgeRemovalToolView.swift",
       "kind": "BooleanLiteral",
-      "offset": 598,
+      "offset": 603,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Second\/SAISecSmudgeRemovalToolView.swift",
       "kind": "Array",
-      "offset": 678,
+      "offset": 683,
       "length": 37,
       "value": "[\"画笔\", \"选区\", \"擦除\", \"反选\"]"
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Second\/SAISecSmudgeRemovalToolView.swift",
       "kind": "Array",
-      "offset": 788,
+      "offset": 793,
       "length": 62,
       "value": "[\"icon_huabi\", \"icon_xuanqu\", \"icon_xiangpi\", \"icon_sec_fanxuan\"]"
     },
@@ -7684,6 +8327,55 @@
       "value": "\"\""
     },
     {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Third\/SAIExpandBorderView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1008,
+      "length": 4,
+      "value": "3000"
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Third\/SAIExpandBorderView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1022,
+      "length": 4,
+      "value": "3000"
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Third\/SAIExpandBorderView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1067,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Third\/SAIExpandBorderView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1080,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Third\/SAIExpandBorderView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1277,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Third\/SAIExpandBorderView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1290,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Third\/SAIExpandBorderView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4359,
+      "length": 2,
+      "value": "40"
+    },
+    {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Second\/SAISmartBackgroundView.swift",
       "kind": "StringLiteral",
       "offset": 165,
@@ -7742,14 +8434,14 @@
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Second\/SAISmartBackgroundView.swift",
       "kind": "BooleanLiteral",
-      "offset": 9135,
+      "offset": 9137,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Second\/SAISmartBackgroundView.swift",
       "kind": "StringLiteral",
-      "offset": 15469,
+      "offset": 15852,
       "length": 9,
       "value": "\"#0C0A18\""
     },
@@ -7833,84 +8525,140 @@
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Common\/SAIDefine.swift",
       "kind": "StringLiteral",
-      "offset": 153,
+      "offset": 166,
       "length": 8,
       "value": "\"画板\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Common\/SAIDefine.swift",
       "kind": "StringLiteral",
-      "offset": 194,
+      "offset": 207,
       "length": 14,
       "value": "\"高清修复\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Common\/SAIDefine.swift",
       "kind": "StringLiteral",
-      "offset": 234,
+      "offset": 247,
       "length": 14,
       "value": "\"涂抹消除\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Common\/SAIDefine.swift",
       "kind": "StringLiteral",
-      "offset": 267,
+      "offset": 280,
       "length": 8,
       "value": "\"抠图\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Common\/SAIDefine.swift",
       "kind": "StringLiteral",
-      "offset": 153,
+      "offset": 317,
+      "length": 14,
+      "value": "\"局部重绘\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Common\/SAIDefine.swift",
+      "kind": "StringLiteral",
+      "offset": 356,
+      "length": 8,
+      "value": "\"扩图\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Common\/SAIDefine.swift",
+      "kind": "StringLiteral",
+      "offset": 394,
+      "length": 14,
+      "value": "\"重塑背景\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Common\/SAIDefine.swift",
+      "kind": "StringLiteral",
+      "offset": 432,
+      "length": 14,
+      "value": "\"重塑面容\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Common\/SAIDefine.swift",
+      "kind": "StringLiteral",
+      "offset": 166,
       "length": 8,
       "value": "\"画板\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Common\/SAIDefine.swift",
       "kind": "StringLiteral",
-      "offset": 194,
+      "offset": 207,
       "length": 14,
       "value": "\"高清修复\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Common\/SAIDefine.swift",
       "kind": "StringLiteral",
-      "offset": 234,
+      "offset": 247,
       "length": 14,
       "value": "\"涂抹消除\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Common\/SAIDefine.swift",
       "kind": "StringLiteral",
-      "offset": 267,
+      "offset": 280,
       "length": 8,
       "value": "\"抠图\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Common\/SAIDefine.swift",
+      "kind": "StringLiteral",
+      "offset": 317,
+      "length": 14,
+      "value": "\"局部重绘\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Common\/SAIDefine.swift",
+      "kind": "StringLiteral",
+      "offset": 356,
+      "length": 8,
+      "value": "\"扩图\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Common\/SAIDefine.swift",
+      "kind": "StringLiteral",
+      "offset": 394,
+      "length": 14,
+      "value": "\"重塑背景\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Common\/SAIDefine.swift",
+      "kind": "StringLiteral",
+      "offset": 432,
+      "length": 14,
+      "value": "\"重塑面容\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Common\/SAIDefine.swift",
       "kind": "FloatLiteral",
-      "offset": 492,
+      "offset": 663,
       "length": 4,
       "value": "44.0"
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Common\/SAIDefine.swift",
       "kind": "FloatLiteral",
-      "offset": 525,
+      "offset": 696,
       "length": 5,
       "value": "200.0"
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Common\/SAIDefine.swift",
       "kind": "IntegerLiteral",
-      "offset": 1080,
+      "offset": 1259,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Common\/SAIDefine.swift",
       "kind": "StringLiteral",
-      "offset": 1432,
+      "offset": 1612,
       "length": 31,
       "value": "\"https:\/\/p-ai.onionecology.com\""
     },
@@ -7938,84 +8686,84 @@
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Models\/SAIMyPhotosModel.swift",
       "kind": "StringLiteral",
-      "offset": 1744,
+      "offset": 1763,
       "length": 10,
       "value": "\"imageUrl\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Models\/SAIMyPhotosModel.swift",
       "kind": "StringLiteral",
-      "offset": 1820,
+      "offset": 1839,
       "length": 18,
       "value": "\"createByMemberId\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Models\/SAIMyPhotosModel.swift",
       "kind": "StringLiteral",
-      "offset": 1871,
+      "offset": 1890,
       "length": 18,
       "value": "\"updateByMemberId\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Models\/SAIMyPhotosModel.swift",
       "kind": "StringLiteral",
-      "offset": 1950,
+      "offset": 1969,
       "length": 10,
       "value": "\"memberId\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Models\/SAIMyPhotosModel.swift",
       "kind": "StringLiteral",
-      "offset": 1984,
+      "offset": 2003,
       "length": 9,
       "value": "\"robotId\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Models\/SAIMyPhotosModel.swift",
       "kind": "StringLiteral",
-      "offset": 2039,
+      "offset": 2058,
       "length": 8,
       "value": "\"linkId\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Models\/SAIMyPhotosModel.swift",
       "kind": "StringLiteral",
-      "offset": 1744,
+      "offset": 1763,
       "length": 10,
       "value": "\"imageUrl\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Models\/SAIMyPhotosModel.swift",
       "kind": "StringLiteral",
-      "offset": 1820,
+      "offset": 1839,
       "length": 18,
       "value": "\"createByMemberId\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Models\/SAIMyPhotosModel.swift",
       "kind": "StringLiteral",
-      "offset": 1871,
+      "offset": 1890,
       "length": 18,
       "value": "\"updateByMemberId\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Models\/SAIMyPhotosModel.swift",
       "kind": "StringLiteral",
-      "offset": 1950,
+      "offset": 1969,
       "length": 10,
       "value": "\"memberId\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Models\/SAIMyPhotosModel.swift",
       "kind": "StringLiteral",
-      "offset": 1984,
+      "offset": 2003,
       "length": 9,
       "value": "\"robotId\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Models\/SAIMyPhotosModel.swift",
       "kind": "StringLiteral",
-      "offset": 2039,
+      "offset": 2058,
       "length": 8,
       "value": "\"linkId\""
     },
@@ -8095,6 +8843,48 @@
       "offset": 3008,
       "length": 1,
       "value": "0"
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Third\/SAIThirdVc+SAIReShapeFaceView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 283,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Third\/SAIThirdVc+SAIReShapeFaceView.swift",
+      "kind": "StringLiteral",
+      "offset": 145,
+      "length": 37,
+      "value": "\"SatorSDK.SAIThirdVc_SAIReShapeFaceViewDelegate\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Common\/SAIGeneralUI.swift",
+      "kind": "StringLiteral",
+      "offset": 146,
+      "length": 10,
+      "value": "\"test.jpg\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Common\/SAIGeneralUI.swift",
+      "kind": "StringLiteral",
+      "offset": 183,
+      "length": 10,
+      "value": "\"test.jpg\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Common\/SAIGeneralUI.swift",
+      "kind": "StringLiteral",
+      "offset": 217,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Common\/SAIGeneralUI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 239,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Second\/SAISecondVc+SAIModelStyleSelectView.swift",
@@ -8314,13 +9104,6 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/SAIDoodleView.swift",
-      "kind": "StringLiteral",
-      "offset": 15763,
-      "length": 296,
-      "value": "\"kernel vec4 invertColor(__sample s, vec4 inputColor) {\n    if (s.a == 0.0) {\n        return vec4(0.0, 0.0, 0.0, 1.0); \/\/ 透明变黑色\n    } else {\n        return vec4(inputColor.rgb, 1.0); \/\/ 其他颜色变白色\n    }\n}\""
-    },
-    {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Second\/SAISecondVc+SAISmudgeremovalToolView.swift",
       "kind": "BooleanLiteral",
       "offset": 368,
@@ -8342,6 +9125,160 @@
       "value": "\"SatorSDK.SAISecondVc_SAISmudgeremovalToolViewDelegate\""
     },
     {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Third\/SAIExpandView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2087,
+      "length": 4,
+      "value": "65.0"
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Third\/SAIExpandView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2205,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Third\/SAIExpandView.swift",
+      "kind": "StringLiteral",
+      "offset": 2226,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Third\/SAIExpandView.swift",
+      "kind": "Array",
+      "offset": 2292,
+      "length": 19,
+      "value": "[\"尺寸\", \"描述\"]"
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Third\/SAIExpandView.swift",
+      "kind": "Array",
+      "offset": 2332,
+      "length": 33,
+      "value": "[\"icon_huaban\", \"icon_sec_bgdesc\"]"
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveController.swift",
+      "kind": "StringLiteral",
+      "offset": 167,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 187,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveController.swift",
+      "kind": "StringLiteral",
+      "offset": 457,
+      "length": 14,
+      "value": "\"保存设置\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveController.swift",
+      "kind": "StringLiteral",
+      "offset": 619,
+      "length": 12,
+      "value": "\"icon_close\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveController.swift",
+      "kind": "StringLiteral",
+      "offset": 859,
+      "length": 14,
+      "value": "\"原创算法\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1126,
+      "length": 2,
+      "value": "68"
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1138,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1178,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1222,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveController.swift",
+      "kind": "StringLiteral",
+      "offset": 1606,
+      "length": 17,
+      "value": "\"保存至本地\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveController.swift",
+      "kind": "StringLiteral",
+      "offset": 2164,
+      "length": 14,
+      "value": "\"更多工具\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveController.swift",
+      "kind": "StringLiteral",
+      "offset": 2486,
+      "length": 14,
+      "value": "\"查看图库\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveController.swift",
+      "kind": "StringLiteral",
+      "offset": 2549,
+      "length": 16,
+      "value": "\"icon_save_cktk\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveController.swift",
+      "kind": "StringLiteral",
+      "offset": 2793,
+      "length": 14,
+      "value": "\"再次创作\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveController.swift",
+      "kind": "StringLiteral",
+      "offset": 2856,
+      "length": 16,
+      "value": "\"icon_save_zccz\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveController.swift",
+      "kind": "StringLiteral",
+      "offset": 3100,
+      "length": 14,
+      "value": "\"智能二创\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveController.swift",
+      "kind": "StringLiteral",
+      "offset": 3163,
+      "length": 16,
+      "value": "\"icon_save_zlec\""
+    },
+    {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Managers\/SAIPhotoManager.swift",
       "kind": "StringLiteral",
       "offset": 217,
@@ -8349,9 +9286,51 @@
       "value": "\"DefaultAlbum\""
     },
     {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Third\/SAIlocalRedrawView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2164,
+      "length": 4,
+      "value": "65.0"
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Third\/SAIlocalRedrawView.swift",
+      "kind": "StringLiteral",
+      "offset": 2309,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Third\/SAIlocalRedrawView.swift",
+      "kind": "StringLiteral",
+      "offset": 7429,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Third\/SAIlocalRedrawView.swift",
+      "kind": "StringLiteral",
+      "offset": 7450,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Third\/SAIlocalRedrawView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7472,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/SAIGradientButtonView.swift",
       "kind": "BooleanLiteral",
       "offset": 254,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/SAIMyPhotosController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 497,
       "length": 5,
       "value": "false"
     },
@@ -8456,21 +9435,21 @@
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/First\/SAIMaterialController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3139,
+      "offset": 3142,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/First\/SAIToolView.swift",
       "kind": "StringLiteral",
-      "offset": 3697,
+      "offset": 4183,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/First\/SAIToolView.swift",
       "kind": "StringLiteral",
-      "offset": 3718,
+      "offset": 4204,
       "length": 2,
       "value": "\"\""
     },
@@ -8498,7 +9477,7 @@
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Second\/SAIModelFaceByPhotosView.swift",
       "kind": "Array",
-      "offset": 6588,
+      "offset": 6602,
       "length": 2,
       "value": "[]"
     },
@@ -8533,35 +9512,35 @@
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/First\/SAISmudgeRemovalToolView.swift",
       "kind": "FloatLiteral",
-      "offset": 2264,
+      "offset": 2298,
       "length": 4,
       "value": "65.0"
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/First\/SAISmudgeRemovalToolView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2445,
+      "offset": 2479,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/First\/SAISmudgeRemovalToolView.swift",
       "kind": "Array",
-      "offset": 2575,
+      "offset": 2609,
       "length": 28,
       "value": "[\"画笔\", \"选区\", \"擦除\"]"
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/First\/SAISmudgeRemovalToolView.swift",
       "kind": "Array",
-      "offset": 2624,
+      "offset": 2658,
       "length": 43,
       "value": "[\"icon_huabi\", \"icon_xuanqu\", \"icon_xiangpi\"]"
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/First\/SAISmudgeRemovalToolView.swift",
       "kind": "Array",
-      "offset": 2694,
+      "offset": 2728,
       "length": 64,
       "value": "[\"icon_huabi_select\", \"icon_xuanqu_select\", \"icon_xiangpi_select\"]"
     },
@@ -8571,6 +9550,111 @@
       "offset": 251,
       "length": 4,
       "value": "0.35"
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveView.swift",
+      "kind": "StringLiteral",
+      "offset": 411,
+      "length": 14,
+      "value": "\"保存设置\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveView.swift",
+      "kind": "StringLiteral",
+      "offset": 573,
+      "length": 12,
+      "value": "\"icon_close\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveView.swift",
+      "kind": "StringLiteral",
+      "offset": 813,
+      "length": 14,
+      "value": "\"原创算法\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1080,
+      "length": 2,
+      "value": "68"
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1092,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1132,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1176,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveView.swift",
+      "kind": "StringLiteral",
+      "offset": 1560,
+      "length": 17,
+      "value": "\"保存至本地\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveView.swift",
+      "kind": "StringLiteral",
+      "offset": 2118,
+      "length": 14,
+      "value": "\"更多工具\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveView.swift",
+      "kind": "StringLiteral",
+      "offset": 2440,
+      "length": 14,
+      "value": "\"查看图库\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveView.swift",
+      "kind": "StringLiteral",
+      "offset": 2503,
+      "length": 16,
+      "value": "\"icon_save_cktk\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveView.swift",
+      "kind": "StringLiteral",
+      "offset": 2747,
+      "length": 14,
+      "value": "\"再次创作\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveView.swift",
+      "kind": "StringLiteral",
+      "offset": 2810,
+      "length": 16,
+      "value": "\"icon_save_zccz\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveView.swift",
+      "kind": "StringLiteral",
+      "offset": 3054,
+      "length": 14,
+      "value": "\"智能二创\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveView.swift",
+      "kind": "StringLiteral",
+      "offset": 3117,
+      "length": 16,
+      "value": "\"icon_save_zlec\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Second\/SAIModelStyleSelectView.swift",
@@ -8627,6 +9711,20 @@
       "offset": 505,
       "length": 2,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Third\/SAIReshapeFaceView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2214,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Third\/SAIReshapeFaceView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2455,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Models\/SAIUploadFileResponseModel.swift",
@@ -8827,28 +9925,28 @@
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 5005,
+      "offset": 4989,
       "length": 7,
       "value": "\"imgId\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 5035,
+      "offset": 5019,
       "length": 8,
       "value": "\"imgUrl\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 5005,
+      "offset": 4989,
       "length": 7,
       "value": "\"imgId\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 5035,
+      "offset": 5019,
       "length": 8,
       "value": "\"imgUrl\""
     },
@@ -8872,6 +9970,27 @@
       "offset": 144,
       "length": 40,
       "value": "\"SatorSDK.SAIMaterialController_CanvasToolDelegate\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Third\/SAIThirdVc+SAIExpandView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 276,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Third\/SAIThirdVc+SAIExpandView.swift",
+      "kind": "StringLiteral",
+      "offset": 312,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Third\/SAIThirdVc+SAIExpandView.swift",
+      "kind": "StringLiteral",
+      "offset": 129,
+      "length": 32,
+      "value": "\"SatorSDK.SAIThirdVc_SAIExpandViewDelegate\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Second\/SAISecondVc+SAISmartBackgroundView.swift",
@@ -8900,6 +10019,13 @@
       "offset": 291,
       "length": 2,
       "value": "30"
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Common\/SAIBaseView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 334,
+      "length": 5,
+      "value": "false"
     }
   ]
 }
