@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
 // swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name SatorSDK
+import CoreFoundation
 import CoreImage
 import Foundation
 import MBProgressHUD
@@ -14,6 +15,32 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+public enum SAIDataType : Swift.String {
+  case bool
+  case uint8
+  case uint16
+  case uint32
+  case uint64
+  case int8
+  case int16
+  case int32
+  case int64
+  case float32
+  case float64
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+extension SatorSDK.SAINpy {
+  public init(contentsOf url: Foundation.URL) throws
+  public init(data: Foundation.Data) throws
+}
+public enum SAINpyLoaderError : Swift.Error {
+  case ParseFailed(message: Swift.String)
+  case TypeMismatch(message: Swift.String)
+}
 @objc @_Concurrency.MainActor(unsafe) public class SAIBaseNavigationController : UIKit.UINavigationController {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(rootViewController: UIKit.UIViewController)
@@ -22,51 +49,9 @@ import _SwiftConcurrencyShims
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
   @objc deinit
 }
-@_hasMissingDesignatedInitializers public class SAIStyle {
-  public struct Colors {
-    public static let primaryColor: UIKit.UIColor
-    public static let secondaryColor: UIKit.UIColor
-    public static let blackColor: UIKit.UIColor
-    public static let clearColor: UIKit.UIColor
-    public static let whiteColor: UIKit.UIColor
-    public static let backgroundColor1: UIKit.UIColor
-    public static let selectedColor1: UIKit.UIColor
-    public static let sliderBgColor: UIKit.UIColor
-    public static let brushColor: UIKit.UIColor
-    public static let brushColor1: UIKit.UIColor
-    public static let subToolViewBgColor: UIKit.UIColor
-    public static let modeltextColor: UIKit.UIColor
-    public static let textViewbg: UIKit.UIColor
-    public static let colror3B3B42: UIKit.UIColor
-  }
-  public struct hexColors {
-  }
-  public struct Fonts {
-    public static let titleFont: UIKit.UIFont
-    public static let bodyFont: UIKit.UIFont
-    public static let captionFont: UIKit.UIFont
-  }
-  public struct Sizes {
-    public static let cornerRadius: CoreFoundation.CGFloat
-    public static let borderWidth: CoreFoundation.CGFloat
-  }
-  public struct Spacing {
-    public static let small: CoreFoundation.CGFloat
-    public static let medium: CoreFoundation.CGFloat
-    public static let large: CoreFoundation.CGFloat
-  }
-  @objc deinit
-}
-@_hasMissingDesignatedInitializers public class SAISDK {
-  public static let shared: SatorSDK.SAISDK
-  public func setToken(_ token: Swift.String)
-  public func getToken() -> Swift.String?
-  public var resultImage: UIKit.UIImage?
-  public var imageCallback: ((_ image: UIKit.UIImage) -> Swift.Void)?
-  public var smartCreationCallBack: (() -> Swift.Void)?
-  public func performOperation(completion: (Swift.Result<Swift.String, any Swift.Error>) -> Swift.Void)
-  public func start()
-  @objc deinit
+extension SatorSDK.SAINpy {
+  public func save(to url: Foundation.URL) throws
+  public func format() -> Foundation.Data
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class SAIMaterialController : SatorSDK.SAIBaseViewController, UIKit.UIScrollViewDelegate {
   @_Concurrency.MainActor(unsafe) public var sourceImage: UIKit.UIImage!
@@ -78,14 +63,6 @@ import _SwiftConcurrencyShims
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLayoutSubviews()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
-  @objc deinit
-}
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class SAIBaseViewController : UIKit.UIViewController {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLayoutSubviews()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
@@ -140,3 +117,116 @@ extension Swift.Bool : SatorSDK.SAIObjectCompatibleValue {
 }
 extension Swift.Dictionary : SatorSDK.SAIObjectCompatibleValue {
 }
+public struct SAINpy {
+  public var shape: [Swift.Int] {
+    get
+  }
+  public var dataType: SatorSDK.SAIDataType {
+    get
+  }
+  public var endian: SatorSDK.Endian {
+    get
+  }
+  public var isFortranOrder: Swift.Bool {
+    get
+  }
+}
+extension SatorSDK.SAINpy {
+  public init(shape: [Swift.Int], elements: [Swift.Bool], isFortranOrder: Swift.Bool)
+  public init(shape: [Swift.Int], elements: [Swift.UInt8], isFortranOrder: Swift.Bool)
+  public init(shape: [Swift.Int], elements: [Swift.UInt16], endian: SatorSDK.Endian, isFortranOrder: Swift.Bool)
+  public init(shape: [Swift.Int], elements: [Swift.UInt32], endian: SatorSDK.Endian, isFortranOrder: Swift.Bool)
+  public init(shape: [Swift.Int], elements: [Swift.UInt64], endian: SatorSDK.Endian, isFortranOrder: Swift.Bool)
+  public init(shape: [Swift.Int], elements: [Swift.Int8], isFortranOrder: Swift.Bool)
+  public init(shape: [Swift.Int], elements: [Swift.Int16], endian: SatorSDK.Endian, isFortranOrder: Swift.Bool)
+  public init(shape: [Swift.Int], elements: [Swift.Int32], endian: SatorSDK.Endian, isFortranOrder: Swift.Bool)
+  public init(shape: [Swift.Int], elements: [Swift.Int64], endian: SatorSDK.Endian, isFortranOrder: Swift.Bool)
+  public init(shape: [Swift.Int], elements: [Swift.Float], endian: SatorSDK.Endian, isFortranOrder: Swift.Bool)
+  public init(shape: [Swift.Int], elements: [Swift.Double], endian: SatorSDK.Endian, isFortranOrder: Swift.Bool)
+}
+extension SatorSDK.SAINpy {
+  public func elements(_ type: Swift.Bool.Type = Bool.self) -> [Swift.Bool]
+  public func elements(_ type: Swift.UInt.Type = UInt.self) -> [Swift.UInt]
+  public func elements(_ type: Swift.UInt8.Type = UInt8.self) -> [Swift.UInt8]
+  public func elements(_ type: Swift.UInt16.Type = UInt16.self) -> [Swift.UInt16]
+  public func elements(_ type: Swift.UInt32.Type = UInt32.self) -> [Swift.UInt32]
+  public func elements(_ type: Swift.UInt64.Type = UInt64.self) -> [Swift.UInt64]
+  public func elements(_ type: Swift.Int.Type = Int.self) -> [Swift.Int]
+  public func elements(_ type: Swift.Int8.Type = Int8.self) -> [Swift.Int8]
+  public func elements(_ type: Swift.Int16.Type = Int16.self) -> [Swift.Int16]
+  public func elements(_ type: Swift.Int32.Type = Int32.self) -> [Swift.Int32]
+  public func elements(_ type: Swift.Int64.Type = Int64.self) -> [Swift.Int64]
+  public func elements(_ type: Swift.Float.Type = Float.self) -> [Swift.Float]
+  public func elements(_ type: Swift.Double.Type = Double.self) -> [Swift.Double]
+}
+public enum Endian : Swift.String {
+  case host
+  case big
+  case little
+  case na
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class SAISDK {
+  public static let shared: SatorSDK.SAISDK
+  public func setToken(_ token: Swift.String)
+  public func getToken() -> Swift.String?
+  public var resultImage: UIKit.UIImage?
+  public var imageCallback: ((_ image: UIKit.UIImage) -> Swift.Void)?
+  public var smartCreationCallBack: (() -> Swift.Void)?
+  public func performOperation(completion: (Swift.Result<Swift.String, any Swift.Error>) -> Swift.Void)
+  public func start()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class SAIStyle {
+  public struct Colors {
+    public static let primaryColor: UIKit.UIColor
+    public static let secondaryColor: UIKit.UIColor
+    public static let blackColor: UIKit.UIColor
+    public static let clearColor: UIKit.UIColor
+    public static let whiteColor: UIKit.UIColor
+    public static let backgroundColor1: UIKit.UIColor
+    public static let selectedColor1: UIKit.UIColor
+    public static let sliderBgColor: UIKit.UIColor
+    public static let brushColor: UIKit.UIColor
+    public static let brushColor1: UIKit.UIColor
+    public static let subToolViewBgColor: UIKit.UIColor
+    public static let modeltextColor: UIKit.UIColor
+    public static let textViewbg: UIKit.UIColor
+    public static let colror3B3B42: UIKit.UIColor
+  }
+  public struct hexColors {
+  }
+  public struct Fonts {
+    public static let titleFont: UIKit.UIFont
+    public static let bodyFont: UIKit.UIFont
+    public static let captionFont: UIKit.UIFont
+  }
+  public struct Sizes {
+    public static let cornerRadius: CoreFoundation.CGFloat
+    public static let borderWidth: CoreFoundation.CGFloat
+  }
+  public struct Spacing {
+    public static let small: CoreFoundation.CGFloat
+    public static let medium: CoreFoundation.CGFloat
+    public static let large: CoreFoundation.CGFloat
+  }
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class SAIBaseViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLayoutSubviews()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+extension SatorSDK.SAIDataType : Swift.Equatable {}
+extension SatorSDK.SAIDataType : Swift.Hashable {}
+extension SatorSDK.SAIDataType : Swift.RawRepresentable {}
+extension SatorSDK.Endian : Swift.Equatable {}
+extension SatorSDK.Endian : Swift.Hashable {}
+extension SatorSDK.Endian : Swift.RawRepresentable {}

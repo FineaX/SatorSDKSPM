@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/SatorSDK.h</key>
 		<data>
-		6RN8uKHiq1ZfwBxauRSC54rMy2Q=
+		0v0DsTWGIHlw9PHe8EROY4kCksY=
 		</data>
 		<key>Images.bundle/Root.plist</key>
 		<data>
@@ -313,21 +313,25 @@
 		<data>
 		06XjaKPGBqgkoU4AOx0M3MgB2QU=
 		</data>
+		<key>Images.bundle/testmodel.jpg</key>
+		<data>
+		kYuynAaH5tJIGyuYtLjiyRPlh9g=
+		</data>
 		<key>Info.plist</key>
 		<data>
-		5B2DsfrlSJRhETPNedMM+OuZTl8=
+		W/EquTECPhalVgZaS2I+HWARmJ8=
 		</data>
 		<key>Modules/SatorSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		VL+veqsKYKGFMfS9STD/MJjDPU8=
+		l/iaVwg4nj1HubYrfUUTwgCeZNk=
 		</data>
 		<key>Modules/SatorSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		fXxyTJjIli0Qf7M+EXPiC2+Q9BU=
+		ZVAngotxYvAoJtXChVHHtAJg+Kc=
 		</data>
 		<key>Modules/SatorSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		BevSZ8Wuym4G8tCq22ljrpCTUjk=
+		1RnERfyRUoXr3lA+rVKGCcPSUbg=
 		</data>
 		<key>Modules/SatorSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -335,11 +339,11 @@
 		</data>
 		<key>Modules/SatorSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		BevSZ8Wuym4G8tCq22ljrpCTUjk=
+		1RnERfyRUoXr3lA+rVKGCcPSUbg=
 		</data>
 		<key>Modules/SatorSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		QQbcQlD102aTlsZJ0EMCWt8heew=
+		D5JDqUGhfNjtF+PSet9yCQUleR4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -349,10 +353,6 @@
 		<data>
 		pZ9mc6s0RsG7ZN3zRct9bdKyb9k=
 		</data>
-		<key>default.metallib</key>
-		<data>
-		/5142c92KfvFTFvQ+ChrLnCU6q8=
-		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -360,11 +360,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6RN8uKHiq1ZfwBxauRSC54rMy2Q=
+			0v0DsTWGIHlw9PHe8EROY4kCksY=
 			</data>
 			<key>hash2</key>
 			<data>
-			cH0zW9E88hbS8CgfyAVllXw7yTAjXTkznI9OUGODsfQ=
+			qQINQ1LZVW213VhWTtrYI/K8p5C4zDM0tjtc6V9Znzo=
 			</data>
 		</dict>
 		<key>Images.bundle/Root.plist</key>
@@ -1194,37 +1194,48 @@
 			YEmY75asGhOWYJ7r8JsPb/4u/RNPNrPSFCD5SxEQ2t0=
 			</data>
 		</dict>
+		<key>Images.bundle/testmodel.jpg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			kYuynAaH5tJIGyuYtLjiyRPlh9g=
+			</data>
+			<key>hash2</key>
+			<data>
+			RMDVyTtzRXljmEPTvNhxEPWsWy0Xb1yUbHS11iQSER8=
+			</data>
+		</dict>
 		<key>Modules/SatorSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VL+veqsKYKGFMfS9STD/MJjDPU8=
+			l/iaVwg4nj1HubYrfUUTwgCeZNk=
 			</data>
 			<key>hash2</key>
 			<data>
-			bU2JXL7coA+psBSKwbON1vNj5KPvmipcgCQUFLgYwGE=
+			dFpTnkOe77gyp7vCLcdc+ESCZgyYtI/vGDm/uk6hhus=
 			</data>
 		</dict>
 		<key>Modules/SatorSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fXxyTJjIli0Qf7M+EXPiC2+Q9BU=
+			ZVAngotxYvAoJtXChVHHtAJg+Kc=
 			</data>
 			<key>hash2</key>
 			<data>
-			mBhw2XWPqpF71jCsrFV/gvJDfoU5fWObiwkgM+Sb2jY=
+			3TeB411cqzzvAoRjFVGxvTcF+au0eRlSwO9rSmuULO0=
 			</data>
 		</dict>
 		<key>Modules/SatorSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			BevSZ8Wuym4G8tCq22ljrpCTUjk=
+			1RnERfyRUoXr3lA+rVKGCcPSUbg=
 			</data>
 			<key>hash2</key>
 			<data>
-			8JgReo5bQQKCmC6UR+H2GS26M+St99PHYxGr3bqyi6k=
+			K8uAxh2JG2rjgrYjOhiYhRLk6yltUS5byo5yiJ6CBgM=
 			</data>
 		</dict>
 		<key>Modules/SatorSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -1242,22 +1253,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			BevSZ8Wuym4G8tCq22ljrpCTUjk=
+			1RnERfyRUoXr3lA+rVKGCcPSUbg=
 			</data>
 			<key>hash2</key>
 			<data>
-			8JgReo5bQQKCmC6UR+H2GS26M+St99PHYxGr3bqyi6k=
+			K8uAxh2JG2rjgrYjOhiYhRLk6yltUS5byo5yiJ6CBgM=
 			</data>
 		</dict>
 		<key>Modules/SatorSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QQbcQlD102aTlsZJ0EMCWt8heew=
+			D5JDqUGhfNjtF+PSet9yCQUleR4=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZX4Xdb4MequI2e+hJGVCtwUFFPoQ6ARSKDjLo1rH3YM=
+			UiBf1/ab/meehyoP/KlUL26iSQ8nhYDbFDKUW8yx0IY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -1280,17 +1291,6 @@
 			<key>hash2</key>
 			<data>
 			XfsK6WCU04qtTGAL3q2ehZe9mqjF0K8iB8YXfCwzj6E=
-			</data>
-		</dict>
-		<key>default.metallib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			/5142c92KfvFTFvQ+ChrLnCU6q8=
-			</data>
-			<key>hash2</key>
-			<data>
-			uH7T/uOtEqfq0Dr4bcS1efm70IFyb5u5x4YOFKFVKOE=
 			</data>
 		</dict>
 	</dict>
