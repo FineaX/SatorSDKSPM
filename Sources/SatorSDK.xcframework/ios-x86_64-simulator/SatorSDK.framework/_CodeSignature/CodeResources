@@ -343,7 +343,7 @@
 		</data>
 		<key>Modules/SatorSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		D5JDqUGhfNjtF+PSet9yCQUleR4=
+		fDEA/09YzeHyKGCx/P2V06KSXHI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -1264,11 +1264,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			D5JDqUGhfNjtF+PSet9yCQUleR4=
+			fDEA/09YzeHyKGCx/P2V06KSXHI=
 			</data>
 			<key>hash2</key>
 			<data>
-			UiBf1/ab/meehyoP/KlUL26iSQ8nhYDbFDKUW8yx0IY=
+			0z0Yqvvz+sejlfZ1un3no8ndaq87Daawu8JAPpVCvPY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
