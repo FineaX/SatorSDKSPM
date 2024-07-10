@@ -80,6 +80,16 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SatorSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "SDWebImage",
         "printedName": "SDWebImage",
         "declKind": "Import",
@@ -2320,6 +2330,30 @@
       },
       {
         "kind": "Import",
+        "name": "onnxruntime_objc",
+        "printedName": "onnxruntime_objc",
+        "declKind": "Import",
+        "moduleName": "SatorSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
+        "declKind": "Import",
+        "moduleName": "SatorSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SatorSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -2354,6 +2388,20 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "SDWebImage",
+        "printedName": "SDWebImage",
+        "declKind": "Import",
+        "moduleName": "SatorSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "onnxruntime_objc",
+        "printedName": "onnxruntime_objc",
+        "declKind": "Import",
+        "moduleName": "SatorSDK"
       },
       {
         "kind": "Import",
@@ -7070,6 +7118,16 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SatorSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "UInt16",
         "printedName": "UInt16",
@@ -8162,6 +8220,103 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "UIImage",
+        "printedName": "UIImage",
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIImage",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIImage",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "SynthesizedProtocol",
+          "NonSendable",
+          "Sendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SAIObjectCompatible",
+            "printedName": "SAIObjectCompatible",
+            "usr": "s:8SatorSDK19SAIObjectCompatibleP",
+            "mangledName": "$s8SatorSDK19SAIObjectCompatibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByImageLiteral",
+            "printedName": "_ExpressibleByImageLiteral",
+            "usr": "s:s26_ExpressibleByImageLiteralP",
+            "mangledName": "$ss26_ExpressibleByImageLiteralP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "UIViewController",
         "printedName": "UIViewController",
         "declKind": "Class",
@@ -8351,103 +8506,6 @@
             "printedName": "_ExpressibleByColorLiteral",
             "usr": "s:s26_ExpressibleByColorLiteralP",
             "mangledName": "$ss26_ExpressibleByColorLiteralP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "UIImage",
-        "printedName": "UIImage",
-        "declKind": "Class",
-        "usr": "c:objc(cs)UIImage",
-        "moduleName": "UIKit",
-        "isOpen": true,
-        "intro_iOS": "2.0",
-        "objc_name": "UIImage",
-        "declAttributes": [
-          "Available",
-          "ObjC",
-          "SynthesizedProtocol",
-          "NonSendable",
-          "Sendable",
-          "Dynamic"
-        ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "isExternal": true,
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "SAIObjectCompatible",
-            "printedName": "SAIObjectCompatible",
-            "usr": "s:8SatorSDK19SAIObjectCompatibleP",
-            "mangledName": "$s8SatorSDK19SAIObjectCompatibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_ExpressibleByImageLiteral",
-            "printedName": "_ExpressibleByImageLiteral",
-            "usr": "s:s26_ExpressibleByImageLiteralP",
-            "mangledName": "$ss26_ExpressibleByImageLiteralP"
           }
         ]
       },
@@ -10877,2998 +10935,3047 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Managers\/SAIPhotoManager.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Managers\/SAIPhotoManager.swift",
       "kind": "StringLiteral",
-      "offset": 217,
+      "offset": 264,
       "length": 14,
       "value": "\"DefaultAlbum\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIReshapeBackgroundView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIReshapeBackgroundView.swift",
       "kind": "FloatLiteral",
       "offset": 2257,
       "length": 4,
       "value": "65.0"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIReshapeBackgroundView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIReshapeBackgroundView.swift",
       "kind": "StringLiteral",
       "offset": 2413,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIReshapeBackgroundView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIReshapeBackgroundView.swift",
       "kind": "Array",
       "offset": 2896,
       "length": 16,
       "value": "[\"背景描述\"]"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIReshapeBackgroundView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIReshapeBackgroundView.swift",
       "kind": "Array",
       "offset": 2933,
       "length": 19,
       "value": "[\"icon_sec_bgdesc\"]"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAIModelStyleSelectView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAIModelStyleSelectView.swift",
       "kind": "BooleanLiteral",
       "offset": 6558,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAIModelStyleSelectView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAIModelStyleSelectView.swift",
       "kind": "StringLiteral",
       "offset": 12380,
       "length": 9,
       "value": "\"#0C0A18\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAIResizableImageMoveView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAIResizableImageMoveView.swift",
       "kind": "IntegerLiteral",
       "offset": 203,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAIResizableImageMoveView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAIResizableImageMoveView.swift",
       "kind": "FloatLiteral",
       "offset": 234,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAIResizableImageMoveView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAIResizableImageMoveView.swift",
       "kind": "IntegerLiteral",
       "offset": 380,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAIResizableImageMoveView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAIResizableImageMoveView.swift",
       "kind": "IntegerLiteral",
       "offset": 425,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAIResizableImageMoveView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAIResizableImageMoveView.swift",
       "kind": "FloatLiteral",
       "offset": 467,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAIResizableImageMoveView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAIResizableImageMoveView.swift",
       "kind": "BooleanLiteral",
       "offset": 715,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveView.swift",
       "kind": "StringLiteral",
       "offset": 411,
       "length": 14,
       "value": "\"保存设置\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveView.swift",
       "kind": "StringLiteral",
       "offset": 573,
       "length": 12,
       "value": "\"icon_close\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveView.swift",
       "kind": "StringLiteral",
       "offset": 813,
       "length": 14,
       "value": "\"原创算法\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveView.swift",
       "kind": "IntegerLiteral",
       "offset": 1080,
       "length": 2,
       "value": "68"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveView.swift",
       "kind": "IntegerLiteral",
       "offset": 1092,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveView.swift",
       "kind": "IntegerLiteral",
       "offset": 1132,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveView.swift",
       "kind": "IntegerLiteral",
       "offset": 1176,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveView.swift",
       "kind": "StringLiteral",
       "offset": 1560,
       "length": 17,
       "value": "\"保存至本地\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveView.swift",
       "kind": "StringLiteral",
       "offset": 2118,
       "length": 14,
       "value": "\"更多工具\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveView.swift",
       "kind": "StringLiteral",
       "offset": 2440,
       "length": 14,
       "value": "\"查看图库\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveView.swift",
       "kind": "StringLiteral",
       "offset": 2503,
       "length": 16,
       "value": "\"icon_save_cktk\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveView.swift",
       "kind": "StringLiteral",
       "offset": 2747,
       "length": 14,
       "value": "\"再次创作\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveView.swift",
       "kind": "StringLiteral",
       "offset": 2810,
       "length": 16,
       "value": "\"icon_save_zccz\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveView.swift",
       "kind": "StringLiteral",
       "offset": 3054,
       "length": 14,
       "value": "\"智能二创\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveView.swift",
       "kind": "StringLiteral",
       "offset": 3117,
       "length": 16,
       "value": "\"icon_save_zlec\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIMyPhotosModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIMyPhotosModel.swift",
       "kind": "BooleanLiteral",
       "offset": 1652,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIMyPhotosModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIMyPhotosModel.swift",
       "kind": "StringLiteral",
       "offset": 1763,
       "length": 10,
       "value": "\"imageUrl\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIMyPhotosModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIMyPhotosModel.swift",
       "kind": "StringLiteral",
       "offset": 1839,
       "length": 18,
       "value": "\"createByMemberId\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIMyPhotosModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIMyPhotosModel.swift",
       "kind": "StringLiteral",
       "offset": 1890,
       "length": 18,
       "value": "\"updateByMemberId\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIMyPhotosModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIMyPhotosModel.swift",
       "kind": "StringLiteral",
       "offset": 1969,
       "length": 10,
       "value": "\"memberId\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIMyPhotosModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIMyPhotosModel.swift",
       "kind": "StringLiteral",
       "offset": 2003,
       "length": 9,
       "value": "\"robotId\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIMyPhotosModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIMyPhotosModel.swift",
       "kind": "StringLiteral",
       "offset": 2058,
       "length": 8,
       "value": "\"linkId\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIMyPhotosModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIMyPhotosModel.swift",
       "kind": "StringLiteral",
       "offset": 1763,
       "length": 10,
       "value": "\"imageUrl\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIMyPhotosModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIMyPhotosModel.swift",
       "kind": "StringLiteral",
       "offset": 1839,
       "length": 18,
       "value": "\"createByMemberId\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIMyPhotosModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIMyPhotosModel.swift",
       "kind": "StringLiteral",
       "offset": 1890,
       "length": 18,
       "value": "\"updateByMemberId\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIMyPhotosModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIMyPhotosModel.swift",
       "kind": "StringLiteral",
       "offset": 1969,
       "length": 10,
       "value": "\"memberId\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIMyPhotosModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIMyPhotosModel.swift",
       "kind": "StringLiteral",
       "offset": 2003,
       "length": 9,
       "value": "\"robotId\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIMyPhotosModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIMyPhotosModel.swift",
       "kind": "StringLiteral",
       "offset": 2058,
       "length": 8,
       "value": "\"linkId\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAISubToolView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAISubToolView.swift",
       "kind": "BooleanLiteral",
       "offset": 231,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAISubToolView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAISubToolView.swift",
       "kind": "StringLiteral",
       "offset": 110,
       "length": 15,
       "value": "\"SatorSDK.SAISubToolModel\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAISubToolView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAISubToolView.swift",
       "kind": "BooleanLiteral",
       "offset": 492,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAISubToolView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAISubToolView.swift",
       "kind": "Array",
       "offset": 582,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAISubToolView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAISubToolView.swift",
       "kind": "StringLiteral",
       "offset": 698,
       "length": 17,
       "value": "\"icon_xiajiantou\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAISceneModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAISceneModel.swift",
       "kind": "StringLiteral",
       "offset": 896,
       "length": 9,
       "value": "\"groupId\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAISceneModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAISceneModel.swift",
       "kind": "StringLiteral",
       "offset": 896,
       "length": 9,
       "value": "\"groupId\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAISceneModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAISceneModel.swift",
       "kind": "BooleanLiteral",
       "offset": 1330,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAISceneModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAISceneModel.swift",
       "kind": "StringLiteral",
       "offset": 1425,
       "length": 8,
       "value": "\"imgUrl\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAISceneModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAISceneModel.swift",
       "kind": "StringLiteral",
       "offset": 1425,
       "length": 8,
       "value": "\"imgUrl\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/First\/SAISmudgeRemovalToolView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/First\/SAISmudgeRemovalToolView.swift",
       "kind": "StringLiteral",
       "offset": 177,
       "length": 10,
       "value": "\"test.jpg\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/First\/SAISmudgeRemovalToolView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/First\/SAISmudgeRemovalToolView.swift",
       "kind": "StringLiteral",
       "offset": 214,
       "length": 10,
       "value": "\"test.jpg\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/First\/SAISmudgeRemovalToolView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/First\/SAISmudgeRemovalToolView.swift",
       "kind": "StringLiteral",
       "offset": 248,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/First\/SAISmudgeRemovalToolView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/First\/SAISmudgeRemovalToolView.swift",
       "kind": "BooleanLiteral",
       "offset": 270,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/First\/SAISmudgeRemovalToolView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/First\/SAISmudgeRemovalToolView.swift",
       "kind": "FloatLiteral",
       "offset": 2298,
       "length": 4,
       "value": "65.0"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/First\/SAISmudgeRemovalToolView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/First\/SAISmudgeRemovalToolView.swift",
       "kind": "BooleanLiteral",
       "offset": 2479,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/First\/SAISmudgeRemovalToolView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/First\/SAISmudgeRemovalToolView.swift",
       "kind": "Array",
       "offset": 2609,
       "length": 28,
       "value": "[\"画笔\", \"选区\", \"擦除\"]"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/First\/SAISmudgeRemovalToolView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/First\/SAISmudgeRemovalToolView.swift",
       "kind": "Array",
       "offset": 2658,
       "length": 43,
       "value": "[\"icon_huabi\", \"icon_xuanqu\", \"icon_xiangpi\"]"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/First\/SAISmudgeRemovalToolView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/First\/SAISmudgeRemovalToolView.swift",
       "kind": "Array",
       "offset": 2728,
       "length": 64,
       "value": "[\"icon_huabi_select\", \"icon_xuanqu_select\", \"icon_xiangpi_select\"]"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Extensions\/UIViewController+SAIObjectWrapper.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Extensions\/UIViewController+SAIObjectWrapper.swift",
       "kind": "StringLiteral",
       "offset": 290,
       "length": 8,
       "value": "\"确定\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Extensions\/UIViewController+SAIObjectWrapper.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Extensions\/UIViewController+SAIObjectWrapper.swift",
       "kind": "StringLiteral",
       "offset": 332,
       "length": 8,
       "value": "\"取消\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAIModelFaceByPhotosView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAIModelFaceByPhotosView.swift",
       "kind": "BooleanLiteral",
       "offset": 372,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAIModelFaceByPhotosView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAIModelFaceByPhotosView.swift",
       "kind": "BooleanLiteral",
       "offset": 613,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAIModelFaceByPhotosView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAIModelFaceByPhotosView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6372,
+      "offset": 6379,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAIModelFaceByPhotosView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAIModelFaceByPhotosView.swift",
       "kind": "Array",
-      "offset": 6602,
+      "offset": 6609,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAIMyPhotosController.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAIMyPhotosController.swift",
       "kind": "BooleanLiteral",
       "offset": 497,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Managers\/SAINetWorkManager.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Managers\/SAINetWorkManager.swift",
       "kind": "Dictionary",
       "offset": 260,
       "length": 88,
       "value": "[(\"Content-Type\", \"application\/json\"), (\"Accept\", \"application\/json\")]"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Managers\/SAINetWorkManager.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Managers\/SAINetWorkManager.swift",
       "kind": "Dictionary",
       "offset": 479,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAISecondVc+SAIModelStyleSelectView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAISecondVc+SAIModelStyleSelectView.swift",
       "kind": "BooleanLiteral",
       "offset": 266,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAISecondVc+SAIModelStyleSelectView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAISecondVc+SAIModelStyleSelectView.swift",
       "kind": "StringLiteral",
       "offset": 119,
       "length": 43,
       "value": "\"SatorSDK.SAISecondVc_SAIModelStyleSelectViewDelegate\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAISecondVc+SAISmartBackgroundView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAISecondVc+SAISmartBackgroundView.swift",
       "kind": "BooleanLiteral",
       "offset": 267,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAISecondVc+SAISmartBackgroundView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAISecondVc+SAISmartBackgroundView.swift",
       "kind": "StringLiteral",
       "offset": 118,
       "length": 42,
       "value": "\"SatorSDK.SAISecondVc_SAISmartBackgroundViewDelegate\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIThirdVc+SAIExpandView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIThirdVc+SAIExpandView.swift",
       "kind": "BooleanLiteral",
       "offset": 276,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIThirdVc+SAIExpandView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIThirdVc+SAIExpandView.swift",
       "kind": "StringLiteral",
       "offset": 312,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIThirdVc+SAIExpandView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIThirdVc+SAIExpandView.swift",
       "kind": "StringLiteral",
       "offset": 129,
       "length": 32,
       "value": "\"SatorSDK.SAIThirdVc_SAIExpandViewDelegate\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/First\/SAIToolView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/First\/SAIToolView.swift",
       "kind": "StringLiteral",
       "offset": 4240,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/First\/SAIToolView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/First\/SAIToolView.swift",
       "kind": "StringLiteral",
       "offset": 4261,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Extensions\/UIView+SAIObjectWrapper.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Extensions\/UIView+SAIObjectWrapper.swift",
       "kind": "IntegerLiteral",
       "offset": 3453,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Extensions\/UIView+SAIObjectWrapper.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Extensions\/UIView+SAIObjectWrapper.swift",
       "kind": "FloatLiteral",
       "offset": 5381,
       "length": 4,
       "value": "0.35"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Extensions\/UIView+SAIObjectWrapper.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Extensions\/UIView+SAIObjectWrapper.swift",
       "kind": "FloatLiteral",
       "offset": 6017,
       "length": 4,
       "value": "0.35"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Extensions\/UIView+SAIObjectWrapper.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Extensions\/UIView+SAIObjectWrapper.swift",
       "kind": "FloatLiteral",
       "offset": 6821,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAIDataType.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAIDataType.swift",
       "kind": "StringLiteral",
       "offset": 51,
       "length": 4,
       "value": "\"b1\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAIDataType.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAIDataType.swift",
       "kind": "StringLiteral",
       "offset": 78,
       "length": 4,
       "value": "\"u1\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAIDataType.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAIDataType.swift",
       "kind": "StringLiteral",
       "offset": 101,
       "length": 4,
       "value": "\"u2\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAIDataType.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAIDataType.swift",
       "kind": "StringLiteral",
       "offset": 124,
       "length": 4,
       "value": "\"u4\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAIDataType.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAIDataType.swift",
       "kind": "StringLiteral",
       "offset": 147,
       "length": 4,
       "value": "\"u8\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAIDataType.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAIDataType.swift",
       "kind": "StringLiteral",
       "offset": 173,
       "length": 4,
       "value": "\"i1\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAIDataType.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAIDataType.swift",
       "kind": "StringLiteral",
       "offset": 195,
       "length": 4,
       "value": "\"i2\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAIDataType.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAIDataType.swift",
       "kind": "StringLiteral",
       "offset": 217,
       "length": 4,
       "value": "\"i4\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAIDataType.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAIDataType.swift",
       "kind": "StringLiteral",
       "offset": 239,
       "length": 4,
       "value": "\"i8\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAIDataType.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAIDataType.swift",
       "kind": "StringLiteral",
       "offset": 268,
       "length": 4,
       "value": "\"f4\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAIDataType.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAIDataType.swift",
       "kind": "StringLiteral",
       "offset": 292,
       "length": 4,
       "value": "\"f8\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAIDataType.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAIDataType.swift",
       "kind": "StringLiteral",
       "offset": 51,
       "length": 4,
       "value": "\"b1\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAIDataType.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAIDataType.swift",
       "kind": "StringLiteral",
       "offset": 78,
       "length": 4,
       "value": "\"u1\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAIDataType.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAIDataType.swift",
       "kind": "StringLiteral",
       "offset": 101,
       "length": 4,
       "value": "\"u2\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAIDataType.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAIDataType.swift",
       "kind": "StringLiteral",
       "offset": 124,
       "length": 4,
       "value": "\"u4\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAIDataType.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAIDataType.swift",
       "kind": "StringLiteral",
       "offset": 147,
       "length": 4,
       "value": "\"u8\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAIDataType.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAIDataType.swift",
       "kind": "StringLiteral",
       "offset": 173,
       "length": 4,
       "value": "\"i1\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAIDataType.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAIDataType.swift",
       "kind": "StringLiteral",
       "offset": 195,
       "length": 4,
       "value": "\"i2\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAIDataType.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAIDataType.swift",
       "kind": "StringLiteral",
       "offset": 217,
       "length": 4,
       "value": "\"i4\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAIDataType.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAIDataType.swift",
       "kind": "StringLiteral",
       "offset": 239,
       "length": 4,
       "value": "\"i8\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAIDataType.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAIDataType.swift",
       "kind": "StringLiteral",
       "offset": 268,
       "length": 4,
       "value": "\"f4\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAIDataType.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAIDataType.swift",
       "kind": "StringLiteral",
       "offset": 292,
       "length": 4,
       "value": "\"f8\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAISegementView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAISegementView.swift",
       "kind": "Array",
       "offset": 411,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAISegementView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAISegementView.swift",
       "kind": "IntegerLiteral",
       "offset": 455,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAISegementView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAISegementView.swift",
       "kind": "IntegerLiteral",
       "offset": 565,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAISegementView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAISegementView.swift",
       "kind": "Array",
       "offset": 661,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIReshapeFaceView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIReshapeFaceView.swift",
       "kind": "BooleanLiteral",
       "offset": 2214,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIReshapeFaceView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIReshapeFaceView.swift",
       "kind": "BooleanLiteral",
       "offset": 2455,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveController.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveController.swift",
       "kind": "StringLiteral",
       "offset": 167,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveController.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveController.swift",
       "kind": "BooleanLiteral",
       "offset": 187,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveController.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveController.swift",
       "kind": "StringLiteral",
       "offset": 457,
       "length": 14,
       "value": "\"保存设置\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveController.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveController.swift",
       "kind": "StringLiteral",
       "offset": 619,
       "length": 12,
       "value": "\"icon_close\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveController.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveController.swift",
       "kind": "StringLiteral",
       "offset": 859,
       "length": 14,
       "value": "\"原创算法\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveController.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveController.swift",
       "kind": "IntegerLiteral",
       "offset": 1126,
       "length": 2,
       "value": "68"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveController.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveController.swift",
       "kind": "IntegerLiteral",
       "offset": 1138,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveController.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveController.swift",
       "kind": "IntegerLiteral",
       "offset": 1178,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveController.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveController.swift",
       "kind": "IntegerLiteral",
       "offset": 1222,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveController.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveController.swift",
       "kind": "StringLiteral",
       "offset": 1606,
       "length": 17,
       "value": "\"保存至本地\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveController.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveController.swift",
       "kind": "StringLiteral",
       "offset": 2164,
       "length": 14,
       "value": "\"更多工具\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveController.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveController.swift",
       "kind": "StringLiteral",
       "offset": 2486,
       "length": 14,
       "value": "\"查看图库\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveController.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveController.swift",
       "kind": "StringLiteral",
       "offset": 2549,
       "length": 16,
       "value": "\"icon_save_cktk\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveController.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveController.swift",
       "kind": "StringLiteral",
       "offset": 2793,
       "length": 14,
       "value": "\"再次创作\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveController.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveController.swift",
       "kind": "StringLiteral",
       "offset": 2856,
       "length": 16,
       "value": "\"icon_save_zccz\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveController.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveController.swift",
       "kind": "StringLiteral",
       "offset": 3100,
       "length": 14,
       "value": "\"智能二创\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveController.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAISaveController.swift",
       "kind": "StringLiteral",
       "offset": 3163,
       "length": 16,
       "value": "\"icon_save_zlec\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIBaseView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIBaseView.swift",
       "kind": "IntegerLiteral",
       "offset": 270,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIBaseView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIBaseView.swift",
       "kind": "IntegerLiteral",
       "offset": 291,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIBaseView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIBaseView.swift",
       "kind": "BooleanLiteral",
       "offset": 334,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIBaseNavigationController.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIBaseNavigationController.swift",
       "kind": "StringLiteral",
       "offset": 129,
       "length": 27,
       "value": "\"SatorSDK.SAIBaseNavigationController\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAISystemPhotosController.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAISystemPhotosController.swift",
       "kind": "Array",
       "offset": 449,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAISystemPhotosController.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAISystemPhotosController.swift",
       "kind": "Array",
       "offset": 484,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIThirdVc+SAISmudgeremovalToolView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIThirdVc+SAISmudgeremovalToolView.swift",
       "kind": "BooleanLiteral",
       "offset": 358,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIThirdVc+SAISmudgeremovalToolView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIThirdVc+SAISmudgeremovalToolView.swift",
       "kind": "StringLiteral",
       "offset": 149,
       "length": 43,
       "value": "\"SatorSDK.SAIThirdVc_SAISmudgeremovalToolViewDelegate\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIExpandBorderView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIExpandBorderView.swift",
       "kind": "IntegerLiteral",
       "offset": 1008,
       "length": 4,
       "value": "3000"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIExpandBorderView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIExpandBorderView.swift",
       "kind": "IntegerLiteral",
       "offset": 1022,
       "length": 4,
       "value": "3000"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIExpandBorderView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIExpandBorderView.swift",
       "kind": "FloatLiteral",
       "offset": 1067,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIExpandBorderView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIExpandBorderView.swift",
       "kind": "FloatLiteral",
       "offset": 1080,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIExpandBorderView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIExpandBorderView.swift",
       "kind": "FloatLiteral",
       "offset": 1277,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIExpandBorderView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIExpandBorderView.swift",
       "kind": "FloatLiteral",
       "offset": 1290,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIExpandBorderView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIExpandBorderView.swift",
       "kind": "IntegerLiteral",
       "offset": 4359,
       "length": 2,
       "value": "40"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIExpandView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIExpandView.swift",
       "kind": "FloatLiteral",
       "offset": 2087,
       "length": 4,
       "value": "65.0"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIExpandView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIExpandView.swift",
       "kind": "BooleanLiteral",
       "offset": 2205,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIExpandView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIExpandView.swift",
       "kind": "StringLiteral",
       "offset": 2226,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIExpandView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIExpandView.swift",
       "kind": "Array",
-      "offset": 2292,
+      "offset": 2339,
       "length": 19,
       "value": "[\"尺寸\", \"描述\"]"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIExpandView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIExpandView.swift",
       "kind": "Array",
-      "offset": 2332,
+      "offset": 2379,
       "length": 33,
       "value": "[\"icon_huaban\", \"icon_sec_bgdesc\"]"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/First\/imtest.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/First\/imtest.swift",
       "kind": "StringLiteral",
       "offset": 727,
       "length": 16,
       "value": "\"transformColor\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/First\/imtest.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/First\/imtest.swift",
       "kind": "IntegerLiteral",
       "offset": 847,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIGetModelConfigModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIGetModelConfigModel.swift",
       "kind": "StringLiteral",
       "offset": 603,
       "length": 7,
       "value": "\"ageId\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIGetModelConfigModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIGetModelConfigModel.swift",
       "kind": "StringLiteral",
       "offset": 603,
       "length": 7,
       "value": "\"ageId\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIGetModelConfigModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIGetModelConfigModel.swift",
       "kind": "StringLiteral",
       "offset": 1103,
       "length": 12,
       "value": "\"categoryId\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIGetModelConfigModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIGetModelConfigModel.swift",
       "kind": "StringLiteral",
       "offset": 1103,
       "length": 12,
       "value": "\"categoryId\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIGetModelConfigModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIGetModelConfigModel.swift",
       "kind": "BooleanLiteral",
       "offset": 1565,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIGetModelConfigModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIGetModelConfigModel.swift",
       "kind": "StringLiteral",
       "offset": 1635,
       "length": 9,
       "value": "\"modelId\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIGetModelConfigModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIGetModelConfigModel.swift",
       "kind": "StringLiteral",
       "offset": 1701,
       "length": 14,
       "value": "\"modelGroupId\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIGetModelConfigModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIGetModelConfigModel.swift",
       "kind": "StringLiteral",
       "offset": 1635,
       "length": 9,
       "value": "\"modelId\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIGetModelConfigModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIGetModelConfigModel.swift",
       "kind": "StringLiteral",
       "offset": 1701,
       "length": 14,
       "value": "\"modelGroupId\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAIAlbumListView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAIAlbumListView.swift",
       "kind": "BooleanLiteral",
       "offset": 164,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAIAlbumListView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAIAlbumListView.swift",
       "kind": "Array",
       "offset": 505,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/First\/SAIMaterailVc+SAICanvasToolView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/First\/SAIMaterailVc+SAICanvasToolView.swift",
       "kind": "StringLiteral",
       "offset": 144,
       "length": 40,
       "value": "\"SatorSDK.SAIMaterialController_CanvasToolDelegate\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAISecondVc+SAISmudgeremovalToolView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAISecondVc+SAISmudgeremovalToolView.swift",
       "kind": "BooleanLiteral",
-      "offset": 368,
+      "offset": 366,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAISecondVc+SAISmudgeremovalToolView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAISecondVc+SAISmudgeremovalToolView.swift",
       "kind": "StringLiteral",
-      "offset": 441,
+      "offset": 437,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAISecondVc+SAISmudgeremovalToolView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAISecondVc+SAISmudgeremovalToolView.swift",
+      "kind": "StringLiteral",
+      "offset": 509,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAISecondVc+SAISmudgeremovalToolView.swift",
       "kind": "StringLiteral",
       "offset": 150,
       "length": 44,
       "value": "\"SatorSDK.SAISecondVc_SAISmudgeremovalToolViewDelegate\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/First\/SAIMaterialController.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/First\/SAIMaterialController.swift",
       "kind": "StringLiteral",
       "offset": 297,
       "length": 42,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/First\/SAIMaterialController.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/First\/SAIMaterialController.swift",
       "kind": "StringLiteral",
       "offset": 317,
       "length": 1,
       "value": "\"*\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/First\/SAIMaterialController.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/First\/SAIMaterialController.swift",
       "kind": "StringLiteral",
       "offset": 338,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/First\/SAIMaterialController.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/First\/SAIMaterialController.swift",
       "kind": "FloatLiteral",
       "offset": 2076,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/First\/SAIMaterialController.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/First\/SAIMaterialController.swift",
       "kind": "IntegerLiteral",
       "offset": 2112,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/First\/SAIMaterialController.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/First\/SAIMaterialController.swift",
       "kind": "BooleanLiteral",
       "offset": 3142,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAIDoodleView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAIDoodleView.swift",
       "kind": "StringLiteral",
       "offset": 142,
       "length": 8,
       "value": "\"矩形\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAIDoodleView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAIDoodleView.swift",
       "kind": "StringLiteral",
       "offset": 169,
       "length": 8,
       "value": "\"圆形\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAIDoodleView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAIDoodleView.swift",
       "kind": "StringLiteral",
       "offset": 195,
       "length": 8,
       "value": "\"画笔\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAIDoodleView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAIDoodleView.swift",
       "kind": "StringLiteral",
       "offset": 222,
       "length": 11,
       "value": "\"橡皮擦\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAIDoodleView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAIDoodleView.swift",
       "kind": "StringLiteral",
       "offset": 142,
       "length": 8,
       "value": "\"矩形\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAIDoodleView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAIDoodleView.swift",
       "kind": "StringLiteral",
       "offset": 169,
       "length": 8,
       "value": "\"圆形\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAIDoodleView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAIDoodleView.swift",
       "kind": "StringLiteral",
       "offset": 195,
       "length": 8,
       "value": "\"画笔\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAIDoodleView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAIDoodleView.swift",
       "kind": "StringLiteral",
       "offset": 222,
       "length": 11,
       "value": "\"橡皮擦\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAIDoodleView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAIDoodleView.swift",
       "kind": "FloatLiteral",
       "offset": 318,
       "length": 4,
       "value": "10.0"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAIDoodleView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAIDoodleView.swift",
       "kind": "BooleanLiteral",
       "offset": 372,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAIDoodleView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAIDoodleView.swift",
       "kind": "FloatLiteral",
       "offset": 689,
       "length": 4,
       "value": "10.0"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAIDoodleView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAIDoodleView.swift",
       "kind": "BooleanLiteral",
       "offset": 782,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAIDoodleView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAIDoodleView.swift",
       "kind": "BooleanLiteral",
       "offset": 885,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAIDoodleView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAIDoodleView.swift",
       "kind": "BooleanLiteral",
       "offset": 915,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAIDoodleView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAIDoodleView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1063,
+      "offset": 1088,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Managers\/SAIAPIManager.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAIDoodleView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1282,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Managers\/SAIAPIManager.swift",
       "kind": "StringLiteral",
       "offset": 204,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Managers\/SAIAPIManager.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Managers\/SAIAPIManager.swift",
       "kind": "StringLiteral",
       "offset": 230,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Managers\/SAIAPIManager.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Managers\/SAIAPIManager.swift",
       "kind": "StringLiteral",
       "offset": 265,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Managers\/SAIAPIManager.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Managers\/SAIAPIManager.swift",
       "kind": "StringLiteral",
       "offset": 301,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Managers\/SAIAPIManager.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Managers\/SAIAPIManager.swift",
       "kind": "StringLiteral",
       "offset": 343,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Managers\/SAIAPIManager.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Managers\/SAIAPIManager.swift",
       "kind": "StringLiteral",
       "offset": 362,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIThirdVc+SAIlocalRedrawView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIThirdVc+SAIlocalRedrawView.swift",
       "kind": "BooleanLiteral",
       "offset": 279,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIThirdVc+SAIlocalRedrawView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIThirdVc+SAIlocalRedrawView.swift",
       "kind": "StringLiteral",
       "offset": 315,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIThirdVc+SAIlocalRedrawView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIThirdVc+SAIlocalRedrawView.swift",
       "kind": "StringLiteral",
       "offset": 388,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIThirdVc+SAIlocalRedrawView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIThirdVc+SAIlocalRedrawView.swift",
+      "kind": "StringLiteral",
+      "offset": 455,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIThirdVc+SAIlocalRedrawView.swift",
       "kind": "StringLiteral",
       "offset": 143,
       "length": 35,
       "value": "\"SatorSDK.SAIThird_SAIlocalRedrawViewDelegate\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
       "kind": "StringLiteral",
       "offset": 594,
       "length": 12,
       "value": "\"result_url\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
       "kind": "StringLiteral",
       "offset": 653,
       "length": 13,
       "value": "\"status_code\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
       "kind": "StringLiteral",
       "offset": 692,
       "length": 12,
       "value": "\"error_code\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
       "kind": "StringLiteral",
       "offset": 729,
       "length": 11,
       "value": "\"error_msg\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
       "kind": "StringLiteral",
       "offset": 770,
       "length": 16,
       "value": "\"time_consuming\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
       "kind": "StringLiteral",
       "offset": 594,
       "length": 12,
       "value": "\"result_url\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
       "kind": "StringLiteral",
       "offset": 653,
       "length": 13,
       "value": "\"status_code\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
       "kind": "StringLiteral",
       "offset": 692,
       "length": 12,
       "value": "\"error_code\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
       "kind": "StringLiteral",
       "offset": 729,
       "length": 11,
       "value": "\"error_msg\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
       "kind": "StringLiteral",
       "offset": 770,
       "length": 16,
       "value": "\"time_consuming\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
       "kind": "StringLiteral",
       "offset": 1380,
       "length": 9,
       "value": "\"img_url\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
       "kind": "StringLiteral",
       "offset": 1414,
       "length": 10,
       "value": "\"ImageURL\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
       "kind": "StringLiteral",
       "offset": 1471,
       "length": 13,
       "value": "\"status_code\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
       "kind": "StringLiteral",
       "offset": 1510,
       "length": 12,
       "value": "\"error_code\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
       "kind": "StringLiteral",
       "offset": 1547,
       "length": 11,
       "value": "\"error_msg\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
       "kind": "StringLiteral",
       "offset": 1588,
       "length": 16,
       "value": "\"time_consuming\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
       "kind": "StringLiteral",
       "offset": 1380,
       "length": 9,
       "value": "\"img_url\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
       "kind": "StringLiteral",
       "offset": 1414,
       "length": 10,
       "value": "\"ImageURL\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
       "kind": "StringLiteral",
       "offset": 1471,
       "length": 13,
       "value": "\"status_code\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
       "kind": "StringLiteral",
       "offset": 1510,
       "length": 12,
       "value": "\"error_code\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
       "kind": "StringLiteral",
       "offset": 1547,
       "length": 11,
       "value": "\"error_msg\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
       "kind": "StringLiteral",
       "offset": 1588,
       "length": 16,
       "value": "\"time_consuming\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
       "kind": "StringLiteral",
       "offset": 2451,
       "length": 10,
       "value": "\"pic_urls\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
       "kind": "StringLiteral",
       "offset": 2451,
       "length": 10,
       "value": "\"pic_urls\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
       "kind": "StringLiteral",
       "offset": 2732,
       "length": 9,
       "value": "\"task_id\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
       "kind": "StringLiteral",
       "offset": 2732,
       "length": 9,
       "value": "\"task_id\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
       "kind": "StringLiteral",
       "offset": 3050,
       "length": 8,
       "value": "\"imgUrl\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
       "kind": "StringLiteral",
       "offset": 3105,
       "length": 13,
       "value": "\"status_code\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
       "kind": "StringLiteral",
       "offset": 3144,
       "length": 12,
       "value": "\"error_code\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
       "kind": "StringLiteral",
       "offset": 3181,
       "length": 11,
       "value": "\"error_msg\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
       "kind": "StringLiteral",
       "offset": 3222,
       "length": 16,
       "value": "\"time_consuming\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
       "kind": "StringLiteral",
       "offset": 3050,
       "length": 8,
       "value": "\"imgUrl\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
       "kind": "StringLiteral",
       "offset": 3105,
       "length": 13,
       "value": "\"status_code\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
       "kind": "StringLiteral",
       "offset": 3144,
       "length": 12,
       "value": "\"error_code\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
       "kind": "StringLiteral",
       "offset": 3181,
       "length": 11,
       "value": "\"error_msg\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
       "kind": "StringLiteral",
       "offset": 3222,
       "length": 16,
       "value": "\"time_consuming\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
       "kind": "StringLiteral",
       "offset": 4048,
       "length": 9,
       "value": "\"task_id\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
       "kind": "StringLiteral",
       "offset": 4048,
       "length": 9,
       "value": "\"task_id\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
       "kind": "StringLiteral",
       "offset": 4320,
       "length": 9,
       "value": "\"task_id\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
       "kind": "StringLiteral",
       "offset": 4355,
       "length": 12,
       "value": "\"error_code\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
       "kind": "StringLiteral",
       "offset": 4392,
       "length": 11,
       "value": "\"error_msg\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
       "kind": "StringLiteral",
       "offset": 4320,
       "length": 9,
       "value": "\"task_id\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
       "kind": "StringLiteral",
       "offset": 4355,
       "length": 12,
       "value": "\"error_code\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
       "kind": "StringLiteral",
       "offset": 4392,
       "length": 11,
       "value": "\"error_msg\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
       "kind": "StringLiteral",
       "offset": 5180,
       "length": 12,
       "value": "\"templateId\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
       "kind": "StringLiteral",
       "offset": 5180,
       "length": 12,
       "value": "\"templateId\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIThirdVc+SAICutOutToolView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIThirdVc+SAICutOutToolView.swift",
       "kind": "BooleanLiteral",
       "offset": 303,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIThirdVc+SAICutOutToolView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIThirdVc+SAICutOutToolView.swift",
       "kind": "IntegerLiteral",
       "offset": 412,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIThirdVc+SAICutOutToolView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIThirdVc+SAICutOutToolView.swift",
       "kind": "StringLiteral",
       "offset": 142,
       "length": 36,
       "value": "\"SatorSDK.SAIThirdVc_SAICutOutToolViewDelegate\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
       "kind": "StringLiteral",
       "offset": 276,
       "length": 9,
       "value": "\"task_id\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
       "kind": "StringLiteral",
       "offset": 311,
       "length": 12,
       "value": "\"error_code\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
       "kind": "StringLiteral",
       "offset": 348,
       "length": 11,
       "value": "\"error_msg\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
       "kind": "StringLiteral",
       "offset": 276,
       "length": 9,
       "value": "\"task_id\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
       "kind": "StringLiteral",
       "offset": 311,
       "length": 12,
       "value": "\"error_code\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
       "kind": "StringLiteral",
       "offset": 348,
       "length": 11,
       "value": "\"error_msg\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
       "kind": "StringLiteral",
       "offset": 972,
       "length": 9,
       "value": "\"task_id\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
       "kind": "StringLiteral",
       "offset": 972,
       "length": 9,
       "value": "\"task_id\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
       "kind": "StringLiteral",
       "offset": 2404,
       "length": 10,
       "value": "\"imageUrl\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
       "kind": "StringLiteral",
       "offset": 2480,
       "length": 18,
       "value": "\"createByMemberId\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
       "kind": "StringLiteral",
       "offset": 2531,
       "length": 18,
       "value": "\"updateByMemberId\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
       "kind": "StringLiteral",
       "offset": 2610,
       "length": 10,
       "value": "\"memberId\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
       "kind": "StringLiteral",
       "offset": 2644,
       "length": 9,
       "value": "\"robotId\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
       "kind": "StringLiteral",
       "offset": 2699,
       "length": 8,
       "value": "\"linkId\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
       "kind": "StringLiteral",
       "offset": 2404,
       "length": 10,
       "value": "\"imageUrl\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
       "kind": "StringLiteral",
       "offset": 2480,
       "length": 18,
       "value": "\"createByMemberId\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
       "kind": "StringLiteral",
       "offset": 2531,
       "length": 18,
       "value": "\"updateByMemberId\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
       "kind": "StringLiteral",
       "offset": 2610,
       "length": 10,
       "value": "\"memberId\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
       "kind": "StringLiteral",
       "offset": 2644,
       "length": 9,
       "value": "\"robotId\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
       "kind": "StringLiteral",
       "offset": 2699,
       "length": 8,
       "value": "\"linkId\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
       "kind": "StringLiteral",
       "offset": 4989,
       "length": 7,
       "value": "\"imgId\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
       "kind": "StringLiteral",
       "offset": 5019,
       "length": 8,
       "value": "\"imgUrl\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
       "kind": "StringLiteral",
       "offset": 4989,
       "length": 7,
       "value": "\"imgId\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
       "kind": "StringLiteral",
       "offset": 5019,
       "length": 8,
       "value": "\"imgUrl\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAIGradientButtonView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAIGradientButtonView.swift",
       "kind": "BooleanLiteral",
       "offset": 254,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAIWriteBGView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Managers\/SAIOnnxManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 561,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAIWriteBGView.swift",
       "kind": "BooleanLiteral",
       "offset": 2953,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAIWriteBGView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAIWriteBGView.swift",
       "kind": "IntegerLiteral",
       "offset": 3008,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIThirdVc+SAIhighResolutionRepairView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIThirdVc+SAIhighResolutionRepairView.swift",
       "kind": "IntegerLiteral",
       "offset": 334,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIThirdVc+SAIhighResolutionRepairView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIThirdVc+SAIhighResolutionRepairView.swift",
       "kind": "BooleanLiteral",
       "offset": 357,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIThirdVc+SAIhighResolutionRepairView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIThirdVc+SAIhighResolutionRepairView.swift",
       "kind": "StringLiteral",
       "offset": 152,
       "length": 46,
       "value": "\"SatorSDK.SAIThirdVc_SAIhighResolutionRepairViewDelegate\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIDefine.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/TestOnnxController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2271,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIDefine.swift",
       "kind": "StringLiteral",
       "offset": 166,
       "length": 8,
       "value": "\"画板\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIDefine.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIDefine.swift",
       "kind": "StringLiteral",
       "offset": 207,
       "length": 14,
       "value": "\"高清修复\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIDefine.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIDefine.swift",
       "kind": "StringLiteral",
       "offset": 247,
       "length": 14,
       "value": "\"涂抹消除\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIDefine.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIDefine.swift",
       "kind": "StringLiteral",
       "offset": 280,
       "length": 8,
       "value": "\"抠图\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIDefine.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIDefine.swift",
       "kind": "StringLiteral",
       "offset": 317,
       "length": 14,
       "value": "\"局部重绘\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIDefine.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIDefine.swift",
       "kind": "StringLiteral",
       "offset": 356,
       "length": 8,
       "value": "\"扩图\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIDefine.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIDefine.swift",
       "kind": "StringLiteral",
       "offset": 394,
       "length": 14,
       "value": "\"重塑背景\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIDefine.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIDefine.swift",
       "kind": "StringLiteral",
       "offset": 432,
       "length": 14,
       "value": "\"重塑面容\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIDefine.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIDefine.swift",
       "kind": "StringLiteral",
       "offset": 166,
       "length": 8,
       "value": "\"画板\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIDefine.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIDefine.swift",
       "kind": "StringLiteral",
       "offset": 207,
       "length": 14,
       "value": "\"高清修复\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIDefine.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIDefine.swift",
       "kind": "StringLiteral",
       "offset": 247,
       "length": 14,
       "value": "\"涂抹消除\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIDefine.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIDefine.swift",
       "kind": "StringLiteral",
       "offset": 280,
       "length": 8,
       "value": "\"抠图\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIDefine.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIDefine.swift",
       "kind": "StringLiteral",
       "offset": 317,
       "length": 14,
       "value": "\"局部重绘\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIDefine.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIDefine.swift",
       "kind": "StringLiteral",
       "offset": 356,
       "length": 8,
       "value": "\"扩图\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIDefine.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIDefine.swift",
       "kind": "StringLiteral",
       "offset": 394,
       "length": 14,
       "value": "\"重塑背景\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIDefine.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIDefine.swift",
       "kind": "StringLiteral",
       "offset": 432,
       "length": 14,
       "value": "\"重塑面容\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIDefine.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIDefine.swift",
+      "kind": "StringLiteral",
+      "offset": 467,
+      "length": 76,
+      "value": "\"https:\/\/ai-static.vanns.cn\/pub\/models\/onnx\/sam_onnx_quantized_example.onnx\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIDefine.swift",
+      "kind": "StringLiteral",
+      "offset": 561,
+      "length": 49,
+      "value": "\"https:\/\/ai-test.vanns.cn\/serve\/segment\/mask_npy\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIDefine.swift",
       "kind": "FloatLiteral",
-      "offset": 663,
+      "offset": 824,
       "length": 4,
       "value": "44.0"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIDefine.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIDefine.swift",
       "kind": "FloatLiteral",
-      "offset": 696,
+      "offset": 857,
       "length": 5,
       "value": "200.0"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIDefine.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIDefine.swift",
       "kind": "IntegerLiteral",
-      "offset": 1251,
+      "offset": 1412,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIDefine.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIDefine.swift",
       "kind": "StringLiteral",
-      "offset": 1604,
+      "offset": 1765,
       "length": 31,
       "value": "\"https:\/\/p-ai.onionecology.com\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIThirdVc+SAISmartBackgroundView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIThirdVc+SAISmartBackgroundView.swift",
       "kind": "BooleanLiteral",
       "offset": 296,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIThirdVc+SAISmartBackgroundView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIThirdVc+SAISmartBackgroundView.swift",
       "kind": "StringLiteral",
       "offset": 149,
       "length": 41,
       "value": "\"SatorSDK.SAIThirdVc_SAISmartBackgroundViewDelegate\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/First\/SAIMaterailVc+SAISmudgeremovalToolView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/First\/SAIMaterailVc+SAISmudgeremovalToolView.swift",
       "kind": "BooleanLiteral",
       "offset": 376,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/First\/SAIMaterailVc+SAISmudgeremovalToolView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/First\/SAIMaterailVc+SAISmudgeremovalToolView.swift",
       "kind": "StringLiteral",
       "offset": 153,
       "length": 54,
       "value": "\"SatorSDK.SAIMaterialController_SAISmudgeRemovalToolViewDelegate\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAINpyHeader.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAINpyHeader.swift",
       "kind": "StringLiteral",
       "offset": 39,
       "length": 13,
       "value": "\"NUMPY\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAINpyHeader.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAINpyHeader.swift",
       "kind": "StringLiteral",
       "offset": 956,
       "length": 3,
       "value": "\"=\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAINpyHeader.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAINpyHeader.swift",
       "kind": "StringLiteral",
       "offset": 975,
       "length": 3,
       "value": "\">\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAINpyHeader.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAINpyHeader.swift",
       "kind": "StringLiteral",
       "offset": 997,
       "length": 3,
       "value": "\"<\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAINpyHeader.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAINpyHeader.swift",
       "kind": "StringLiteral",
       "offset": 1015,
       "length": 3,
       "value": "\"|\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAINpyHeader.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAINpyHeader.swift",
       "kind": "StringLiteral",
       "offset": 956,
       "length": 3,
       "value": "\"=\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAINpyHeader.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAINpyHeader.swift",
       "kind": "StringLiteral",
       "offset": 975,
       "length": 3,
       "value": "\">\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAINpyHeader.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAINpyHeader.swift",
       "kind": "StringLiteral",
       "offset": 997,
       "length": 3,
       "value": "\"<\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAINpyHeader.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAINpyHeader.swift",
       "kind": "StringLiteral",
       "offset": 1015,
       "length": 3,
       "value": "\"|\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIBaseNavView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIBaseNavView.swift",
       "kind": "Array",
       "offset": 233,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIBaseNavView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIBaseNavView.swift",
       "kind": "Array",
       "offset": 327,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Extensions\/UImageView+SAIObjectWrapper.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Extensions\/UImageView+SAIObjectWrapper.swift",
       "kind": "FloatLiteral",
       "offset": 251,
       "length": 4,
       "value": "0.35"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/First\/SAIMaterialVc+SAIhighResolutionRepairView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/First\/SAIMaterialVc+SAIhighResolutionRepairView.swift",
       "kind": "IntegerLiteral",
       "offset": 360,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/First\/SAIMaterialVc+SAIhighResolutionRepairView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/First\/SAIMaterialVc+SAIhighResolutionRepairView.swift",
       "kind": "BooleanLiteral",
       "offset": 383,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/First\/SAIMaterialVc+SAIhighResolutionRepairView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/First\/SAIMaterialVc+SAIhighResolutionRepairView.swift",
       "kind": "StringLiteral",
       "offset": 168,
       "length": 54,
       "value": "\"SatorSDK.SAIMaterialController_highResolutionRepairViewDelegate\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIUploadFileResponseModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIUploadFileResponseModel.swift",
       "kind": "StringLiteral",
       "offset": 882,
       "length": 11,
       "value": "\"sourceUrl\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIUploadFileResponseModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIUploadFileResponseModel.swift",
       "kind": "StringLiteral",
       "offset": 882,
       "length": 11,
       "value": "\"sourceUrl\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAIContainerViewController.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAIContainerViewController.swift",
       "kind": "Array",
       "offset": 555,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAIContainerViewController.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAIContainerViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 629,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAIContainerViewController.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAIContainerViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 663,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAIContainerViewController.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAIContainerViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 695,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAIBrushSizeControlView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAIBrushSizeControlView.swift",
       "kind": "IntegerLiteral",
       "offset": 366,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAIBrushSizeControlView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAIBrushSizeControlView.swift",
       "kind": "IntegerLiteral",
       "offset": 372,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAIBrushSizeControlView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAIBrushSizeControlView.swift",
       "kind": "IntegerLiteral",
       "offset": 382,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAIBrushSizeControlView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAIBrushSizeControlView.swift",
       "kind": "IntegerLiteral",
       "offset": 394,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAIBrushSizeControlView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAIBrushSizeControlView.swift",
       "kind": "IntegerLiteral",
       "offset": 540,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAIBrushSizeControlView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAIBrushSizeControlView.swift",
       "kind": "StringLiteral",
       "offset": 906,
       "length": 17,
       "value": "\"icon_xiajiantou\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIStyle.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIStyle.swift",
       "kind": "FloatLiteral",
       "offset": 239,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIStyle.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIStyle.swift",
       "kind": "IntegerLiteral",
       "offset": 251,
       "length": 3,
       "value": "122"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIStyle.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIStyle.swift",
       "kind": "IntegerLiteral",
       "offset": 255,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIStyle.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIStyle.swift",
       "kind": "FloatLiteral",
       "offset": 266,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIStyle.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIStyle.swift",
       "kind": "FloatLiteral",
       "offset": 278,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIStyle.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIStyle.swift",
       "kind": "FloatLiteral",
       "offset": 339,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIStyle.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIStyle.swift",
       "kind": "FloatLiteral",
       "offset": 351,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIStyle.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIStyle.swift",
       "kind": "IntegerLiteral",
       "offset": 362,
       "length": 3,
       "value": "122"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIStyle.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIStyle.swift",
       "kind": "IntegerLiteral",
       "offset": 366,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIStyle.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIStyle.swift",
       "kind": "FloatLiteral",
       "offset": 378,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIStyle.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIStyle.swift",
       "kind": "IntegerLiteral",
       "offset": 614,
       "length": 8,
       "value": "0x242332"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIStyle.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIStyle.swift",
       "kind": "IntegerLiteral",
       "offset": 694,
       "length": 8,
       "value": "0x553CBF"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIStyle.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIStyle.swift",
       "kind": "IntegerLiteral",
       "offset": 773,
       "length": 8,
       "value": "0x56527D"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIStyle.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIStyle.swift",
       "kind": "IntegerLiteral",
       "offset": 849,
       "length": 8,
       "value": "0x553CBF"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIStyle.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIStyle.swift",
       "kind": "FloatLiteral",
       "offset": 878,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIStyle.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIStyle.swift",
       "kind": "IntegerLiteral",
       "offset": 950,
       "length": 8,
       "value": "0x553CBF"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIStyle.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIStyle.swift",
       "kind": "IntegerLiteral",
       "offset": 1034,
       "length": 8,
       "value": "0x606066"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIStyle.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIStyle.swift",
       "kind": "IntegerLiteral",
       "offset": 1114,
       "length": 8,
       "value": "0x999999"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIStyle.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIStyle.swift",
       "kind": "IntegerLiteral",
       "offset": 1191,
       "length": 8,
       "value": "0x0C0A18"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIStyle.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIStyle.swift",
       "kind": "IntegerLiteral",
       "offset": 1268,
       "length": 8,
       "value": "0x3B3B42"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIStyle.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIStyle.swift",
       "kind": "IntegerLiteral",
       "offset": 1448,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIStyle.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIStyle.swift",
       "kind": "IntegerLiteral",
       "offset": 1533,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIStyle.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIStyle.swift",
       "kind": "IntegerLiteral",
       "offset": 1621,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIStyle.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIStyle.swift",
       "kind": "FloatLiteral",
       "offset": 1744,
       "length": 3,
       "value": "8.0"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIStyle.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIStyle.swift",
       "kind": "FloatLiteral",
       "offset": 1797,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIStyle.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIStyle.swift",
       "kind": "FloatLiteral",
       "offset": 1897,
       "length": 3,
       "value": "8.0"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIStyle.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIStyle.swift",
       "kind": "FloatLiteral",
       "offset": 1945,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIStyle.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIStyle.swift",
       "kind": "FloatLiteral",
       "offset": 1993,
       "length": 4,
       "value": "24.0"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIGeneralUI.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIGeneralUI.swift",
       "kind": "StringLiteral",
       "offset": 146,
       "length": 10,
       "value": "\"test.jpg\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIGeneralUI.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIGeneralUI.swift",
       "kind": "StringLiteral",
       "offset": 183,
       "length": 10,
       "value": "\"test.jpg\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIGeneralUI.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIGeneralUI.swift",
       "kind": "StringLiteral",
       "offset": 217,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIGeneralUI.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIGeneralUI.swift",
       "kind": "BooleanLiteral",
       "offset": 239,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIThirdVc+SAIReShapeFaceView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIThirdVc+SAIReShapeFaceView.swift",
       "kind": "BooleanLiteral",
       "offset": 283,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIThirdVc+SAIReShapeFaceView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIThirdVc+SAIReShapeFaceView.swift",
       "kind": "StringLiteral",
       "offset": 145,
       "length": 37,
       "value": "\"SatorSDK.SAIThirdVc_SAIReShapeFaceViewDelegate\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIMyPhotosListController.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIMyPhotosListController.swift",
       "kind": "BooleanLiteral",
       "offset": 399,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIClothesModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIClothesModel.swift",
       "kind": "StringLiteral",
       "offset": 554,
       "length": 10,
       "value": "\"Elements\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIClothesModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIClothesModel.swift",
       "kind": "StringLiteral",
       "offset": 554,
       "length": 10,
       "value": "\"Elements\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIClothesModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIClothesModel.swift",
       "kind": "StringLiteral",
       "offset": 867,
       "length": 10,
       "value": "\"ImageURL\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIClothesModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIClothesModel.swift",
       "kind": "StringLiteral",
       "offset": 902,
       "length": 10,
       "value": "\"ClassUrl\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIClothesModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIClothesModel.swift",
       "kind": "StringLiteral",
       "offset": 867,
       "length": 10,
       "value": "\"ImageURL\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIClothesModel.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIClothesModel.swift",
       "kind": "StringLiteral",
       "offset": 902,
       "length": 10,
       "value": "\"ClassUrl\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAISecSmudgeRemovalToolView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAISecSmudgeRemovalToolView.swift",
       "kind": "FloatLiteral",
       "offset": 366,
       "length": 4,
       "value": "65.0"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAISecSmudgeRemovalToolView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAISecSmudgeRemovalToolView.swift",
       "kind": "BooleanLiteral",
       "offset": 603,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAISecSmudgeRemovalToolView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAISecSmudgeRemovalToolView.swift",
       "kind": "Array",
-      "offset": 683,
-      "length": 37,
-      "value": "[\"画笔\", \"选区\", \"擦除\", \"反选\"]"
+      "offset": 765,
+      "length": 55,
+      "value": "[\"画笔\", \"选区\", \"服装\", \"矩形\", \"擦除\", \"反选\"]"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAISecSmudgeRemovalToolView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAISecSmudgeRemovalToolView.swift",
       "kind": "Array",
-      "offset": 793,
-      "length": 62,
-      "value": "[\"icon_huabi\", \"icon_xuanqu\", \"icon_xiangpi\", \"icon_sec_fanxuan\"]"
+      "offset": 841,
+      "length": 92,
+      "value": "[\"icon_huabi\", \"icon_xuanqu\", \"icon_fuzhuang\", \"icon_juxing\", \"icon_xiangpi\", \"icon_sec_fanxuan\"]"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAICanvasToolView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAICanvasToolView.swift",
       "kind": "BooleanLiteral",
       "offset": 1883,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAICanvasToolView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAICanvasToolView.swift",
       "kind": "StringLiteral",
       "offset": 1764,
       "length": 20,
       "value": "\"SatorSDK.SAIImageSizeTemplate\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAICanvasToolView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/SAICanvasToolView.swift",
       "kind": "FloatLiteral",
-      "offset": 4173,
+      "offset": 4300,
       "length": 4,
       "value": "55.0"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Managers\/SAIImageProcessManager.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Managers\/SAIImageProcessManager.swift",
       "kind": "BooleanLiteral",
       "offset": 3837,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Managers\/SAIImageProcessManager.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Managers\/SAIImageProcessManager.swift",
       "kind": "BooleanLiteral",
       "offset": 4585,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIHUD.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIHUD.swift",
       "kind": "IntegerLiteral",
       "offset": 158,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIHUD.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIHUD.swift",
       "kind": "IntegerLiteral",
       "offset": 169,
       "length": 7,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIHUD.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIHUD.swift",
       "kind": "IntegerLiteral",
       "offset": 186,
       "length": 5,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIHUD.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIHUD.swift",
       "kind": "IntegerLiteral",
       "offset": 201,
       "length": 4,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIHUD.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIHUD.swift",
       "kind": "IntegerLiteral",
       "offset": 158,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIHUD.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIHUD.swift",
       "kind": "IntegerLiteral",
       "offset": 169,
       "length": 7,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIHUD.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIHUD.swift",
       "kind": "IntegerLiteral",
       "offset": 186,
       "length": 5,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIHUD.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIHUD.swift",
       "kind": "IntegerLiteral",
       "offset": 201,
       "length": 4,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIHUD.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIHUD.swift",
       "kind": "IntegerLiteral",
       "offset": 158,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIHUD.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIHUD.swift",
       "kind": "IntegerLiteral",
       "offset": 169,
       "length": 7,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIHUD.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIHUD.swift",
       "kind": "IntegerLiteral",
       "offset": 186,
       "length": 5,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIHUD.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIHUD.swift",
       "kind": "IntegerLiteral",
       "offset": 201,
       "length": 4,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIHUD.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIHUD.swift",
       "kind": "FloatLiteral",
       "offset": 272,
       "length": 3,
       "value": "2.0"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIHUD.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIHUD.swift",
       "kind": "FloatLiteral",
       "offset": 309,
       "length": 4,
       "value": "20.0"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIHUD.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIHUD.swift",
       "kind": "FloatLiteral",
       "offset": 348,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIHUD.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIHUD.swift",
       "kind": "IntegerLiteral",
       "offset": 398,
       "length": 2,
       "value": "56"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIHUD.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIHUD.swift",
       "kind": "FloatLiteral",
       "offset": 401,
       "length": 5,
       "value": "256.0"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIHUD.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIHUD.swift",
       "kind": "IntegerLiteral",
       "offset": 415,
       "length": 2,
       "value": "56"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIHUD.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIHUD.swift",
       "kind": "FloatLiteral",
       "offset": 418,
       "length": 5,
       "value": "256.0"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIHUD.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIHUD.swift",
       "kind": "IntegerLiteral",
       "offset": 431,
       "length": 2,
       "value": "56"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIHUD.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIHUD.swift",
       "kind": "FloatLiteral",
       "offset": 434,
       "length": 5,
       "value": "256.0"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIHUD.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIHUD.swift",
       "kind": "FloatLiteral",
       "offset": 448,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAISecondToolView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAISecondToolView.swift",
       "kind": "StringLiteral",
       "offset": 168,
       "length": 8,
       "value": "\"蒙版\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAISecondToolView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAISecondToolView.swift",
       "kind": "StringLiteral",
       "offset": 198,
       "length": 8,
       "value": "\"人物\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAISecondToolView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAISecondToolView.swift",
       "kind": "StringLiteral",
       "offset": 229,
       "length": 8,
       "value": "\"背景\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAISecondToolView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAISecondToolView.swift",
       "kind": "StringLiteral",
       "offset": 168,
       "length": 8,
       "value": "\"蒙版\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAISecondToolView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAISecondToolView.swift",
       "kind": "StringLiteral",
       "offset": 198,
       "length": 8,
       "value": "\"人物\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAISecondToolView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAISecondToolView.swift",
       "kind": "StringLiteral",
       "offset": 229,
       "length": 8,
       "value": "\"背景\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAISecondToolView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAISecondToolView.swift",
       "kind": "StringLiteral",
       "offset": 4678,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAISecondToolView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAISecondToolView.swift",
       "kind": "StringLiteral",
       "offset": 4699,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAISecondToolView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAISecondToolView.swift",
       "kind": "BooleanLiteral",
       "offset": 4721,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAISmartBackgroundView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAISmartBackgroundView.swift",
       "kind": "StringLiteral",
       "offset": 165,
       "length": 10,
       "value": "\"test.jpg\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAISmartBackgroundView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAISmartBackgroundView.swift",
       "kind": "StringLiteral",
       "offset": 202,
       "length": 10,
       "value": "\"test.jpg\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAISmartBackgroundView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAISmartBackgroundView.swift",
       "kind": "StringLiteral",
       "offset": 236,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAISmartBackgroundView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAISmartBackgroundView.swift",
       "kind": "BooleanLiteral",
       "offset": 258,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAISmartBackgroundView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAISmartBackgroundView.swift",
       "kind": "FloatLiteral",
       "offset": 609,
       "length": 4,
       "value": "65.0"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAISmartBackgroundView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAISmartBackgroundView.swift",
       "kind": "StringLiteral",
       "offset": 758,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAISmartBackgroundView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAISmartBackgroundView.swift",
       "kind": "Array",
       "offset": 1241,
       "length": 16,
       "value": "[\"背景描述\"]"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAISmartBackgroundView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAISmartBackgroundView.swift",
       "kind": "Array",
       "offset": 1278,
       "length": 19,
       "value": "[\"icon_sec_bgdesc\"]"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAISmartBackgroundView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAISmartBackgroundView.swift",
       "kind": "BooleanLiteral",
       "offset": 9137,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAISmartBackgroundView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Second\/SAISmartBackgroundView.swift",
       "kind": "StringLiteral",
       "offset": 15852,
       "length": 9,
       "value": "\"#0C0A18\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/First\/SAIMaterailVc+SAICutOutToolView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/First\/SAIMaterailVc+SAICutOutToolView.swift",
       "kind": "BooleanLiteral",
       "offset": 319,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/First\/SAIMaterailVc+SAICutOutToolView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/First\/SAIMaterailVc+SAICutOutToolView.swift",
       "kind": "IntegerLiteral",
       "offset": 428,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/First\/SAIMaterailVc+SAICutOutToolView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/First\/SAIMaterailVc+SAICutOutToolView.swift",
       "kind": "StringLiteral",
       "offset": 145,
       "length": 47,
       "value": "\"SatorSDK.SAIMaterialController_SAICutOutToolViewDelegate\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIBaseViewController.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIBaseViewController.swift",
       "kind": "FloatLiteral",
       "offset": 202,
       "length": 4,
       "value": "44.0"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIBaseViewController.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIBaseViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 348,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIBaseViewController.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIBaseViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 369,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIBaseViewController.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIBaseViewController.swift",
       "kind": "StringLiteral",
       "offset": 397,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIlocalRedrawView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIlocalRedrawView.swift",
       "kind": "FloatLiteral",
       "offset": 2164,
       "length": 4,
       "value": "65.0"
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIlocalRedrawView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIlocalRedrawView.swift",
       "kind": "StringLiteral",
-      "offset": 2309,
+      "offset": 2311,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIlocalRedrawView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIlocalRedrawView.swift",
       "kind": "StringLiteral",
-      "offset": 7429,
+      "offset": 7339,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIlocalRedrawView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIlocalRedrawView.swift",
       "kind": "StringLiteral",
-      "offset": 7450,
+      "offset": 7360,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/mac\/Desktop\/SAIProject\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIlocalRedrawView.swift",
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIlocalRedrawView.swift",
       "kind": "BooleanLiteral",
-      "offset": 7472,
+      "offset": 7382,
       "length": 5,
       "value": "false"
     }
