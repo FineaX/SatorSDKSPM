@@ -12122,52 +12122,52 @@
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIExpandBorderView.swift",
+      "kind": "FloatLiteral",
+      "offset": 14506,
+      "length": 4,
+      "value": "44.0"
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIExpandBorderView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1008,
+      "offset": 15355,
       "length": 4,
       "value": "3000"
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIExpandBorderView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1022,
+      "offset": 15369,
       "length": 4,
       "value": "3000"
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIExpandBorderView.swift",
       "kind": "FloatLiteral",
-      "offset": 1067,
+      "offset": 15410,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIExpandBorderView.swift",
       "kind": "FloatLiteral",
-      "offset": 1080,
+      "offset": 15423,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIExpandBorderView.swift",
       "kind": "FloatLiteral",
-      "offset": 1277,
+      "offset": 15610,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIExpandBorderView.swift",
       "kind": "FloatLiteral",
-      "offset": 1290,
+      "offset": 15623,
       "length": 3,
       "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIExpandBorderView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4359,
-      "length": 2,
-      "value": "40"
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Components\/Third\/SAIExpandView.swift",
