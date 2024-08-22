@@ -347,19 +347,19 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		5B2DsfrlSJRhETPNedMM+OuZTl8=
+		8xFfrmU9vB2yQGnV2wDiAFFUVfs=
 		</data>
 		<key>Modules/SatorSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		syaAlwAVV/8dUeFcAtlZNb3V2YI=
+		91rAHaE7LDbYNxzxK7uVKkoF5m4=
 		</data>
 		<key>Modules/SatorSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		6516X8hTXrkIR/kcwa11Smlr/P8=
+		9YQEPOv4rFetk5tu433mbHmj8ZY=
 		</data>
 		<key>Modules/SatorSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		KLVhhF+FfSE69Rmf6yzqM3Y6elc=
+		ELPM50lzS+G3mLY97y6gqBNt0GM=
 		</data>
 		<key>Modules/SatorSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -367,19 +367,15 @@
 		</data>
 		<key>Modules/SatorSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		KLVhhF+FfSE69Rmf6yzqM3Y6elc=
+		ELPM50lzS+G3mLY97y6gqBNt0GM=
 		</data>
 		<key>Modules/SatorSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		x3TWjE94rO4iO5/jDR1x9R/k16U=
+		9Emll50fDf2jnZG9cqgDjvWshCs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		i43PdBh5GXputIYTtxV49OCofJ4=
-		</data>
-		<key>SAIMaterialController.nib</key>
-		<data>
-		pZ9mc6s0RsG7ZN3zRct9bdKyb9k=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -1314,33 +1310,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			syaAlwAVV/8dUeFcAtlZNb3V2YI=
+			91rAHaE7LDbYNxzxK7uVKkoF5m4=
 			</data>
 			<key>hash2</key>
 			<data>
-			Dyq+s8IwhoVj0P7XFA4AXZMDv8cL8V3J4QYB/I2alfc=
+			eayzNzfI/KOUJ1oCMaocR3y7zsHlAACuRxpSl9CHEjg=
 			</data>
 		</dict>
 		<key>Modules/SatorSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6516X8hTXrkIR/kcwa11Smlr/P8=
+			9YQEPOv4rFetk5tu433mbHmj8ZY=
 			</data>
 			<key>hash2</key>
 			<data>
-			AzwUX3HpLIA09mzg5GeUFAYt/NWfraRcoOB4lQfC1ek=
+			Em0jIHkqwY9611qxyssRFTObiOmdc4zzLCGuTBJlEXA=
 			</data>
 		</dict>
 		<key>Modules/SatorSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KLVhhF+FfSE69Rmf6yzqM3Y6elc=
+			ELPM50lzS+G3mLY97y6gqBNt0GM=
 			</data>
 			<key>hash2</key>
 			<data>
-			yqhGxHvGlIqO6SkkQmGad19pXT0rUv/HKnmmhXsBCu0=
+			13sBkWt/+QT/F06OioalsNLfMU05HgSBVTRCo8LycIQ=
 			</data>
 		</dict>
 		<key>Modules/SatorSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -1358,22 +1354,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KLVhhF+FfSE69Rmf6yzqM3Y6elc=
+			ELPM50lzS+G3mLY97y6gqBNt0GM=
 			</data>
 			<key>hash2</key>
 			<data>
-			yqhGxHvGlIqO6SkkQmGad19pXT0rUv/HKnmmhXsBCu0=
+			13sBkWt/+QT/F06OioalsNLfMU05HgSBVTRCo8LycIQ=
 			</data>
 		</dict>
 		<key>Modules/SatorSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			x3TWjE94rO4iO5/jDR1x9R/k16U=
+			9Emll50fDf2jnZG9cqgDjvWshCs=
 			</data>
 			<key>hash2</key>
 			<data>
-			bp4v2LmuMBjsORfcdvodSj+ZGKnL05fHQIPYhGf/cco=
+			Nf4rJ66ETw4EYyjdappiqHZ2zxVoc1joX08zwU1cJ8U=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -1385,17 +1381,6 @@
 			<key>hash2</key>
 			<data>
 			dJ8gaxSxxtIVR+MUrj76WF6Q/Yy+6GMithKWbe9cTBM=
-			</data>
-		</dict>
-		<key>SAIMaterialController.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			pZ9mc6s0RsG7ZN3zRct9bdKyb9k=
-			</data>
-			<key>hash2</key>
-			<data>
-			XfsK6WCU04qtTGAL3q2ehZe9mqjF0K8iB8YXfCwzj6E=
 			</data>
 		</dict>
 	</dict>

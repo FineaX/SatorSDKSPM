@@ -4,11 +4,9 @@
 import Combine
 import CommonCrypto
 import CoreFoundation
-import CoreImage
 import Foundation
 import MBProgressHUD
 import MJRefresh
-import Metal
 import Photos
 import SDWebImage
 @_exported import SatorSDK
@@ -55,21 +53,6 @@ public enum SAINpyLoaderError : Swift.Error {
 extension SatorSDK.SAINpy {
   public func save(to url: Foundation.URL) throws
   public func format() -> Foundation.Data
-}
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class SAIMaterialController : SatorSDK.SAIBaseViewController, UIKit.UIScrollViewDelegate {
-  @_Concurrency.MainActor(unsafe) public var sourceImage: UIKit.UIImage!
-  @_Concurrency.MainActor(unsafe) public var copySourceImage: UIKit.UIImage!
-  @objc @_Concurrency.MainActor(unsafe) public var mainScrollView: UIKit.UIScrollView {
-    @objc get
-    @objc set
-  }
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLayoutSubviews()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidDisappear(_ animated: Swift.Bool)
-  @objc deinit
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
 }
 public struct SAIObjectWrapper<Base> {
   public let base: Base
@@ -120,6 +103,12 @@ extension CoreFoundation.CGFloat : SatorSDK.SAIObjectCompatibleValue {
 extension Swift.Bool : SatorSDK.SAIObjectCompatibleValue {
 }
 extension Swift.Dictionary : SatorSDK.SAIObjectCompatibleValue {
+}
+extension Foundation.Notification : SatorSDK.SAIObjectCompatibleValue {
+}
+extension CoreFoundation.CGSize : SatorSDK.SAIObjectCompatibleValue {
+}
+extension CoreFoundation.CGRect : SatorSDK.SAIObjectCompatibleValue {
 }
 public struct SAINpy {
   public var shape: [Swift.Int] {
@@ -218,14 +207,6 @@ public enum Endian : Swift.String {
     public static let medium: CoreFoundation.CGFloat
     public static let large: CoreFoundation.CGFloat
   }
-  @objc deinit
-}
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class SAIBaseViewController : UIKit.UIViewController {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLayoutSubviews()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
 extension SatorSDK.SAIDataType : Swift.Equatable {}
