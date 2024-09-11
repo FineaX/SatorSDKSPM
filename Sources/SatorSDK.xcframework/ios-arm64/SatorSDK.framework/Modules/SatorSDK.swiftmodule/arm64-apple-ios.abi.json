@@ -12164,6 +12164,13 @@
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelWorkSpace\/Second\/SAISecondVc+SAISmudgeremovalToolView.swift",
       "kind": "StringLiteral",
+      "offset": 540,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelWorkSpace\/Second\/SAISecondVc+SAISmudgeremovalToolView.swift",
+      "kind": "StringLiteral",
       "offset": 150,
       "length": 44,
       "value": "\"SatorSDK.SAISecondVc_SAISmudgeremovalToolViewDelegate\""
@@ -12312,13 +12319,6 @@
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelWorkSpace\/SAIDoodleView.swift",
       "kind": "BooleanLiteral",
       "offset": 1088,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelWorkSpace\/SAIDoodleView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1282,
       "length": 5,
       "value": "false"
     },
@@ -13102,14 +13102,14 @@
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Managers\/SAIOnnxManager.swift",
       "kind": "StringLiteral",
-      "offset": 17582,
+      "offset": 17617,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Managers\/SAIOnnxManager.swift",
       "kind": "Dictionary",
-      "offset": 21625,
+      "offset": 22392,
       "length": 3,
       "value": "[]"
     },
