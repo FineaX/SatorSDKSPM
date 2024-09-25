@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "SatorSDK",
+    "printedName": "SatorSDK",
     "children": [
       {
         "kind": "Import",
@@ -996,6 +996,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1257,6 +1271,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Error",
             "printedName": "Error",
             "usr": "s:s5ErrorP",
@@ -1335,6 +1363,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -1368,6 +1397,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -1394,6 +1424,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -1463,6 +1494,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "Available"
@@ -1475,6 +1507,7 @@
         "mangledName": "$s8SatorSDK27SAIBaseNavigationControllerC",
         "moduleName": "SatorSDK",
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "ObjC"
@@ -1487,6 +1520,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -1538,13 +1585,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "SAIObjectCompatible",
             "printedName": "SAIObjectCompatible",
             "usr": "s:8SatorSDK19SAIObjectCompatibleP",
@@ -1556,6 +1596,13 @@
             "printedName": "UITraitChangeObservable",
             "usr": "s:5UIKit23UITraitChangeObservableP",
             "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -2176,6 +2223,22 @@
         "sugared_genericSig": "<Base>",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -2441,6 +2504,22 @@
         "sugared_genericSig": "<Self : AnyObject>",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -2567,6 +2646,22 @@
         "moduleName": "SatorSDK",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -4108,6 +4203,22 @@
         "moduleName": "SatorSDK",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -4431,6 +4542,20 @@
         ],
         "enumRawTypeName": "String",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -5122,7 +5247,23 @@
           "AccessControl",
           "RawDocComment"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -5949,6 +6090,22 @@
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
             ]
           },
           {
@@ -5961,6 +6118,22 @@
             "moduleName": "SatorSDK",
             "declAttributes": [
               "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
             ]
           },
           {
@@ -6117,6 +6290,22 @@
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
             ]
           },
           {
@@ -6226,6 +6415,22 @@
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
             ]
           },
           {
@@ -6382,6 +6587,22 @@
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
             ]
           }
         ],
@@ -6392,7 +6613,23 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -6876,6 +7113,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -7043,6 +7294,13 @@
             ],
             "usr": "s:s10SIMDScalarP",
             "mangledName": "$ss10SIMDScalarP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           },
           {
             "kind": "Conformance",
@@ -7242,6 +7500,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -7402,6 +7674,13 @@
             ],
             "usr": "s:s10SIMDScalarP",
             "mangledName": "$ss10SIMDScalarP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           },
           {
             "kind": "Conformance",
@@ -7601,6 +7880,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -7771,6 +8064,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "_FormatSpecifiable",
             "printedName": "_FormatSpecifiable",
             "children": [
@@ -7849,6 +8149,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -7923,6 +8237,7 @@
         "intro_iOS": "2.0",
         "objc_name": "UIViewController",
         "declAttributes": [
+          "Preconcurrency",
           "Available",
           "ObjC",
           "NonSendable",
@@ -7937,6 +8252,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -7988,13 +8317,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "SAIObjectCompatible",
             "printedName": "SAIObjectCompatible",
             "usr": "s:8SatorSDK19SAIObjectCompatibleP",
@@ -8040,6 +8362,20 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -8128,6 +8464,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -8220,6 +8570,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -8287,6 +8651,7 @@
         "intro_iOS": "2.0",
         "objc_name": "UIView",
         "declAttributes": [
+          "Preconcurrency",
           "Available",
           "ObjC",
           "NonSendable",
@@ -8301,6 +8666,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -8399,6 +8778,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -8480,6 +8873,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -8567,6 +8974,20 @@
             "printedName": "_DestructorSafeContainer",
             "usr": "s:s24_DestructorSafeContainerP",
             "mangledName": "$ss24_DestructorSafeContainerP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -9221,6 +9642,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "SAIObjectCompatibleValue",
             "printedName": "SAIObjectCompatibleValue",
             "usr": "s:8SatorSDK24SAIObjectCompatibleValueP",
@@ -9776,6 +10211,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "SAIObjectCompatibleValue",
             "printedName": "SAIObjectCompatibleValue",
             "usr": "s:8SatorSDK24SAIObjectCompatibleValueP",
@@ -10019,6 +10468,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "_FormatSpecifiable",
             "printedName": "_FormatSpecifiable",
             "children": [
@@ -10082,6 +10538,20 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -10184,6 +10654,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "_ObjectiveCBridgeable",
             "printedName": "_ObjectiveCBridgeable",
             "children": [
@@ -10222,6 +10699,20 @@
         ],
         "isExternal": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "SAIObjectCompatibleValue",
@@ -10599,6 +11090,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "SAIObjectCompatibleValue",
             "printedName": "SAIObjectCompatibleValue",
             "usr": "s:8SatorSDK24SAIObjectCompatibleValueP",
@@ -10653,6 +11158,27 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "SAIObjectCompatibleValue",
             "printedName": "SAIObjectCompatibleValue",
             "usr": "s:8SatorSDK24SAIObjectCompatibleValueP",
@@ -10707,6 +11233,13 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           },
           {
             "kind": "Conformance",
@@ -10735,6 +11268,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "SAIObjectCompatibleValue",
             "printedName": "SAIObjectCompatibleValue",
             "usr": "s:8SatorSDK24SAIObjectCompatibleValueP",
@@ -10789,6 +11336,13 @@
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           },
           {
             "kind": "Conformance",
@@ -10823,13 +11377,6 @@
       "offset": 461,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/StoreWorkSpace\/Third\/SAIStoreThird_SmudgeremovalToolViewDelegate.swift",
-      "kind": "StringLiteral",
-      "offset": 159,
-      "length": 43,
-      "value": "\"SatorSDK.SAIStoreThird_SmudgeremovalToolViewDelegate\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelWorkSpace\/Third\/SAIReshapeBackgroundView.swift",
@@ -10965,13 +11512,6 @@
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/StoreWorkSpace\/Third\/SAIStoreThird_CutOutToolViewDelegate.swift",
-      "kind": "StringLiteral",
-      "offset": 152,
-      "length": 36,
-      "value": "\"SatorSDK.SAIStoreThird_CutOutToolViewDelegate\""
-    },
-    {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelWorkSpace\/Third\/SAISaveView.swift",
       "kind": "StringLiteral",
       "offset": 411,
@@ -11084,53 +11624,88 @@
       "value": "\"\""
     },
     {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelWorkSpace\/Third\/SAIThirdController.swift",
+      "kind": "FloatLiteral",
+      "offset": 7501,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelWorkSpace\/Third\/SAIThirdController.swift",
+      "kind": "FloatLiteral",
+      "offset": 7507,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelWorkSpace\/Third\/SAIThirdController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8495,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelWorkSpace\/Third\/SAIThirdController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8501,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelWorkSpace\/Third\/SAIThirdController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8655,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelWorkSpace\/Third\/SAIThirdController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8661,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelWorkSpace\/Third\/SAIThirdController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8827,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelWorkSpace\/Third\/SAIThirdController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8862,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelWorkSpace\/Third\/SAIThirdController.swift",
+      "kind": "StringLiteral",
+      "offset": 9065,
+      "length": 23,
+      "value": "\"imgsize,\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelWorkSpace\/Third\/SAIThirdController.swift",
+      "kind": "StringLiteral",
+      "offset": 9087,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelWorkSpace\/Third\/SAIThirdController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9140,
+      "length": 4,
+      "value": "true"
+    },
+    {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIMyPhotosModel.swift",
       "kind": "BooleanLiteral",
       "offset": 1652,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIMyPhotosModel.swift",
-      "kind": "StringLiteral",
-      "offset": 1763,
-      "length": 10,
-      "value": "\"imageUrl\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIMyPhotosModel.swift",
-      "kind": "StringLiteral",
-      "offset": 1839,
-      "length": 18,
-      "value": "\"createByMemberId\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIMyPhotosModel.swift",
-      "kind": "StringLiteral",
-      "offset": 1890,
-      "length": 18,
-      "value": "\"updateByMemberId\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIMyPhotosModel.swift",
-      "kind": "StringLiteral",
-      "offset": 1969,
-      "length": 10,
-      "value": "\"memberId\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIMyPhotosModel.swift",
-      "kind": "StringLiteral",
-      "offset": 2003,
-      "length": 9,
-      "value": "\"robotId\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIMyPhotosModel.swift",
-      "kind": "StringLiteral",
-      "offset": 2058,
-      "length": 8,
-      "value": "\"linkId\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIMyPhotosModel.swift",
@@ -11183,13 +11758,6 @@
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelWorkSpace\/SAISubToolView.swift",
-      "kind": "StringLiteral",
-      "offset": 110,
-      "length": 15,
-      "value": "\"SatorSDK.SAISubToolModel\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelWorkSpace\/SAISubToolView.swift",
       "kind": "BooleanLiteral",
       "offset": 492,
       "length": 5,
@@ -11231,20 +11799,6 @@
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/StoreWorkSpace\/Second\/SAIStoreSecond_SmudgeremovalToolViewDelegate.swift",
-      "kind": "StringLiteral",
-      "offset": 160,
-      "length": 44,
-      "value": "\"SatorSDK.SAIStoreSecond_SmudgeremovalToolViewDelegate\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAISceneModel.swift",
-      "kind": "StringLiteral",
-      "offset": 896,
-      "length": 9,
-      "value": "\"groupId\""
-    },
-    {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAISceneModel.swift",
       "kind": "StringLiteral",
       "offset": 896,
@@ -11257,13 +11811,6 @@
       "offset": 1330,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAISceneModel.swift",
-      "kind": "StringLiteral",
-      "offset": 1425,
-      "length": 8,
-      "value": "\"imgUrl\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAISceneModel.swift",
@@ -11364,13 +11911,6 @@
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/StoreWorkSpace\/Third\/SAIStoreThird_ExpandViewDelegate.swift",
-      "kind": "StringLiteral",
-      "offset": 147,
-      "length": 32,
-      "value": "\"SatorSDK.SAIStoreThird_ExpandViewDelegate\""
-    },
-    {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelWorkSpace\/Second\/SAIModelFaceByPhotosView.swift",
       "kind": "BooleanLiteral",
       "offset": 372,
@@ -11427,25 +11967,11 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelWorkSpace\/Second\/SAISecondVc+SAIModelStyleSelectView.swift",
-      "kind": "StringLiteral",
-      "offset": 119,
-      "length": 43,
-      "value": "\"SatorSDK.SAISecondVc_SAIModelStyleSelectViewDelegate\""
-    },
-    {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelWorkSpace\/Second\/SAISecondVc+SAISmartBackgroundView.swift",
       "kind": "BooleanLiteral",
       "offset": 267,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelWorkSpace\/Second\/SAISecondVc+SAISmartBackgroundView.swift",
-      "kind": "StringLiteral",
-      "offset": 118,
-      "length": 42,
-      "value": "\"SatorSDK.SAISecondVc_SAISmartBackgroundViewDelegate\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelWorkSpace\/Third\/SAIThirdVc+SAIExpandView.swift",
@@ -11462,11 +11988,32 @@
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelWorkSpace\/Third\/SAIThirdVc+SAIExpandView.swift",
-      "kind": "StringLiteral",
-      "offset": 129,
-      "length": 32,
-      "value": "\"SatorSDK.SAIThirdVc_SAIExpandViewDelegate\""
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Extensions\/UIImage+SAIObjectWrapper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3098,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Extensions\/UIImage+SAIObjectWrapper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3110,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Extensions\/UIImage+SAIObjectWrapper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3204,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Extensions\/UIImage+SAIObjectWrapper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3210,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/StoreWorkSpace\/Second\/SAIStoreSecond_SmartBackgroundViewDelegate.swift",
@@ -11474,13 +12021,6 @@
       "offset": 293,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/StoreWorkSpace\/Second\/SAIStoreSecond_SmartBackgroundViewDelegate.swift",
-      "kind": "StringLiteral",
-      "offset": 140,
-      "length": 42,
-      "value": "\"SatorSDK.SAIStoreSecond_SmartBackgroundViewDelegate\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelWorkSpace\/First\/SAIToolView.swift",
@@ -11544,90 +12084,6 @@
       "offset": 396,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/StoreWorkSpace\/Third\/SAIStoreThird_SmartBackgroundViewDelegate.swift",
-      "kind": "StringLiteral",
-      "offset": 156,
-      "length": 41,
-      "value": "\"SatorSDK.SAIStoreThird_SmartBackgroundViewDelegate\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAIDataType.swift",
-      "kind": "StringLiteral",
-      "offset": 51,
-      "length": 4,
-      "value": "\"b1\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAIDataType.swift",
-      "kind": "StringLiteral",
-      "offset": 78,
-      "length": 4,
-      "value": "\"u1\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAIDataType.swift",
-      "kind": "StringLiteral",
-      "offset": 101,
-      "length": 4,
-      "value": "\"u2\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAIDataType.swift",
-      "kind": "StringLiteral",
-      "offset": 124,
-      "length": 4,
-      "value": "\"u4\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAIDataType.swift",
-      "kind": "StringLiteral",
-      "offset": 147,
-      "length": 4,
-      "value": "\"u8\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAIDataType.swift",
-      "kind": "StringLiteral",
-      "offset": 173,
-      "length": 4,
-      "value": "\"i1\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAIDataType.swift",
-      "kind": "StringLiteral",
-      "offset": 195,
-      "length": 4,
-      "value": "\"i2\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAIDataType.swift",
-      "kind": "StringLiteral",
-      "offset": 217,
-      "length": 4,
-      "value": "\"i4\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAIDataType.swift",
-      "kind": "StringLiteral",
-      "offset": 239,
-      "length": 4,
-      "value": "\"i8\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAIDataType.swift",
-      "kind": "StringLiteral",
-      "offset": 268,
-      "length": 4,
-      "value": "\"f4\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAIDataType.swift",
-      "kind": "StringLiteral",
-      "offset": 292,
-      "length": 4,
-      "value": "\"f8\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAIDataType.swift",
@@ -11882,6 +12338,20 @@
       "value": "\"icon_save_zlec\""
     },
     {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelWorkSpace\/Third\/SAISaveController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16240,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelWorkSpace\/Third\/SAISaveController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16341,
+      "length": 1,
+      "value": "0"
+    },
+    {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIBaseView.swift",
       "kind": "IntegerLiteral",
       "offset": 270,
@@ -11903,13 +12373,6 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIBaseNavigationController.swift",
-      "kind": "StringLiteral",
-      "offset": 129,
-      "length": 27,
-      "value": "\"SatorSDK.SAIBaseNavigationController\""
-    },
-    {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelWorkSpace\/SAISystemPhotosController.swift",
       "kind": "Array",
       "offset": 463,
@@ -11929,13 +12392,6 @@
       "offset": 454,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelWorkSpace\/Third\/SAIThirdVc+SAISmudgeremovalToolView.swift",
-      "kind": "StringLiteral",
-      "offset": 149,
-      "length": 43,
-      "value": "\"SatorSDK.SAIThirdVc_SAISmudgeremovalToolViewDelegate\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelWorkSpace\/Third\/SAIExpandBorderView.swift",
@@ -12059,20 +12515,6 @@
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIGetModelConfigModel.swift",
       "kind": "StringLiteral",
-      "offset": 603,
-      "length": 7,
-      "value": "\"ageId\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIGetModelConfigModel.swift",
-      "kind": "StringLiteral",
-      "offset": 1103,
-      "length": 12,
-      "value": "\"categoryId\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIGetModelConfigModel.swift",
-      "kind": "StringLiteral",
       "offset": 1103,
       "length": 12,
       "value": "\"categoryId\""
@@ -12083,20 +12525,6 @@
       "offset": 1565,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIGetModelConfigModel.swift",
-      "kind": "StringLiteral",
-      "offset": 1635,
-      "length": 9,
-      "value": "\"modelId\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIGetModelConfigModel.swift",
-      "kind": "StringLiteral",
-      "offset": 1701,
-      "length": 14,
-      "value": "\"modelGroupId\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIGetModelConfigModel.swift",
@@ -12127,18 +12555,67 @@
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/StoreWorkSpace\/First\/SAIStoreFirst_CanvasToolDelegate.swift",
-      "kind": "StringLiteral",
-      "offset": 130,
-      "length": 32,
-      "value": "\"SatorSDK.SAIStoreFirst_CanvasToolDelegate\""
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelWorkSpace\/First\/SAIMaterailVc+SAICanvasToolView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 515,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelWorkSpace\/First\/SAIMaterailVc+SAICanvasToolView.swift",
-      "kind": "StringLiteral",
-      "offset": 144,
-      "length": 40,
-      "value": "\"SatorSDK.SAIMaterialController_CanvasToolDelegate\""
+      "kind": "FloatLiteral",
+      "offset": 1048,
+      "length": 4,
+      "value": "0.75"
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelWorkSpace\/First\/SAIMaterailVc+SAICanvasToolView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1092,
+      "length": 4,
+      "value": "0.75"
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelWorkSpace\/First\/SAIMaterailVc+SAICanvasToolView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1176,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelWorkSpace\/First\/SAIMaterailVc+SAICanvasToolView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1218,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelWorkSpace\/First\/SAIMaterailVc+SAICanvasToolView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1380,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelWorkSpace\/First\/SAIMaterailVc+SAICanvasToolView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1386,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelWorkSpace\/First\/SAIMaterailVc+SAICanvasToolView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1445,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelWorkSpace\/First\/SAIMaterailVc+SAICanvasToolView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1520,
+      "length": 2,
+      "value": "10"
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelWorkSpace\/Second\/SAISecondVc+SAISmudgeremovalToolView.swift",
@@ -12167,13 +12644,6 @@
       "offset": 540,
       "length": 2,
       "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelWorkSpace\/Second\/SAISecondVc+SAISmudgeremovalToolView.swift",
-      "kind": "StringLiteral",
-      "offset": 150,
-      "length": 44,
-      "value": "\"SatorSDK.SAISecondVc_SAISmudgeremovalToolViewDelegate\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelWorkSpace\/First\/SAIMaterialController.swift",
@@ -12216,34 +12686,6 @@
       "offset": 3134,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelWorkSpace\/SAIDoodleView.swift",
-      "kind": "StringLiteral",
-      "offset": 142,
-      "length": 8,
-      "value": "\"矩形\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelWorkSpace\/SAIDoodleView.swift",
-      "kind": "StringLiteral",
-      "offset": 169,
-      "length": 8,
-      "value": "\"圆形\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelWorkSpace\/SAIDoodleView.swift",
-      "kind": "StringLiteral",
-      "offset": 195,
-      "length": 8,
-      "value": "\"画笔\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelWorkSpace\/SAIDoodleView.swift",
-      "kind": "StringLiteral",
-      "offset": 222,
-      "length": 11,
-      "value": "\"橡皮擦\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelWorkSpace\/SAIDoodleView.swift",
@@ -12393,48 +12835,6 @@
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelWorkSpace\/Third\/SAIThirdVc+SAIlocalRedrawView.swift",
-      "kind": "StringLiteral",
-      "offset": 143,
-      "length": 35,
-      "value": "\"SatorSDK.SAIThird_SAIlocalRedrawViewDelegate\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
-      "kind": "StringLiteral",
-      "offset": 594,
-      "length": 12,
-      "value": "\"result_url\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
-      "kind": "StringLiteral",
-      "offset": 653,
-      "length": 13,
-      "value": "\"status_code\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
-      "kind": "StringLiteral",
-      "offset": 692,
-      "length": 12,
-      "value": "\"error_code\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
-      "kind": "StringLiteral",
-      "offset": 729,
-      "length": 11,
-      "value": "\"error_msg\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
-      "kind": "StringLiteral",
-      "offset": 770,
-      "length": 16,
-      "value": "\"time_consuming\""
-    },
-    {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
       "kind": "StringLiteral",
       "offset": 594,
@@ -12514,65 +12914,9 @@
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
       "kind": "StringLiteral",
-      "offset": 1380,
-      "length": 9,
-      "value": "\"img_url\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
-      "kind": "StringLiteral",
-      "offset": 1414,
-      "length": 10,
-      "value": "\"ImageURL\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
-      "kind": "StringLiteral",
-      "offset": 1471,
-      "length": 13,
-      "value": "\"status_code\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
-      "kind": "StringLiteral",
-      "offset": 1510,
-      "length": 12,
-      "value": "\"error_code\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
-      "kind": "StringLiteral",
-      "offset": 1547,
-      "length": 11,
-      "value": "\"error_msg\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
-      "kind": "StringLiteral",
-      "offset": 1588,
-      "length": 16,
-      "value": "\"time_consuming\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
-      "kind": "StringLiteral",
       "offset": 2451,
       "length": 10,
       "value": "\"pic_urls\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
-      "kind": "StringLiteral",
-      "offset": 2451,
-      "length": 10,
-      "value": "\"pic_urls\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
-      "kind": "StringLiteral",
-      "offset": 2732,
-      "length": 9,
-      "value": "\"task_id\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
@@ -12619,48 +12963,6 @@
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
       "kind": "StringLiteral",
-      "offset": 3050,
-      "length": 8,
-      "value": "\"imgUrl\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
-      "kind": "StringLiteral",
-      "offset": 3105,
-      "length": 13,
-      "value": "\"status_code\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
-      "kind": "StringLiteral",
-      "offset": 3144,
-      "length": 12,
-      "value": "\"error_code\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
-      "kind": "StringLiteral",
-      "offset": 3181,
-      "length": 11,
-      "value": "\"error_msg\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
-      "kind": "StringLiteral",
-      "offset": 3222,
-      "length": 16,
-      "value": "\"time_consuming\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
-      "kind": "StringLiteral",
-      "offset": 4048,
-      "length": 9,
-      "value": "\"task_id\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
-      "kind": "StringLiteral",
       "offset": 4048,
       "length": 9,
       "value": "\"task_id\""
@@ -12685,34 +12987,6 @@
       "offset": 4392,
       "length": 11,
       "value": "\"error_msg\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
-      "kind": "StringLiteral",
-      "offset": 4320,
-      "length": 9,
-      "value": "\"task_id\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
-      "kind": "StringLiteral",
-      "offset": 4355,
-      "length": 12,
-      "value": "\"error_code\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
-      "kind": "StringLiteral",
-      "offset": 4392,
-      "length": 11,
-      "value": "\"error_msg\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
-      "kind": "StringLiteral",
-      "offset": 5180,
-      "length": 12,
-      "value": "\"templateId\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
@@ -12848,13 +13122,6 @@
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelWorkSpace\/Third\/SAIThirdVc+SAICutOutToolView.swift",
-      "kind": "StringLiteral",
-      "offset": 142,
-      "length": 36,
-      "value": "\"SatorSDK.SAIThirdVc_SAICutOutToolViewDelegate\""
-    },
-    {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
       "kind": "StringLiteral",
       "offset": 276,
@@ -12874,34 +13141,6 @@
       "offset": 348,
       "length": 11,
       "value": "\"error_msg\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
-      "kind": "StringLiteral",
-      "offset": 276,
-      "length": 9,
-      "value": "\"task_id\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
-      "kind": "StringLiteral",
-      "offset": 311,
-      "length": 12,
-      "value": "\"error_code\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
-      "kind": "StringLiteral",
-      "offset": 348,
-      "length": 11,
-      "value": "\"error_msg\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
-      "kind": "StringLiteral",
-      "offset": 972,
-      "length": 9,
-      "value": "\"task_id\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
@@ -12951,62 +13190,6 @@
       "offset": 2699,
       "length": 8,
       "value": "\"linkId\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
-      "kind": "StringLiteral",
-      "offset": 2404,
-      "length": 10,
-      "value": "\"imageUrl\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
-      "kind": "StringLiteral",
-      "offset": 2480,
-      "length": 18,
-      "value": "\"createByMemberId\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
-      "kind": "StringLiteral",
-      "offset": 2531,
-      "length": 18,
-      "value": "\"updateByMemberId\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
-      "kind": "StringLiteral",
-      "offset": 2610,
-      "length": 10,
-      "value": "\"memberId\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
-      "kind": "StringLiteral",
-      "offset": 2644,
-      "length": 9,
-      "value": "\"robotId\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
-      "kind": "StringLiteral",
-      "offset": 2699,
-      "length": 8,
-      "value": "\"linkId\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
-      "kind": "StringLiteral",
-      "offset": 4989,
-      "length": 7,
-      "value": "\"imgId\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
-      "kind": "StringLiteral",
-      "offset": 5019,
-      "length": 8,
-      "value": "\"imgUrl\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
@@ -13086,13 +13269,6 @@
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/StoreWorkSpace\/Third\/SAIStoreThird_LocalRedrawViewDelegate.swift",
-      "kind": "StringLiteral",
-      "offset": 19591,
-      "length": 37,
-      "value": "\"SatorSDK.SAIStoreThird_LocalRedrawViewDelegate\""
-    },
-    {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Managers\/SAIOnnxManager.swift",
       "kind": "BooleanLiteral",
       "offset": 560,
@@ -13142,74 +13318,11 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelWorkSpace\/Third\/SAIThirdVc+SAIhighResolutionRepairView.swift",
-      "kind": "StringLiteral",
-      "offset": 152,
-      "length": 46,
-      "value": "\"SatorSDK.SAIThirdVc_SAIhighResolutionRepairViewDelegate\""
-    },
-    {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/TestOnnxController.swift",
       "kind": "BooleanLiteral",
       "offset": 2271,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIDefine.swift",
-      "kind": "StringLiteral",
-      "offset": 166,
-      "length": 8,
-      "value": "\"画板\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIDefine.swift",
-      "kind": "StringLiteral",
-      "offset": 207,
-      "length": 14,
-      "value": "\"高清修复\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIDefine.swift",
-      "kind": "StringLiteral",
-      "offset": 247,
-      "length": 14,
-      "value": "\"涂抹消除\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIDefine.swift",
-      "kind": "StringLiteral",
-      "offset": 280,
-      "length": 8,
-      "value": "\"抠图\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIDefine.swift",
-      "kind": "StringLiteral",
-      "offset": 317,
-      "length": 14,
-      "value": "\"局部重绘\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIDefine.swift",
-      "kind": "StringLiteral",
-      "offset": 356,
-      "length": 8,
-      "value": "\"扩图\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIDefine.swift",
-      "kind": "StringLiteral",
-      "offset": 394,
-      "length": 14,
-      "value": "\"重塑背景\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIDefine.swift",
-      "kind": "StringLiteral",
-      "offset": 432,
-      "length": 14,
-      "value": "\"重塑面容\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIDefine.swift",
@@ -13317,13 +13430,6 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelWorkSpace\/Third\/SAIThirdVc+SAISmartBackgroundView.swift",
-      "kind": "StringLiteral",
-      "offset": 149,
-      "length": 41,
-      "value": "\"SatorSDK.SAIThirdVc_SAISmartBackgroundViewDelegate\""
-    },
-    {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/StoreWorkSpace\/First\/SAIStoreFirst_HighResolutionRepairViewDelegate.swift",
       "kind": "IntegerLiteral",
       "offset": 440,
@@ -13338,13 +13444,6 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/StoreWorkSpace\/First\/SAIStoreFirst_HighResolutionRepairViewDelegate.swift",
-      "kind": "StringLiteral",
-      "offset": 162,
-      "length": 46,
-      "value": "\"SatorSDK.SAIStoreFirst_HighResolutionRepairViewDelegate\""
-    },
-    {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/StoreWorkSpace\/First\/SAIStoreFirst_SmudgeRemovalToolViewDelegate.swift",
       "kind": "BooleanLiteral",
       "offset": 376,
@@ -13352,25 +13451,11 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/StoreWorkSpace\/First\/SAIStoreFirst_SmudgeRemovalToolViewDelegate.swift",
-      "kind": "StringLiteral",
-      "offset": 162,
-      "length": 43,
-      "value": "\"SatorSDK.SAIStoreFirst_SmudgeRemovalToolViewDelegate\""
-    },
-    {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelWorkSpace\/First\/SAIMaterailVc+SAISmudgeremovalToolView.swift",
       "kind": "BooleanLiteral",
       "offset": 376,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelWorkSpace\/First\/SAIMaterailVc+SAISmudgeremovalToolView.swift",
-      "kind": "StringLiteral",
-      "offset": 153,
-      "length": 54,
-      "value": "\"SatorSDK.SAIMaterialController_SAISmudgeRemovalToolViewDelegate\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAINpyHeader.swift",
@@ -13378,34 +13463,6 @@
       "offset": 39,
       "length": 13,
       "value": "\"NUMPY\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAINpyHeader.swift",
-      "kind": "StringLiteral",
-      "offset": 956,
-      "length": 3,
-      "value": "\"=\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAINpyHeader.swift",
-      "kind": "StringLiteral",
-      "offset": 975,
-      "length": 3,
-      "value": "\">\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAINpyHeader.swift",
-      "kind": "StringLiteral",
-      "offset": 997,
-      "length": 3,
-      "value": "\"<\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAINpyHeader.swift",
-      "kind": "StringLiteral",
-      "offset": 1015,
-      "length": 3,
-      "value": "\"|\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/SwiftNpy\/SAINpyHeader.swift",
@@ -13499,20 +13556,6 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelWorkSpace\/First\/SAIMaterialVc+SAIhighResolutionRepairView.swift",
-      "kind": "StringLiteral",
-      "offset": 183,
-      "length": 54,
-      "value": "\"SatorSDK.SAIMaterialController_highResolutionRepairViewDelegate\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIUploadFileResponseModel.swift",
-      "kind": "StringLiteral",
-      "offset": 882,
-      "length": 11,
-      "value": "\"sourceUrl\""
-    },
-    {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIUploadFileResponseModel.swift",
       "kind": "StringLiteral",
       "offset": 882,
@@ -13602,6 +13645,41 @@
       "offset": 906,
       "length": 17,
       "value": "\"icon_xiajiantou\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelWorkSpace\/SAIBrushSizeControlView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2578,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelWorkSpace\/SAIBrushSizeControlView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2617,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelWorkSpace\/SAIBrushSizeControlView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2774,
+      "length": 4,
+      "value": "0.25"
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelWorkSpace\/SAIBrushSizeControlView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2899,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelWorkSpace\/SAIBrushSizeControlView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2950,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIStyle.swift",
@@ -13835,13 +13913,6 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelWorkSpace\/Third\/SAIThirdVc+SAIReShapeFaceView.swift",
-      "kind": "StringLiteral",
-      "offset": 145,
-      "length": 37,
-      "value": "\"SatorSDK.SAIThirdVc_SAIReShapeFaceViewDelegate\""
-    },
-    {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelWorkSpace\/Third\/SAIMyPhotosListController.swift",
       "kind": "BooleanLiteral",
       "offset": 399,
@@ -13854,27 +13925,6 @@
       "offset": 554,
       "length": 10,
       "value": "\"Elements\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIClothesModel.swift",
-      "kind": "StringLiteral",
-      "offset": 554,
-      "length": 10,
-      "value": "\"Elements\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIClothesModel.swift",
-      "kind": "StringLiteral",
-      "offset": 867,
-      "length": 10,
-      "value": "\"ImageURL\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIClothesModel.swift",
-      "kind": "StringLiteral",
-      "offset": 902,
-      "length": 10,
-      "value": "\"ClassUrl\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Models\/SAIClothesModel.swift",
@@ -13903,13 +13953,6 @@
       "offset": 463,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/StoreWorkSpace\/Third\/SAIStoreThird_HighResolutionRepairViewDelegate.swift",
-      "kind": "StringLiteral",
-      "offset": 161,
-      "length": 46,
-      "value": "\"SatorSDK.SAIStoreThird_HighResolutionRepairViewDelegate\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelWorkSpace\/Second\/SAISecSmudgeRemovalToolView.swift",
@@ -13975,25 +14018,11 @@
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/StoreWorkSpace\/First\/SAIStoreFirst_CutOutToolViewDelegate.swift",
-      "kind": "StringLiteral",
-      "offset": 155,
-      "length": 36,
-      "value": "\"SatorSDK.SAIStoreFirst_CutOutToolViewDelegate\""
-    },
-    {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelWorkSpace\/SAICanvasToolView.swift",
       "kind": "BooleanLiteral",
       "offset": 1883,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelWorkSpace\/SAICanvasToolView.swift",
-      "kind": "StringLiteral",
-      "offset": 1764,
-      "length": 20,
-      "value": "\"SatorSDK.SAIImageSizeTemplate\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelWorkSpace\/SAICanvasToolView.swift",
@@ -14033,55 +14062,6 @@
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/SAIGZModel\/SAIGZModels.swift",
       "kind": "StringLiteral",
-      "offset": 919,
-      "length": 7,
-      "value": "\"imgId\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/SAIGZModel\/SAIGZModels.swift",
-      "kind": "StringLiteral",
-      "offset": 949,
-      "length": 8,
-      "value": "\"imgUrl\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/SAIGZModel\/SAIGZModels.swift",
-      "kind": "StringLiteral",
-      "offset": 2692,
-      "length": 8,
-      "value": "\"taskId\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/SAIGZModel\/SAIGZModels.swift",
-      "kind": "StringLiteral",
-      "offset": 2726,
-      "length": 10,
-      "value": "\"imageUrl\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/SAIGZModel\/SAIGZModels.swift",
-      "kind": "StringLiteral",
-      "offset": 2761,
-      "length": 9,
-      "value": "\"imageId\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/SAIGZModel\/SAIGZModels.swift",
-      "kind": "StringLiteral",
-      "offset": 2829,
-      "length": 9,
-      "value": "\"linkIds\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/SAIGZModel\/SAIGZModels.swift",
-      "kind": "StringLiteral",
-      "offset": 2869,
-      "length": 15,
-      "value": "\"serviceTaskId\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/SAIGZModel\/SAIGZModels.swift",
-      "kind": "StringLiteral",
       "offset": 2692,
       "length": 8,
       "value": "\"taskId\""
@@ -14127,55 +14107,6 @@
       "offset": 4674,
       "length": 16,
       "value": "\"originalImgExt\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/SAIGZModel\/SAIGZModels.swift",
-      "kind": "StringLiteral",
-      "offset": 4607,
-      "length": 10,
-      "value": "\"imageUrl\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/SAIGZModel\/SAIGZModels.swift",
-      "kind": "StringLiteral",
-      "offset": 4674,
-      "length": 16,
-      "value": "\"originalImgExt\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/SAIGZModel\/SAIGZModels.swift",
-      "kind": "StringLiteral",
-      "offset": 5633,
-      "length": 7,
-      "value": "\"jobId\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/SAIGZModel\/SAIGZModels.swift",
-      "kind": "StringLiteral",
-      "offset": 5663,
-      "length": 8,
-      "value": "\"taskId\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/SAIGZModel\/SAIGZModels.swift",
-      "kind": "StringLiteral",
-      "offset": 5700,
-      "length": 14,
-      "value": "\"imageDepotId\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/SAIGZModel\/SAIGZModels.swift",
-      "kind": "StringLiteral",
-      "offset": 5749,
-      "length": 20,
-      "value": "\"sourceImageDepotId\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/SAIGZModel\/SAIGZModels.swift",
-      "kind": "StringLiteral",
-      "offset": 5830,
-      "length": 10,
-      "value": "\"imageUrl\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/SAIGZModel\/SAIGZModels.swift",
@@ -14236,62 +14167,6 @@
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/SAIGZModel\/SAIGZModels.swift",
       "kind": "StringLiteral",
-      "offset": 7004,
-      "length": 13,
-      "value": "\"operationId\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/SAIGZModel\/SAIGZModels.swift",
-      "kind": "StringLiteral",
-      "offset": 7198,
-      "length": 7,
-      "value": "\"tabId\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/SAIGZModel\/SAIGZModels.swift",
-      "kind": "StringLiteral",
-      "offset": 7248,
-      "length": 7,
-      "value": "\"useAi\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/SAIGZModel\/SAIGZModels.swift",
-      "kind": "StringLiteral",
-      "offset": 8761,
-      "length": 8,
-      "value": "\"taskId\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/SAIGZModel\/SAIGZModels.swift",
-      "kind": "StringLiteral",
-      "offset": 8794,
-      "length": 10,
-      "value": "\"imageUrl\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/SAIGZModel\/SAIGZModels.swift",
-      "kind": "StringLiteral",
-      "offset": 8828,
-      "length": 9,
-      "value": "\"imageId\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/SAIGZModel\/SAIGZModels.swift",
-      "kind": "StringLiteral",
-      "offset": 8894,
-      "length": 9,
-      "value": "\"linkIds\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/SAIGZModel\/SAIGZModels.swift",
-      "kind": "StringLiteral",
-      "offset": 8933,
-      "length": 15,
-      "value": "\"serviceTaskId\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/SAIGZModel\/SAIGZModels.swift",
-      "kind": "StringLiteral",
       "offset": 8761,
       "length": 8,
       "value": "\"taskId\""
@@ -14344,83 +14219,6 @@
       "offset": 9877,
       "length": 20,
       "value": "\"sourceImageDepotId\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/SAIGZModel\/SAIGZModels.swift",
-      "kind": "StringLiteral",
-      "offset": 9697,
-      "length": 13,
-      "value": "\"operationId\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/SAIGZModel\/SAIGZModels.swift",
-      "kind": "StringLiteral",
-      "offset": 9828,
-      "length": 14,
-      "value": "\"imageDepotId\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/SAIGZModel\/SAIGZModels.swift",
-      "kind": "StringLiteral",
-      "offset": 9877,
-      "length": 20,
-      "value": "\"sourceImageDepotId\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIHUD.swift",
-      "kind": "IntegerLiteral",
-      "offset": 158,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIHUD.swift",
-      "kind": "IntegerLiteral",
-      "offset": 169,
-      "length": 7,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIHUD.swift",
-      "kind": "IntegerLiteral",
-      "offset": 186,
-      "length": 5,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIHUD.swift",
-      "kind": "IntegerLiteral",
-      "offset": 201,
-      "length": 4,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIHUD.swift",
-      "kind": "IntegerLiteral",
-      "offset": 158,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIHUD.swift",
-      "kind": "IntegerLiteral",
-      "offset": 169,
-      "length": 7,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIHUD.swift",
-      "kind": "IntegerLiteral",
-      "offset": 186,
-      "length": 5,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIHUD.swift",
-      "kind": "IntegerLiteral",
-      "offset": 201,
-      "length": 4,
-      "value": "3"
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIHUD.swift",
@@ -14526,27 +14324,6 @@
       "offset": 6272,
       "length": 20,
       "value": "\"下载模型中...\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelWorkSpace\/Second\/SAISecondToolView.swift",
-      "kind": "StringLiteral",
-      "offset": 168,
-      "length": 8,
-      "value": "\"蒙版\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelWorkSpace\/Second\/SAISecondToolView.swift",
-      "kind": "StringLiteral",
-      "offset": 198,
-      "length": 8,
-      "value": "\"人物\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelWorkSpace\/Second\/SAISecondToolView.swift",
-      "kind": "StringLiteral",
-      "offset": 229,
-      "length": 8,
-      "value": "\"背景\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelWorkSpace\/Second\/SAISecondToolView.swift",
@@ -14694,13 +14471,6 @@
       "offset": 447,
       "length": 2,
       "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelWorkSpace\/First\/SAIMaterailVc+SAICutOutToolView.swift",
-      "kind": "StringLiteral",
-      "offset": 145,
-      "length": 47,
-      "value": "\"SatorSDK.SAIMaterialController_SAICutOutToolViewDelegate\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIBaseViewController.swift",
