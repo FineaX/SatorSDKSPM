@@ -4,3 +4,4 @@
 ##  pod 'SDWebImage'
 ##  pod 'MBProgressHUD'
 ##  pod 'onnxruntime-objc', '~> 1.18.0'
+##  pod 'IQKeyboardManager'

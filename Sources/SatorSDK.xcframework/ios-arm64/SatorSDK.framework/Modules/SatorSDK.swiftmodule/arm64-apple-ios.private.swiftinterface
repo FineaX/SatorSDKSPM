@@ -7,6 +7,7 @@ import CommonCrypto
 import CoreFoundation
 import CoreImage
 import Foundation
+import IQKeyboardManager
 import MBProgressHUD
 import MJRefresh
 import Photos
@@ -191,7 +192,6 @@ public enum SAIViewControllerType : Swift.String {
   public var resultImage: UIKit.UIImage?
   public var imageCallback: ((_ image: UIKit.UIImage) -> Swift.Void)?
   public var smartCreationCallBack: (() -> Swift.Void)?
-  public func performOperation(completion: (Swift.Result<Swift.String, any Swift.Error>) -> Swift.Void)
   public func start(with type: SatorSDK.SAIViewControllerType)
   @objc deinit
 }

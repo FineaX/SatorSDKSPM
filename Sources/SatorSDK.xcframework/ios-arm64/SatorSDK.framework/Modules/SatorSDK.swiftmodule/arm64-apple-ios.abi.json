@@ -6441,62 +6441,6 @@
           },
           {
             "kind": "Function",
-            "name": "performOperation",
-            "printedName": "performOperation(completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Swift.Result<Swift.String, any Swift.Error>) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Result",
-                    "printedName": "Swift.Result<Swift.String, any Swift.Error>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Error",
-                        "printedName": "any Swift.Error",
-                        "usr": "s:s5ErrorP"
-                      }
-                    ],
-                    "usr": "s:s6ResultO"
-                  }
-                ],
-                "typeAttributes": [
-                  "noescape"
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:8SatorSDK6SAISDKC16performOperation10completionyys6ResultOySSs5Error_pGXE_tF",
-            "mangledName": "$s8SatorSDK6SAISDKC16performOperation10completionyys6ResultOySSs5Error_pGXE_tF",
-            "moduleName": "SatorSDK",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
             "name": "start",
             "printedName": "start(with:)",
             "children": [
@@ -6517,7 +6461,8 @@
             "mangledName": "$s8SatorSDK6SAISDKC5start4withyAA21SAIViewControllerTypeO_tF",
             "moduleName": "SatorSDK",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           }
@@ -8599,6 +8544,13 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "IQKeyboardManager",
+        "printedName": "IQKeyboardManager",
+        "declKind": "Import",
+        "moduleName": "SatorSDK"
       },
       {
         "kind": "Import",
@@ -14504,6 +14456,13 @@
       "value": "10"
     },
     {
+      "filePath": "\/Users\/77demac\/Desktop\/Project\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/SAIPhotoEditTools\/SAIBasicWriteView.swift",
+      "kind": "FloatLiteral",
+      "offset": 555,
+      "length": 5,
+      "value": "276.0"
+    },
+    {
       "filePath": "\/Users\/77demac\/Desktop\/Project\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelWorkSpace\/SAIMyPhotosController.swift",
       "kind": "BooleanLiteral",
       "offset": 497,
@@ -19833,42 +19792,42 @@
     {
       "filePath": "\/Users\/77demac\/Desktop\/Project\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelSkill\/SAIModelSkillController.swift",
       "kind": "StringLiteral",
-      "offset": 19426,
+      "offset": 19459,
       "length": 20,
       "value": "\"请先选择主图\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/Project\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelSkill\/SAIModelSkillController.swift",
       "kind": "FloatLiteral",
-      "offset": 25545,
+      "offset": 25762,
       "length": 4,
       "value": "0.75"
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/Project\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelSkill\/SAIModelSkillController.swift",
       "kind": "FloatLiteral",
-      "offset": 25591,
+      "offset": 25808,
       "length": 4,
       "value": "0.75"
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/Project\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelSkill\/SAIModelSkillController.swift",
       "kind": "FloatLiteral",
-      "offset": 25690,
+      "offset": 25907,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/Project\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelSkill\/SAIModelSkillController.swift",
       "kind": "FloatLiteral",
-      "offset": 25728,
+      "offset": 25945,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/Project\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelSkill\/SAIModelSkillController.swift",
       "kind": "BooleanLiteral",
-      "offset": 25766,
+      "offset": 25983,
       "length": 4,
       "value": "true"
     },
@@ -20169,35 +20128,35 @@
     {
       "filePath": "\/Users\/77demac\/Desktop\/Project\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIBaseViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 195,
+      "offset": 220,
       "length": 4,
       "value": "44.0"
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/Project\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIBaseViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 341,
+      "offset": 366,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/Project\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIBaseViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 362,
+      "offset": 387,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/Project\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIBaseViewController.swift",
       "kind": "StringLiteral",
-      "offset": 390,
+      "offset": 415,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/Project\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/Common\/SAIBaseViewController.swift",
       "kind": "StringLiteral",
-      "offset": 410,
+      "offset": 435,
       "length": 2,
       "value": "\"\""
     },
