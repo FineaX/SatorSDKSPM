@@ -1,10 +1,11 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
+// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
 // swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name SatorSDK
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import Combine
 import CommonCrypto
 import CoreFoundation
+import CoreImage
 import Foundation
 import MBProgressHUD
 import MJRefresh
@@ -164,6 +165,25 @@ public enum Endian : Swift.String {
     get
   }
 }
+public enum SAIViewControllerType : Swift.String {
+  case modelSkill
+  case visualCreation
+  case goodsReshape
+  case photographyGeneration
+  case doublePhotographySkill
+  case singlePhotographySkill
+  case singlePieceClothing
+  case clothingCombinations
+  case laterStageLocalRedraw
+  case laterStageSmudage
+  case laterLightSource
+  case laterStageChangeColor
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
 @_hasMissingDesignatedInitializers public class SAISDK {
   public static let shared: SatorSDK.SAISDK
   public func setToken(_ token: Swift.String)
@@ -172,7 +192,7 @@ public enum Endian : Swift.String {
   public var imageCallback: ((_ image: UIKit.UIImage) -> Swift.Void)?
   public var smartCreationCallBack: (() -> Swift.Void)?
   public func performOperation(completion: (Swift.Result<Swift.String, any Swift.Error>) -> Swift.Void)
-  public func start()
+  public func start(with type: SatorSDK.SAIViewControllerType)
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class SAIStyle {
@@ -191,6 +211,7 @@ public enum Endian : Swift.String {
     public static let modeltextColor: UIKit.UIColor
     public static let textViewbg: UIKit.UIColor
     public static let colror3B3B42: UIKit.UIColor
+    public static let colorCB00E1: UIKit.UIColor
   }
   public struct hexColors {
   }
@@ -216,3 +237,6 @@ extension SatorSDK.SAIDataType : Swift.RawRepresentable {}
 extension SatorSDK.Endian : Swift.Equatable {}
 extension SatorSDK.Endian : Swift.Hashable {}
 extension SatorSDK.Endian : Swift.RawRepresentable {}
+extension SatorSDK.SAIViewControllerType : Swift.Equatable {}
+extension SatorSDK.SAIViewControllerType : Swift.Hashable {}
+extension SatorSDK.SAIViewControllerType : Swift.RawRepresentable {}
