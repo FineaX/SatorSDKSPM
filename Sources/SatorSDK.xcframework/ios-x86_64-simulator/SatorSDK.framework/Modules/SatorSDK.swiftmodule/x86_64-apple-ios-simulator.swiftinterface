@@ -166,11 +166,6 @@ public enum Endian : Swift.String {
     get
   }
 }
-public protocol SAISDKProtocol {
-  func start(with type: SatorSDK.SAIViewControllerType)
-  func setToken(_ token: Swift.String)
-  func getToken() -> Swift.String?
-}
 public enum SAIViewControllerType : Swift.String {
   case modelSkill
   case visualCreation
