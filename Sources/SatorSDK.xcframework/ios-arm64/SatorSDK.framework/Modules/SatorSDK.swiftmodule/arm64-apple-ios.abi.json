@@ -13373,84 +13373,84 @@
     {
       "filePath": "\/Users\/77demac\/Desktop\/Project\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/PhotographySkill\/Double\/SAIDoublePhotographyView.swift",
       "kind": "IntegerLiteral",
-      "offset": 7670,
+      "offset": 8174,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/Project\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/PhotographySkill\/Double\/SAIDoublePhotographyView.swift",
       "kind": "IntegerLiteral",
-      "offset": 7676,
+      "offset": 8180,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/Project\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/PhotographySkill\/Double\/SAIDoublePhotographyView.swift",
       "kind": "IntegerLiteral",
-      "offset": 7702,
+      "offset": 8206,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/Project\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/PhotographySkill\/Double\/SAIDoublePhotographyView.swift",
       "kind": "IntegerLiteral",
-      "offset": 7705,
+      "offset": 8209,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/Project\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/PhotographySkill\/Double\/SAIDoublePhotographyView.swift",
       "kind": "IntegerLiteral",
-      "offset": 7732,
+      "offset": 8236,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/Project\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/PhotographySkill\/Double\/SAIDoublePhotographyView.swift",
       "kind": "IntegerLiteral",
-      "offset": 7735,
+      "offset": 8239,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/Project\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/PhotographySkill\/Double\/SAIDoublePhotographyView.swift",
       "kind": "IntegerLiteral",
-      "offset": 7801,
+      "offset": 8305,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/Project\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/PhotographySkill\/Double\/SAIDoublePhotographyView.swift",
       "kind": "IntegerLiteral",
-      "offset": 7807,
+      "offset": 8311,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/Project\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/PhotographySkill\/Double\/SAIDoublePhotographyView.swift",
       "kind": "IntegerLiteral",
-      "offset": 7907,
+      "offset": 8411,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/Project\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/PhotographySkill\/Double\/SAIDoublePhotographyView.swift",
       "kind": "IntegerLiteral",
-      "offset": 7929,
+      "offset": 8433,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/Project\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/PhotographySkill\/Double\/SAIDoublePhotographyView.swift",
       "kind": "IntegerLiteral",
-      "offset": 7961,
+      "offset": 8465,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/Project\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/PhotographySkill\/Double\/SAIDoublePhotographyView.swift",
       "kind": "StringLiteral",
-      "offset": 8672,
+      "offset": 9305,
       "length": 11,
       "value": "\"未识别\""
     },
@@ -13898,42 +13898,42 @@
     {
       "filePath": "\/Users\/77demac\/Desktop\/Project\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/GoodsSkill\/SAIGoodsReshapeBgController.swift",
       "kind": "StringLiteral",
-      "offset": 17148,
+      "offset": 17155,
       "length": 20,
       "value": "\"请先选择主图\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/Project\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/GoodsSkill\/SAIGoodsReshapeBgController.swift",
       "kind": "FloatLiteral",
-      "offset": 21976,
+      "offset": 22082,
       "length": 4,
       "value": "0.75"
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/Project\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/GoodsSkill\/SAIGoodsReshapeBgController.swift",
       "kind": "FloatLiteral",
-      "offset": 22022,
+      "offset": 22128,
       "length": 4,
       "value": "0.75"
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/Project\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/GoodsSkill\/SAIGoodsReshapeBgController.swift",
       "kind": "FloatLiteral",
-      "offset": 22121,
+      "offset": 22227,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/Project\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/GoodsSkill\/SAIGoodsReshapeBgController.swift",
       "kind": "FloatLiteral",
-      "offset": 22159,
+      "offset": 22265,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/Project\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/GoodsSkill\/SAIGoodsReshapeBgController.swift",
       "kind": "BooleanLiteral",
-      "offset": 22197,
+      "offset": 22303,
       "length": 4,
       "value": "true"
     },
@@ -18161,21 +18161,21 @@
     {
       "filePath": "\/Users\/77demac\/Desktop\/Project\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/LaterStageSkill\/SAILaterStageColorSliderView.swift",
       "kind": "StringLiteral",
-      "offset": 12084,
+      "offset": 12167,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/Project\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/LaterStageSkill\/SAILaterStageColorSliderView.swift",
       "kind": "IntegerLiteral",
-      "offset": 16075,
+      "offset": 16158,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/Project\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/LaterStageSkill\/SAILaterStageColorSliderView.swift",
       "kind": "Array",
-      "offset": 16372,
+      "offset": 16455,
       "length": 2,
       "value": "[]"
     },
@@ -18560,49 +18560,49 @@
     {
       "filePath": "\/Users\/77demac\/Desktop\/Project\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/PhotographySkill\/Generaiton\/SAIPGApiManager.swift",
       "kind": "StringLiteral",
-      "offset": 13121,
+      "offset": 13124,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/Project\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/PhotographySkill\/Generaiton\/SAIPGApiManager.swift",
       "kind": "StringLiteral",
-      "offset": 13210,
+      "offset": 13213,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/Project\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/PhotographySkill\/Generaiton\/SAIPGApiManager.swift",
       "kind": "StringLiteral",
-      "offset": 13488,
+      "offset": 13491,
       "length": 8,
       "value": "\"imgUrl\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/Project\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/PhotographySkill\/Generaiton\/SAIPGApiManager.swift",
       "kind": "StringLiteral",
-      "offset": 13521,
+      "offset": 13524,
       "length": 11,
       "value": "\"error_msg\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/Project\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/PhotographySkill\/Generaiton\/SAIPGApiManager.swift",
       "kind": "StringLiteral",
-      "offset": 13579,
+      "offset": 13582,
       "length": 13,
       "value": "\"status_code\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/Project\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/PhotographySkill\/Generaiton\/SAIPGApiManager.swift",
       "kind": "StringLiteral",
-      "offset": 13618,
+      "offset": 13621,
       "length": 12,
       "value": "\"error_code\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/Project\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/PhotographySkill\/Generaiton\/SAIPGApiManager.swift",
       "kind": "StringLiteral",
-      "offset": 13660,
+      "offset": 13663,
       "length": 16,
       "value": "\"time_consuming\""
     },
@@ -19799,42 +19799,42 @@
     {
       "filePath": "\/Users\/77demac\/Desktop\/Project\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelSkill\/SAIModelSkillController.swift",
       "kind": "StringLiteral",
-      "offset": 19729,
+      "offset": 19735,
       "length": 20,
       "value": "\"请先选择主图\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/Project\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelSkill\/SAIModelSkillController.swift",
       "kind": "FloatLiteral",
-      "offset": 26082,
+      "offset": 26517,
       "length": 4,
       "value": "0.75"
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/Project\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelSkill\/SAIModelSkillController.swift",
       "kind": "FloatLiteral",
-      "offset": 26128,
+      "offset": 26563,
       "length": 4,
       "value": "0.75"
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/Project\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelSkill\/SAIModelSkillController.swift",
       "kind": "FloatLiteral",
-      "offset": 26227,
+      "offset": 26662,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/Project\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelSkill\/SAIModelSkillController.swift",
       "kind": "FloatLiteral",
-      "offset": 26265,
+      "offset": 26700,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/Project\/SAISDK\/SatorSDK\/SatorSDK\/Sources\/ModelSkill\/SAIModelSkillController.swift",
       "kind": "BooleanLiteral",
-      "offset": 26303,
+      "offset": 26738,
       "length": 4,
       "value": "true"
     },
