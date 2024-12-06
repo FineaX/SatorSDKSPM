@@ -1,0 +1,6 @@
+framework module SatorAiSDK {
+  umbrella header "SatorAiSDK.h"
+  export *
+
+  module * { export * }
+}

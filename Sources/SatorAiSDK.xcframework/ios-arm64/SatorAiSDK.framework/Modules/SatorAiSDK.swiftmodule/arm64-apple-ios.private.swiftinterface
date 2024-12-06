@@ -1,0 +1,241 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
+// swift-module-flags: -target arm64-apple-ios13 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name SatorAiSDK
+import Combine
+import CommonCrypto
+import CoreFoundation
+import CoreImage
+import Foundation
+import IQKeyboardManager
+import MBProgressHUD
+import MJRefresh
+import Photos
+import SDWebImage
+@_exported import SatorAiSDK
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+import onnxruntime_objc
+public enum SAIDataType : Swift.String {
+  case bool
+  case uint8
+  case uint16
+  case uint32
+  case uint64
+  case int8
+  case int16
+  case int32
+  case int64
+  case float32
+  case float64
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+extension SatorAiSDK.SAINpy {
+  public func save(to url: Foundation.URL) throws
+  public func format() -> Foundation.Data
+}
+public struct SAINpy {
+  public var shape: [Swift.Int] {
+    get
+  }
+  public var dataType: SatorAiSDK.SAIDataType {
+    get
+  }
+  public var endian: SatorAiSDK.Endian {
+    get
+  }
+  public var isFortranOrder: Swift.Bool {
+    get
+  }
+}
+extension SatorAiSDK.SAINpy {
+  public init(shape: [Swift.Int], elements: [Swift.Bool], isFortranOrder: Swift.Bool)
+  public init(shape: [Swift.Int], elements: [Swift.UInt8], isFortranOrder: Swift.Bool)
+  public init(shape: [Swift.Int], elements: [Swift.UInt16], endian: SatorAiSDK.Endian, isFortranOrder: Swift.Bool)
+  public init(shape: [Swift.Int], elements: [Swift.UInt32], endian: SatorAiSDK.Endian, isFortranOrder: Swift.Bool)
+  public init(shape: [Swift.Int], elements: [Swift.UInt64], endian: SatorAiSDK.Endian, isFortranOrder: Swift.Bool)
+  public init(shape: [Swift.Int], elements: [Swift.Int8], isFortranOrder: Swift.Bool)
+  public init(shape: [Swift.Int], elements: [Swift.Int16], endian: SatorAiSDK.Endian, isFortranOrder: Swift.Bool)
+  public init(shape: [Swift.Int], elements: [Swift.Int32], endian: SatorAiSDK.Endian, isFortranOrder: Swift.Bool)
+  public init(shape: [Swift.Int], elements: [Swift.Int64], endian: SatorAiSDK.Endian, isFortranOrder: Swift.Bool)
+  public init(shape: [Swift.Int], elements: [Swift.Float], endian: SatorAiSDK.Endian, isFortranOrder: Swift.Bool)
+  public init(shape: [Swift.Int], elements: [Swift.Double], endian: SatorAiSDK.Endian, isFortranOrder: Swift.Bool)
+}
+extension SatorAiSDK.SAINpy {
+  public func elements(_ type: Swift.Bool.Type = Bool.self) -> [Swift.Bool]
+  public func elements(_ type: Swift.UInt.Type = UInt.self) -> [Swift.UInt]
+  public func elements(_ type: Swift.UInt8.Type = UInt8.self) -> [Swift.UInt8]
+  public func elements(_ type: Swift.UInt16.Type = UInt16.self) -> [Swift.UInt16]
+  public func elements(_ type: Swift.UInt32.Type = UInt32.self) -> [Swift.UInt32]
+  public func elements(_ type: Swift.UInt64.Type = UInt64.self) -> [Swift.UInt64]
+  public func elements(_ type: Swift.Int.Type = Int.self) -> [Swift.Int]
+  public func elements(_ type: Swift.Int8.Type = Int8.self) -> [Swift.Int8]
+  public func elements(_ type: Swift.Int16.Type = Int16.self) -> [Swift.Int16]
+  public func elements(_ type: Swift.Int32.Type = Int32.self) -> [Swift.Int32]
+  public func elements(_ type: Swift.Int64.Type = Int64.self) -> [Swift.Int64]
+  public func elements(_ type: Swift.Float.Type = Float.self) -> [Swift.Float]
+  public func elements(_ type: Swift.Double.Type = Double.self) -> [Swift.Double]
+}
+public enum SAIViewControllerType : Swift.String {
+  case modelSkill
+  case visualCreation
+  case goodsReshape
+  case photographyGeneration
+  case doublePhotographySkill
+  case singlePhotographySkill
+  case singlePieceClothing
+  case clothingCombinations
+  case laterStageLocalRedraw
+  case laterStageSmudage
+  case laterLightSource
+  case laterStageChangeColor
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class SAISDK {
+  public static let shared: SatorAiSDK.SAISDK
+  public func setToken(_ token: Swift.String)
+  public func getToken() -> Swift.String?
+  public var resultImage: UIKit.UIImage?
+  public var imageCallback: ((_ image: UIKit.UIImage) -> Swift.Void)?
+  public var smartCreationCallBack: (() -> Swift.Void)?
+  public func start(with type: SatorAiSDK.SAIViewControllerType)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class SAIStyle {
+  public struct Colors {
+    public static let primaryColor: UIKit.UIColor
+    public static let secondaryColor: UIKit.UIColor
+    public static let blackColor: UIKit.UIColor
+    public static let clearColor: UIKit.UIColor
+    public static let whiteColor: UIKit.UIColor
+    public static let backgroundColor1: UIKit.UIColor
+    public static let selectedColor1: UIKit.UIColor
+    public static let sliderBgColor: UIKit.UIColor
+    public static let brushColor: UIKit.UIColor
+    public static let brushColor1: UIKit.UIColor
+    public static let subToolViewBgColor: UIKit.UIColor
+    public static let modeltextColor: UIKit.UIColor
+    public static let textViewbg: UIKit.UIColor
+    public static let colror3B3B42: UIKit.UIColor
+    public static let colorCB00E1: UIKit.UIColor
+  }
+  public struct hexColors {
+  }
+  public struct Fonts {
+    public static let titleFont: UIKit.UIFont
+    public static let bodyFont: UIKit.UIFont
+    public static let captionFont: UIKit.UIFont
+  }
+  public struct Sizes {
+    public static let cornerRadius: CoreFoundation.CGFloat
+    public static let borderWidth: CoreFoundation.CGFloat
+  }
+  public struct Spacing {
+    public static let small: CoreFoundation.CGFloat
+    public static let medium: CoreFoundation.CGFloat
+    public static let large: CoreFoundation.CGFloat
+  }
+  @objc deinit
+}
+public enum Endian : Swift.String {
+  case host
+  case big
+  case little
+  case na
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@objc @_Concurrency.MainActor @preconcurrency public class SAIBaseNavigationController : UIKit.UINavigationController {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(rootViewController: UIKit.UIViewController)
+  @available(*, unavailable)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @objc deinit
+}
+public struct SAIObjectWrapper<Base> {
+  public let base: Base
+  public init(_ base: Base)
+}
+public protocol SAIObjectCompatible : AnyObject {
+}
+public protocol SAIObjectCompatibleValue {
+}
+extension SatorAiSDK.SAIObjectCompatible {
+  public var sai: SatorAiSDK.SAIObjectWrapper<Self> {
+    get
+    set
+  }
+  public static var sai: SatorAiSDK.SAIObjectWrapper<Self>.Type {
+    get
+    set
+  }
+}
+extension SatorAiSDK.SAIObjectCompatibleValue {
+  public var sai: SatorAiSDK.SAIObjectWrapper<Self> {
+    get
+    set
+  }
+}
+extension UIKit.UIViewController : SatorAiSDK.SAIObjectCompatible {
+}
+extension UIKit.UIColor : SatorAiSDK.SAIObjectCompatible {
+}
+extension UIKit.UIImage : SatorAiSDK.SAIObjectCompatible {
+}
+extension CoreImage.CIImage : SatorAiSDK.SAIObjectCompatible {
+}
+extension UIKit.UIFont : SatorAiSDK.SAIObjectCompatible {
+}
+extension UIKit.UIView : SatorAiSDK.SAIObjectCompatible {
+}
+extension UIKit.UIGraphicsImageRenderer : SatorAiSDK.SAIObjectCompatible {
+}
+extension UIKit.UIApplication : SatorAiSDK.SAIObjectCompatible {
+}
+extension Swift.Array : SatorAiSDK.SAIObjectCompatibleValue {
+}
+extension Swift.String : SatorAiSDK.SAIObjectCompatibleValue {
+}
+extension CoreFoundation.CGFloat : SatorAiSDK.SAIObjectCompatibleValue {
+}
+extension Swift.Bool : SatorAiSDK.SAIObjectCompatibleValue {
+}
+extension Swift.Dictionary : SatorAiSDK.SAIObjectCompatibleValue {
+}
+extension Foundation.Notification : SatorAiSDK.SAIObjectCompatibleValue {
+}
+extension CoreFoundation.CGSize : SatorAiSDK.SAIObjectCompatibleValue {
+}
+extension CoreFoundation.CGRect : SatorAiSDK.SAIObjectCompatibleValue {
+}
+extension SatorAiSDK.SAINpy {
+  public init(contentsOf url: Foundation.URL) throws
+  public init(data: Foundation.Data) throws
+}
+public enum SAINpyLoaderError : Swift.Error {
+  case ParseFailed(message: Swift.String)
+  case TypeMismatch(message: Swift.String)
+}
+extension SatorAiSDK.SAIDataType : Swift.Equatable {}
+extension SatorAiSDK.SAIDataType : Swift.Hashable {}
+extension SatorAiSDK.SAIDataType : Swift.RawRepresentable {}
+extension SatorAiSDK.SAIViewControllerType : Swift.Equatable {}
+extension SatorAiSDK.SAIViewControllerType : Swift.Hashable {}
+extension SatorAiSDK.SAIViewControllerType : Swift.RawRepresentable {}
+extension SatorAiSDK.Endian : Swift.Equatable {}
+extension SatorAiSDK.Endian : Swift.Hashable {}
+extension SatorAiSDK.Endian : Swift.RawRepresentable {}
