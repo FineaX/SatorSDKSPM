@@ -21,6 +21,6 @@ let package = Package(
 //            exclude: ["Demo"]),
         .binaryTarget(
             name:"SatorSDK",
-            path: "./Sources/SatorSDK.xcframework")
+            path: "./Sources/SatorAiSDK.xcframework")
     ]
 )
