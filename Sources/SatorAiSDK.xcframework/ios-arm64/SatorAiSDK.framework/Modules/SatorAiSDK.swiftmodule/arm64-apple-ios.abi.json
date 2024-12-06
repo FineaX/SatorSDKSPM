@@ -3473,46 +3473,6 @@
           },
           {
             "kind": "Var",
-            "name": "photographyGeneration",
-            "printedName": "photographyGeneration",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(SatorAiSDK.SAIViewControllerType.Type) -> SatorAiSDK.SAIViewControllerType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "SAIViewControllerType",
-                    "printedName": "SatorAiSDK.SAIViewControllerType",
-                    "usr": "s:10SatorAiSDK21SAIViewControllerTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "SatorAiSDK.SAIViewControllerType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "SAIViewControllerType",
-                        "printedName": "SatorAiSDK.SAIViewControllerType",
-                        "usr": "s:10SatorAiSDK21SAIViewControllerTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:10SatorAiSDK21SAIViewControllerTypeO21photographyGenerationyA2CmF",
-            "mangledName": "$s10SatorAiSDK21SAIViewControllerTypeO21photographyGenerationyA2CmF",
-            "moduleName": "SatorAiSDK",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
             "name": "doublePhotographySkill",
             "printedName": "doublePhotographySkill",
             "children": [
@@ -16190,84 +16150,77 @@
     {
       "filePath": "\/Users\/77demac\/Desktop\/sator-app-ios\/SAISDK\/SatorAiSDK\/SatorAiSDK\/SAISDK.swift",
       "kind": "StringLiteral",
-      "offset": 213,
+      "offset": 222,
       "length": 12,
       "value": "\"modelSkill\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/sator-app-ios\/SAISDK\/SatorAiSDK\/SatorAiSDK\/SAISDK.swift",
       "kind": "StringLiteral",
-      "offset": 273,
+      "offset": 298,
       "length": 16,
       "value": "\"visualCreation\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/sator-app-ios\/SAISDK\/SatorAiSDK\/SatorAiSDK\/SAISDK.swift",
       "kind": "StringLiteral",
-      "offset": 335,
+      "offset": 376,
       "length": 14,
       "value": "\"goodsReshape\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/sator-app-ios\/SAISDK\/SatorAiSDK\/SatorAiSDK\/SAISDK.swift",
       "kind": "StringLiteral",
-      "offset": 404,
-      "length": 23,
-      "value": "\"photographyGeneration\""
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/sator-app-ios\/SAISDK\/SatorAiSDK\/SatorAiSDK\/SAISDK.swift",
-      "kind": "StringLiteral",
-      "offset": 483,
+      "offset": 462,
       "length": 24,
       "value": "\"doublePhotographySkill\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/sator-app-ios\/SAISDK\/SatorAiSDK\/SatorAiSDK\/SAISDK.swift",
       "kind": "StringLiteral",
-      "offset": 563,
+      "offset": 558,
       "length": 24,
       "value": "\"singlePhotographySkill\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/sator-app-ios\/SAISDK\/SatorAiSDK\/SatorAiSDK\/SAISDK.swift",
       "kind": "StringLiteral",
-      "offset": 640,
+      "offset": 651,
       "length": 21,
       "value": "\"singlePieceClothing\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/sator-app-ios\/SAISDK\/SatorAiSDK\/SatorAiSDK\/SAISDK.swift",
       "kind": "StringLiteral",
-      "offset": 715,
+      "offset": 742,
       "length": 22,
       "value": "\"clothingCombinations\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/sator-app-ios\/SAISDK\/SatorAiSDK\/SatorAiSDK\/SAISDK.swift",
       "kind": "StringLiteral",
-      "offset": 792,
+      "offset": 835,
       "length": 23,
       "value": "\"laterStageLocalRedraw\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/sator-app-ios\/SAISDK\/SatorAiSDK\/SatorAiSDK\/SAISDK.swift",
       "kind": "StringLiteral",
-      "offset": 866,
+      "offset": 925,
       "length": 19,
       "value": "\"laterStageSmudage\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/sator-app-ios\/SAISDK\/SatorAiSDK\/SatorAiSDK\/SAISDK.swift",
       "kind": "StringLiteral",
-      "offset": 935,
+      "offset": 1010,
       "length": 18,
       "value": "\"laterLightSource\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/sator-app-ios\/SAISDK\/SatorAiSDK\/SatorAiSDK\/SAISDK.swift",
       "kind": "StringLiteral",
-      "offset": 1008,
+      "offset": 1099,
       "length": 23,
       "value": "\"laterStageChangeColor\""
     },

@@ -86,7 +86,6 @@ public enum SAIViewControllerType : Swift.String {
   case modelSkill
   case visualCreation
   case goodsReshape
-  case photographyGeneration
   case doublePhotographySkill
   case singlePhotographySkill
   case singlePieceClothing
