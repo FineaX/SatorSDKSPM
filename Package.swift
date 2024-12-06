@@ -16,11 +16,11 @@ let package = Package(
         .target(
             name: "SatorSDKSPM",
             dependencies: [
-                .target(name: "SatorSDK"),
+                .target(name: "SatorAiSDK"),
             ]),
 //            exclude: ["Demo"]),
         .binaryTarget(
-            name:"SatorSDK",
+            name:"SatorAiSDK",
             path: "./Sources/SatorAiSDK.xcframework")
     ]
 )
